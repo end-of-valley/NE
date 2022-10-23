@@ -30,6 +30,7 @@ jobs:
           state=$( echo $line | cut -d',' -f6 )
           case $state in
             CT|ME|MA|NH|RI|VT) #list of states
+            echo $line
             long=$( echo $line | cut -d',' -f26 )
             lat=$( echo $line | cut -d',' -f27 )
             url=$(printf "https://api.weather.gov/points/%.4f,%.4f" "$lat" "$long")
