@@ -18,9 +18,9 @@ jobs:
       run: |-
         File="uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
-        rm forecastGridData/*
+        rm -f forecastGridData/*
         mkdir -p observations
-        rm observations/*
+        rm -f observations/*
         forfile="forecast.lst"
         obsfile="obs.lst"
         >$forfile
