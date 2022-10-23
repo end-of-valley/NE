@@ -32,6 +32,7 @@ jobs:
             CT|ME|MA|NH|RI|VT) #list of states
             echo $line
             long=$( echo $line | cut -d',' -f26 )
+            echo $long
             lat=$( echo $line | cut -d',' -f27 )
             url=$(printf "https://api.weather.gov/points/%.4f,%.4f" "$lat" "$long")
             info=$(curl $url -L)
