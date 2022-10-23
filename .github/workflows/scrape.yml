@@ -37,7 +37,7 @@ jobs:
             lat=$( echo $line | cut -d',' -f27 )
             #printf -v $lat "%.4f" $lat
             echo $lat
-            url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
+            url=$(LC_NUMERIC="it_IT.UTF-8" printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
             #url=echo "https://api.weather.gov/points/$lat,$long"
             echo $url
             info=$(curl $url -L)
