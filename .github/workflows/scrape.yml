@@ -36,6 +36,7 @@ jobs:
             lat=$( echo $line | cut -d',' -f27 )
             echo $lat
             url=$(printf "https://api.weather.gov/points/%.4f,%.4f" "$lat" "$long")
+            echo $url
             info=$(curl $url -L)
             urldata=$(echo $info | grep -zoP '(?<=forecastGridData\": \").*(?=\",\s\"obs)')
             echo $urldata >> $forfile
