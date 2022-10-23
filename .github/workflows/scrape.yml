@@ -18,9 +18,7 @@ jobs:
       run: |-
         File="uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
-        rm forecastGridData/*.*
         mkdir -p observations
-	rm observations/*.*
 	forfile="forecast.lst"
 	obsfile="obs.lst"
     - name: Commit and push if it changed
