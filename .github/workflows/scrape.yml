@@ -17,15 +17,15 @@ jobs:
     - name: Fetch latest data
       run: |-
         File="uswtdb_v5_2_20221012.csv"
-	mkdir -p forecastGridData
+	#mkdir -p forecastGridData
 	#rm forecastGridData/*
-	mkdir -p observations
-	#rm observations/*
-	forfile="forecast.lst"
-	obsfile="obs.lst"
-	>$forfile
-	>$obsfile
-	cat $File| sed 1d | awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' |while read line
+	#mkdir -p observations
+	##rm observations/*
+	#forfile="forecast.lst"
+	#obsfile="obs.lst"
+	#>$forfile
+	#>$obsfile
+	#cat $File| sed 1d | awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' |while read line
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
