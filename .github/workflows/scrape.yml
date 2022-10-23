@@ -16,7 +16,6 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        #export LC_NUMERIC="en_US.UTF-8"
         File="uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
         rm -f forecastGridData/*
