@@ -16,9 +16,15 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        File="PLACES__County_Data__GIS_Friendly_Format___2021_release.csv"
+        File="uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
-        mkdir -p observations
+        rm forecastGridData/*
+		    mkdir -p observations
+		    rm observations/*
+		    forfile="forecast.lst"
+		    obsfile="obs.lst"
+		    >$forfile
+		    >$obsfile
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
