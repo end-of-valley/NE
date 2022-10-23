@@ -17,8 +17,8 @@ jobs:
     - name: Fetch latest data
       run: |-
         File="uswtdb_v5_2_20221012.csv"
-        mkdir -p forecastGridData
-        mkdir -p observations
+	mkdir -p forecastGridData
+	mkdir -p observations
 	forfile="forecast.lst"
 	obsfile="obs.lst"
     - name: Commit and push if it changed
