@@ -34,7 +34,7 @@ jobs:
             echo $line
             long=$( echo $line | cut -d',' -f26 )
             #printf -v $long "%.4f" $long
-            echo $long
+            printf "%.4f" $long
             lat=$( echo $line | cut -d',' -f27 )
             #printf -v $lat "%.4f" $lat
             echo $lat
