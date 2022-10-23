@@ -18,7 +18,6 @@ jobs:
       run: |-
         File= "uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
-        rm forecastGridData/*
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
