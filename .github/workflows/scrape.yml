@@ -19,8 +19,9 @@ jobs:
         File="uswtdb_v5_2_20221012.csv"
         cat $File| sed 1d | awk -F'"' -v OFS='' '{ for (i=2; i<=NF; i+=2) gsub(",", "", $i) } 1' |while read line
         do
-	 echo "sdf"
-        done
+		long=$( echo $line | cut -d',' -f26 )        
+	done
+	
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
