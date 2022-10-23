@@ -16,7 +16,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Fetch latest data
       run: |-
-        export LC_NUMERIC="en_US.UTF-8"
+        #export LC_NUMERIC="en_US.UTF-8"
         File="uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
         rm -f forecastGridData/*
@@ -33,10 +33,10 @@ jobs:
             CT|ME|MA|NH|RI|VT) #list of states
             echo $line
             long=$( echo $line | cut -d',' -f26 )
-            printf -v $long "%.4f" $long
+            LC_NUMERIC="C" printf -v $long "%.4f" $long
             echo $long
             lat=$( echo $line | cut -d',' -f27 )
-            printf -v $lat "%.4f" $lat
+            LC_NUMERIC="C" printf -v $lat "%.4f" $lat
             echo $lat
             #url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
             url=echo "https://api.weather.gov/points/$lat,$long"
