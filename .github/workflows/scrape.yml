@@ -19,8 +19,8 @@ jobs:
         File="uswtdb_v5_2_20221012.csv"
         mkdir -p forecastGridData
         mkdir -p observations
-	forfile="forecast.lst"
-	obsfile="obs.lst"
+	forfile='forecast.lst'
+	obsfile='obs.lst'
 	>$forfile
 	>$obsfile
 	uniq $forfile "F${forfile}"
