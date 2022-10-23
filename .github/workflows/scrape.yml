@@ -35,6 +35,7 @@ jobs:
             long=$( echo $line | cut -d',' -f26 )
             lat=$( echo $line | cut -d',' -f27 )
             url=echo $(printf "%.4f,%.4f" $lat $long)
+            echo $url
             #url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
             url=echo "https://api.weather.gov/points/$lat,$long"
             echo $url
