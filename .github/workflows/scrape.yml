@@ -32,10 +32,10 @@ jobs:
             CT|ME|MA|NH|RI|VT) #list of states
             echo $line
             long=$( echo $line | cut -d',' -f26 )
-            LC_NUMERIC="C" printf -v $long "%.4f" $long
+            printf -v $long "%.4f" $long
             echo $long
             lat=$( echo $line | cut -d',' -f27 )
-            LC_NUMERIC="C" printf -v $lat "%.4f" $lat
+            printf -v $lat "%.4f" $lat
             echo $lat
             #url=$(printf "https://api.weather.gov/points/%.4f,%.4f" $lat $long)
             url=echo "https://api.weather.gov/points/$lat,$long"
