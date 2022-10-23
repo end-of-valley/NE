@@ -24,13 +24,7 @@ jobs:
 	>$forfile
 	>$obsfile
 	uniq $forfile "F${forfile}"
-        for i in $(cat "F${forfile}"); do
-          curl --retry 5 --retry-max-time 120 $i -L > "forecastGridData/$(date +%s%N).json"
-        done		
         uniq $obsfile "F${obsfile}"
-        for i in $(cat "F${obsfile}"); do
-         curl --retry 5 --retry-max-time 120 $i -L > "observations/$(date +%s%N).json"
-        done
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
