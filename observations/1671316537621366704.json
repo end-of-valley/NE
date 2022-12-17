@@ -42,28 +42,35 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMPV/observations/2022-12-17T22:05:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2022-12-17T22:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.560000000000002,
-            44.200000000000003
+            -72.010000000000005,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMPV/observations/2022-12-17T22:05:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2022-12-17T22:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 355
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KMPV",
-        "timestamp": "2022-12-17T22:05:00+00:00",
-        "rawMessage": "KMPV 172205Z AUTO 30008KT 10SM BKN014 BKN021 OVC027 01/M03 A2967 RMK AO2 T00111028",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KCDA",
+        "timestamp": "2022-12-17T22:15:00+00:00",
+        "rawMessage": "KCDA 172215Z AUTO 24004KT 10SM -SN M01/M02 A2964 RMK AO2 T10081018",
+        "textDescription": "Light Snow",
+        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "snow",
+                "rawString": "-SN"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": null,
@@ -142,28 +149,6 @@
             "value": null,
             "qualityControl": "Z"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 430
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 640
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 820
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
