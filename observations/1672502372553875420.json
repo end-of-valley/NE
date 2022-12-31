@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFMH/observations/2022-12-31T14:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KPVD/observations/2022-12-31T15:34:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.519999999999996,
-            41.649999999999999
+            -71.430000000000007,
+            41.729999900000003
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFMH/observations/2022-12-31T14:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPVD/observations/2022-12-31T15:34:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 40
+            "value": 19
         },
-        "station": "https://api.weather.gov/stations/KFMH",
-        "timestamp": "2022-12-31T14:56:00+00:00",
-        "rawMessage": "KFMH 311456Z 00000KT 3SM BR BKN012 11/11 A3012",
+        "station": "https://api.weather.gov/stations/KPVD",
+        "timestamp": "2022-12-31T15:34:00+00:00",
+        "rawMessage": "KPVD 311534Z 15005KT 1/2SM R05/P6000FT BR BKN002 OVC008 08/08 A3006 RMK AO2 SFC VIS 1 T00830083",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
@@ -108,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 800,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,9 +153,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 370
+                    "value": 60
                 },
                 "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 240
+                },
+                "amount": "OVC"
             }
         ]
     }
