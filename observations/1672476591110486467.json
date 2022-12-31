@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPVD/observations/2022-12-31T08:11:00+00:00",
+    "id": "https://api.weather.gov/stations/KACK/observations/2022-12-31T08:26:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.430000000000007,
-            41.729999900000003
+            -70.060000000000002,
+            41.25
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPVD/observations/2022-12-31T08:11:00+00:00",
+        "@id": "https://api.weather.gov/stations/KACK/observations/2022-12-31T08:26:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 19
+            "value": 15
         },
-        "station": "https://api.weather.gov/stations/KPVD",
-        "timestamp": "2022-12-31T08:11:00+00:00",
-        "rawMessage": "KPVD 310811Z AUTO 15004KT 2SM BR BKN044 06/06 A3018 RMK AO2 T00560056",
+        "station": "https://api.weather.gov/stations/KACK",
+        "timestamp": "2022-12-31T08:26:00+00:00",
+        "rawMessage": "KACK 310826Z AUTO 23007KT 3/4SM BR SCT002 OVC043 A3019 RMK AO2 RVRNO $",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -83,13 +83,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 230,
+            "qualityControl": "S"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 12.960000000000001,
+            "qualityControl": "S"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,8 +98,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 102240,
+            "qualityControl": "S"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -108,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 3220,
+            "value": 1210,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,9 +153,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1340
+                    "value": 60
                 },
-                "amount": "BKN"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1310
+                },
+                "amount": "OVC"
             }
         ]
     }
