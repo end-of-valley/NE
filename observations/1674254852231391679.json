@@ -42,26 +42,26 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMPV/observations/2023-01-20T22:00:00+00:00",
+    "id": "https://api.weather.gov/stations/KMVL/observations/2023-01-20T22:23:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.560000000000002,
-            44.200000000000003
+            -72.609999999999999,
+            44.530000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMPV/observations/2023-01-20T22:00:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMVL/observations/2023-01-20T22:23:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 355
+            "value": 223
         },
-        "station": "https://api.weather.gov/stations/KMPV",
-        "timestamp": "2023-01-20T22:00:00+00:00",
-        "rawMessage": "KMPV 202200Z AUTO 00000KT 2 1/2SM -SN FEW002 BKN011 OVC031 01/M02 A2972 RMK AO2 P0000 T00061022",
-        "textDescription": "Light Snow",
+        "station": "https://api.weather.gov/stations/KMVL",
+        "timestamp": "2023-01-20T22:23:00+00:00",
+        "rawMessage": "KMVL 202223Z AUTO 35004KT 1 3/4SM -SN BR FEW015 OVC024 00/M02 A2972 RMK AO2 P0000 T00001017",
+        "textDescription": "Light Snow and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
         "presentWeather": [
             {
@@ -69,6 +69,12 @@
                 "modifier": null,
                 "weather": "snow",
                 "rawString": "-SN"
+            },
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
             }
         ],
         "temperature": {
@@ -108,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4020,
+            "value": 2820,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,21 +159,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 60
+                    "value": 460
                 },
                 "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 340
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 940
+                    "value": 730
                 },
                 "amount": "OVC"
             }
