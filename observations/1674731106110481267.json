@@ -42,33 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHYA/observations/2023-01-26T10:03:00+00:00",
+    "id": "https://api.weather.gov/stations/KLWM/observations/2023-01-26T10:40:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.280000000000001,
-            41.670000000000002
+            -71.120000000000005,
+            42.719999999999999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHYA/observations/2023-01-26T10:03:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLWM/observations/2023-01-26T10:40:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 16
+            "value": 45
         },
-        "station": "https://api.weather.gov/stations/KHYA",
-        "timestamp": "2023-01-26T10:03:00+00:00",
-        "rawMessage": "KHYA 261003Z AUTO 19012G23KT 2 1/2SM +RA BR BKN003 OVC033 10/10 A2941 RMK AO2 P0002 T01000100",
-        "textDescription": "Heavy Rain and Fog/Mist",
+        "station": "https://api.weather.gov/stations/KLWM",
+        "timestamp": "2023-01-26T10:40:00+00:00",
+        "rawMessage": "KLWM 261040Z AUTO 27006KT 2SM -RA BR OVC004 06/05 A2936 RMK AO2 P0001 T00560050",
+        "textDescription": "Light Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
             {
-                "intensity": "heavy",
+                "intensity": "light",
                 "modifier": null,
                 "weather": "rain",
-                "rawString": "+RA"
+                "rawString": "-RA"
             },
             {
                 "intensity": null,
@@ -99,8 +99,8 @@
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 42.479999999999997,
-            "qualityControl": "S"
+            "value": null,
+            "qualityControl": "Z"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -114,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4020,
+            "value": 3220,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -159,14 +159,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 90
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1010
+                    "value": 120
                 },
                 "amount": "OVC"
             }
