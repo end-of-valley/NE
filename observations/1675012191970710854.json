@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLEW/observations/2023-01-29T15:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEW/observations/2023-01-29T16:43:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLEW/observations/2023-01-29T15:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEW/observations/2023-01-29T16:43:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 88
         },
         "station": "https://api.weather.gov/stations/KLEW",
-        "timestamp": "2023-01-29T15:56:00+00:00",
-        "rawMessage": "KLEW 291556Z AUTO 34004KT 10SM OVC065 A3027 RMK AO2 SLPNO FZRANO $",
+        "timestamp": "2023-01-29T16:43:00+00:00",
+        "rawMessage": "KLEW 291643Z AUTO 35003KT 10SM BKN029 OVC060 A3025 RMK AO2 FZRANO $",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
@@ -76,12 +76,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 340,
+            "value": 350,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.5599999999999996,
+            "value": 5.4000000000000004,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,7 +91,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102510,
+            "value": 102440,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -146,7 +146,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1980
+                    "value": 880
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1830
                 },
                 "amount": "OVC"
             }
