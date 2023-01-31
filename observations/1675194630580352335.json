@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K1P1/observations/2023-01-31T19:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KEWB/observations/2023-01-31T19:22:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.75,
-            43.780000000000001
+            -70.969999999999999,
+            41.68
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-01-31T19:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEWB/observations/2023-01-31T19:22:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 154
+            "value": 24
         },
-        "station": "https://api.weather.gov/stations/K1P1",
-        "timestamp": "2023-01-31T19:15:00+00:00",
-        "rawMessage": "K1P1 311915Z AUTO 28013G22KT 10SM CLR M04/M19 A3021 RMK AO2 T10451190",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KEWB",
+        "timestamp": "2023-01-31T19:22:00+00:00",
+        "rawMessage": "KEWB 311922Z 01006KT 10SM SCT023 SCT029 BKN037 03/M01 A3016 RMK AO2 T00331011",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -86,8 +86,8 @@
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 40.68,
-            "qualityControl": "S"
+            "value": null,
+            "qualityControl": "Z"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -146,9 +146,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 700
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 880
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1130
+                },
+                "amount": "BKN"
             }
         ]
     }
