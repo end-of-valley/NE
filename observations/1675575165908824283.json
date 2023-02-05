@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KACK/observations/2023-02-05T05:01:00+00:00",
+    "id": "https://api.weather.gov/stations/KACK/observations/2023-02-05T05:16:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,25 +52,18 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KACK/observations/2023-02-05T05:01:00+00:00",
+        "@id": "https://api.weather.gov/stations/KACK/observations/2023-02-05T05:16:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 15
         },
         "station": "https://api.weather.gov/stations/KACK",
-        "timestamp": "2023-02-05T05:01:00+00:00",
-        "rawMessage": "KACK 050501Z AUTO 24014KT 10SM -SN BKN029 OVC038 M03/M08 A3048 RMK AO2 SNB0459 P0000 T10281083 $",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            }
-        ],
+        "timestamp": "2023-02-05T05:16:00+00:00",
+        "rawMessage": "KACK 050516Z AUTO 23014KT 10SM SCT027 OVC037 M02/M08 A3047 RMK AO2 SNB0459E08 P0000 T10221078 $",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": null,
@@ -153,14 +146,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 880
+                    "value": 820
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1160
+                    "value": 1130
                 },
                 "amount": "OVC"
             }
