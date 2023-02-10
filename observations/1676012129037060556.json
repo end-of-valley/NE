@@ -42,34 +42,28 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHUL/observations/2023-02-10T06:05:00+00:00",
+    "id": "https://api.weather.gov/stations/KPSF/observations/2023-02-10T06:31:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -67.799999999999997,
-            46.119999999999997
+            -73.290000000000006,
+            42.43
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHUL/observations/2023-02-10T06:05:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPSF/observations/2023-02-10T06:31:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 150
+            "value": 364
         },
-        "station": "https://api.weather.gov/stations/KHUL",
-        "timestamp": "2023-02-10T06:05:00+00:00",
-        "rawMessage": "KHUL 100605Z AUTO 11007G15KT 090V150 3/4SM -SN BR VV013 M04/M07 A2996 RMK AO2 P0001 T10441067",
-        "textDescription": "Light Snow and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
+        "station": "https://api.weather.gov/stations/KPSF",
+        "timestamp": "2023-02-10T06:31:00+00:00",
+        "rawMessage": "KPSF 100631Z AUTO VRB03KT 3SM BR FEW019 05/04 A2969 RMK AO2 T00500044",
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            },
             {
                 "intensity": null,
                 "modifier": null,
@@ -114,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 1210,
+            "value": 4830,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -127,8 +121,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -159,9 +153,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 400
+                    "value": 580
                 },
-                "amount": "VV"
+                "amount": "FEW"
             }
         ]
     }
