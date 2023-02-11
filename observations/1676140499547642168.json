@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KDDH/observations/2023-02-11T16:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KDDH/observations/2023-02-11T17:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,17 +52,17 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KDDH/observations/2023-02-11T16:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KDDH/observations/2023-02-11T17:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 252
         },
         "station": "https://api.weather.gov/stations/KDDH",
-        "timestamp": "2023-02-11T16:54:00+00:00",
-        "rawMessage": "KDDH 111654Z AUTO 26008KT 10SM FEW027 01/M08 A3024 RMK AO2 SNE19 SLP248 P0000 T00061083",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "timestamp": "2023-02-11T17:54:00+00:00",
+        "rawMessage": "KDDH 111754Z AUTO 25008KT 10SM SCT036 02/M09 A3023 RMK AO2 SLP246 60000 T00171089 10022 21011 50003",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -114,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -124,8 +124,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -146,9 +146,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 820
+                    "value": 1100
                 },
-                "amount": "FEW"
+                "amount": "SCT"
             }
         ]
     }
