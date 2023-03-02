@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAUG/observations/2023-03-02T21:08:00+00:00",
+    "id": "https://api.weather.gov/stations/KAUG/observations/2023-03-02T21:24:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,18 +52,24 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAUG/observations/2023-03-02T21:08:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAUG/observations/2023-03-02T21:24:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 107
         },
         "station": "https://api.weather.gov/stations/KAUG",
-        "timestamp": "2023-03-02T21:08:00+00:00",
-        "rawMessage": "KAUG 022108Z AUTO 34004KT 2SM BR BKN003 OVC015 01/00 A2955 RMK AO2 T00110000",
-        "textDescription": "Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
+        "timestamp": "2023-03-02T21:24:00+00:00",
+        "rawMessage": "KAUG 022124Z AUTO 35004KT 1 1/2SM -SN BR BKN003 OVC015 01/00 A2955 RMK AO2 UPB13E20SNB20 P0001 T00110000",
+        "textDescription": "Light Snow and Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
         "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "snow",
+                "rawString": "-SN"
+            },
             {
                 "intensity": null,
                 "modifier": null,
@@ -108,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 3220,
+            "value": 2410,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,8 +127,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
