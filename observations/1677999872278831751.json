@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K1P1/observations/2023-03-05T06:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KORH/observations/2023-03-05T06:31:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.75,
-            43.780000000000001
+            -71.879999999999995,
+            42.270000000000003
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-03-05T06:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KORH/observations/2023-03-05T06:31:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 154
+            "value": 308
         },
-        "station": "https://api.weather.gov/stations/K1P1",
-        "timestamp": "2023-03-05T06:15:00+00:00",
-        "rawMessage": "K1P1 050615Z AUTO 00000KT 10SM OVC029 M02/M02 A2997 RMK AO2 T10161017",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KORH",
+        "timestamp": "2023-03-05T06:31:00+00:00",
+        "rawMessage": "KORH 050631Z AUTO 01003KT 10SM SCT012 BKN050 M02/M05 A2997 RMK AO2 LAST AUGMENTED OBS T10171050",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -146,9 +146,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 880
+                    "value": 370
                 },
-                "amount": "OVC"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1520
+                },
+                "amount": "BKN"
             }
         ]
     }
