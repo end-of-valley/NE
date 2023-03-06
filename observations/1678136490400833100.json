@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2023-03-06T20:15:00+00:00",
+    "id": "https://api.weather.gov/stations/K1P1/observations/2023-03-06T20:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.010000000000005,
-            44.57
+            -71.75,
+            43.780000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2023-03-06T20:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-03-06T20:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 154
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "timestamp": "2023-03-06T20:15:00+00:00",
-        "rawMessage": "KCDA 062015Z AUTO 26013G30KT 7SM 01/M12 A2989 RMK AO2 T00101117",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/K1P1",
+        "timestamp": "2023-03-06T20:35:00+00:00",
+        "rawMessage": "K1P1 062035Z AUTO 29014G25KT 10SM CLR 05/M15 A2985 RMK AO2 T00461146",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -86,7 +86,7 @@
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 55.439999999999998,
+            "value": 46.439999999999998,
             "qualityControl": "S"
         },
         "barometricPressure": {
@@ -101,7 +101,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 11270,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -142,6 +142,14 @@
             "value": null,
             "qualityControl": "Z"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
