@@ -42,50 +42,50 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPYM/observations/2023-03-14T21:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KORE/observations/2023-03-14T22:27:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.730000000000004,
-            41.920000000000002
+            -72.269999999999996,
+            42.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPYM/observations/2023-03-14T21:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KORE/observations/2023-03-14T22:27:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 45
+            "value": 164
         },
-        "station": "https://api.weather.gov/stations/KPYM",
-        "timestamp": "2023-03-14T21:52:00+00:00",
-        "rawMessage": "KPYM 142152Z AUTO 02024G32KT 5SM UP BR BKN008 OVC013 02/01 A2918 RMK AO2 PK WND 03038/2117 UPB2053SNE2053 SLP884 P0002 T00220011",
-        "textDescription": "Unknown Precipitation and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
+        "station": "https://api.weather.gov/stations/KORE",
+        "timestamp": "2023-03-14T22:27:00+00:00",
+        "rawMessage": "KORE 142227Z AUTO 33014G22KT 1/4SM +SN FG VV006 01/M01 A2936 RMK AO2 P0002 T00061006",
+        "textDescription": "Heavy Snow and Fog",
+        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
         "presentWeather": [
             {
-                "intensity": null,
+                "intensity": "heavy",
                 "modifier": null,
-                "weather": "unknown",
-                "rawString": "UP"
+                "weather": "snow",
+                "rawString": "+SN"
             },
             {
                 "intensity": null,
                 "modifier": null,
-                "weather": "fog_mist",
-                "rawString": "BR"
+                "weather": "fog",
+                "rawString": "FG"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 2.2000000000000002,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 1.1000000000000001,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -99,22 +99,22 @@
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 59.399999999999999,
-            "qualityControl": "S"
+            "value": null,
+            "qualityControl": "Z"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 98820,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 98840,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 8050,
+            "value": 400,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -142,33 +142,26 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 92.431808462521005,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 240
+                    "value": 180
                 },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 400
-                },
-                "amount": "OVC"
+                "amount": "VV"
             }
         ]
     }
