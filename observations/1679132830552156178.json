@@ -42,28 +42,35 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFMH/observations/2023-03-18T06:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KAUG/observations/2023-03-18T09:22:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.519999999999996,
-            41.649999999999999
+            -69.799999999999997,
+            44.32
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFMH/observations/2023-03-18T06:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAUG/observations/2023-03-18T09:22:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 40
+            "value": 107
         },
-        "station": "https://api.weather.gov/stations/KFMH",
-        "timestamp": "2023-03-18T06:55:00+00:00",
-        "rawMessage": "KFMH 180655Z 24006KT 10SM CLR 07/05 A2959",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KAUG",
+        "timestamp": "2023-03-18T09:22:00+00:00",
+        "rawMessage": "KAUG 180922Z AUTO 33003KT 1/4SM FG VV003 02/01 A2955 RMK AO2 T00170011",
+        "textDescription": "Fog",
+        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog",
+                "rawString": "FG"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": null,
@@ -101,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 400,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -146,9 +153,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 90
                 },
-                "amount": "CLR"
+                "amount": "VV"
             }
         ]
     }
