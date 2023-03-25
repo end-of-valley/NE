@@ -42,28 +42,35 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KEWB/observations/2023-03-25T20:01:00+00:00",
+    "id": "https://api.weather.gov/stations/K1P1/observations/2023-03-25T20:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.969999999999999,
-            41.68
+            -71.75,
+            43.780000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KEWB/observations/2023-03-25T20:01:00+00:00",
+        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-03-25T20:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 24
+            "value": 154
         },
-        "station": "https://api.weather.gov/stations/KEWB",
-        "timestamp": "2023-03-25T20:01:00+00:00",
-        "rawMessage": "KEWB 252001Z 10011G19KT 10SM FEW012 FEW023 OVC065 04/03 A3000 RMK AO2 T00390028",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/K1P1",
+        "timestamp": "2023-03-25T20:35:00+00:00",
+        "rawMessage": "K1P1 252035Z AUTO 10009G14KT 3/4SM -SN OVC007 00/00 A3000 RMK AO2 T00011005",
+        "textDescription": "Light Snow",
+        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "snow",
+                "rawString": "-SN"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": null,
@@ -101,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 1210,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -146,21 +153,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 370
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 700
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1980
+                    "value": 210
                 },
                 "amount": "OVC"
             }
