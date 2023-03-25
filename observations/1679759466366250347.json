@@ -42,35 +42,28 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAQW/observations/2023-03-25T15:23:00+00:00",
+    "id": "https://api.weather.gov/stations/KSFZ/observations/2023-03-25T15:26:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.170000000000002,
-            42.700000000000003
+            -71.5,
+            41.920000000000002
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAQW/observations/2023-03-25T15:23:00+00:00",
+        "@id": "https://api.weather.gov/stations/KSFZ/observations/2023-03-25T15:26:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 201
+            "value": 134
         },
-        "station": "https://api.weather.gov/stations/KAQW",
-        "timestamp": "2023-03-25T15:23:00+00:00",
-        "rawMessage": "KAQW 251523Z AUTO 1 1/2SM -SN SCT020 OVC028 02/M03 A3006 RMK AO2 SNB16 P0000 T00171033 TSNO $",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KSFZ",
+        "timestamp": "2023-03-25T15:26:00+00:00",
+        "rawMessage": "KSFZ 251526Z AUTO 11009KT 10SM BKN020 OVC090 04/00 A3015 RMK AO2",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": null,
@@ -108,7 +101,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 2410,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -155,12 +148,12 @@
                     "unitCode": "wmoUnit:m",
                     "value": 610
                 },
-                "amount": "SCT"
+                "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 850
+                    "value": 2740
                 },
                 "amount": "OVC"
             }
