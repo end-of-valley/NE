@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHYA/observations/2023-03-26T14:03:00+00:00",
+    "id": "https://api.weather.gov/stations/K1P1/observations/2023-03-26T14:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.280000000000001,
-            41.670000000000002
+            -71.75,
+            43.780000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHYA/observations/2023-03-26T14:03:00+00:00",
+        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-03-26T14:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 16
+            "value": 154
         },
-        "station": "https://api.weather.gov/stations/KHYA",
-        "timestamp": "2023-03-26T14:03:00+00:00",
-        "rawMessage": "KHYA 261403Z 28009KT 10SM FEW018 SCT022 09/06 A2978 RMK AO2 T00940056",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "station": "https://api.weather.gov/stations/K1P1",
+        "timestamp": "2023-03-26T14:35:00+00:00",
+        "rawMessage": "K1P1 261435Z AUTO 28005KT 10SM SCT037 SCT042 OVC060 05/00 A2971 RMK AO2 T00471003",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -146,16 +146,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 550
+                    "value": 1130
                 },
-                "amount": "FEW"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 670
+                    "value": 1280
                 },
                 "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1830
+                },
+                "amount": "OVC"
             }
         ]
     }
