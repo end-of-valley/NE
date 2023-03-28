@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KUUU/observations/2023-03-28T05:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2023-03-28T06:08:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KUUU/observations/2023-03-28T05:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2023-03-28T06:08:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 52
         },
         "station": "https://api.weather.gov/stations/KUUU",
-        "timestamp": "2023-03-28T05:53:00+00:00",
-        "rawMessage": "KUUU 280553Z AUTO 02006KT 10SM -RA OVC044 04/03 A2997 RMK AO2 SLP147 P0001 60024 T00390028 10078 20039 58006",
+        "timestamp": "2023-03-28T06:08:00+00:00",
+        "rawMessage": "KUUU 280608Z AUTO 03006KT 10SM -RA SCT005 OVC038 04/03 A2997 RMK AO2 P0000 T00390028",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -83,7 +83,7 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 20,
+            "value": 30,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -103,8 +103,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101470,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,8 +131,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 10,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -153,7 +153,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1340
+                    "value": 150
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1160
                 },
                 "amount": "OVC"
             }
