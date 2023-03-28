@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPYM/observations/2023-03-28T03:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KPYM/observations/2023-03-28T04:30:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPYM/observations/2023-03-28T03:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPYM/observations/2023-03-28T04:30:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 45
         },
         "station": "https://api.weather.gov/stations/KPYM",
-        "timestamp": "2023-03-28T03:52:00+00:00",
-        "rawMessage": "KPYM 280352Z AUTO 06003KT 10SM -RA FEW008 BKN032 OVC042 05/03 A3000 RMK AO2 SLP161 P0008 T00500028",
+        "timestamp": "2023-03-28T04:30:00+00:00",
+        "rawMessage": "KPYM 280430Z AUTO 06004KT 9SM -RA OVC028 04/03 A2999 RMK AO2 P0005 T00440028",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -73,23 +73,23 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 5,
-            "qualityControl": "V"
+            "value": 4.4000000000000004,
+            "qualityControl": "S"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
             "value": 2.7999999999999998,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
             "value": 60,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4000000000000004,
-            "qualityControl": "V"
+            "value": 7.5599999999999996,
+            "qualityControl": "S"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101590,
-            "qualityControl": "V"
+            "value": 101560,
+            "qualityControl": "S"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101610,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 14480,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -136,38 +136,24 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 85.680483315610999,
-            "qualityControl": "V"
+            "value": 89.344634867018002,
+            "qualityControl": "S"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.9469183899627778,
-            "qualityControl": "V"
+            "value": 2.56585870394,
+            "qualityControl": "S"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 240
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 980
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1280
+                    "value": 850
                 },
                 "amount": "OVC"
             }
