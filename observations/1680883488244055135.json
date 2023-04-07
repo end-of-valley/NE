@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2023-04-07T15:03:00+00:00",
+    "id": "https://api.weather.gov/stations/KPQI/observations/2023-04-07T15:39:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,44 +52,44 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2023-04-07T15:03:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPQI/observations/2023-04-07T15:39:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 146
         },
         "station": "https://api.weather.gov/stations/KPQI",
-        "timestamp": "2023-04-07T15:03:00+00:00",
-        "rawMessage": "KPQI 071503Z AUTO 26017G24KT 4SM -SN FEW016 SCT024 OVC039 01/M03 A2992 RMK AO2 WSHFT 1443 P0000",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
+        "timestamp": "2023-04-07T15:39:00+00:00",
+        "rawMessage": "KPQI 071539Z AUTO 27020G33KT 3/4SM -FZRA FEW004 SCT023 BKN029 02/M02 A2992 RMK AO2 PK WND 26033/1536 WSHFT 1443 UPB20E23FZRAB37SNE20 P0000 RVRNO",
+        "textDescription": "Light Freezing Rain",
+        "icon": "https://api.weather.gov/icons/land/day/fzra?size=medium",
         "presentWeather": [
             {
                 "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
+                "modifier": "freezing",
+                "weather": "rain",
+                "rawString": "-FZRA"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 1,
+            "value": 2,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -3,
+            "value": -2,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 260,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 31.68,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -108,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6440,
+            "value": 1210,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -136,12 +136,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 74.639707050276996,
+            "value": 74.819222225640004,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -5.3143000741066668,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -153,23 +153,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 490
+                    "value": 120
                 },
                 "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 730
+                    "value": 700
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1190
+                    "value": 880
                 },
-                "amount": "OVC"
+                "amount": "BKN"
             }
         ]
     }
