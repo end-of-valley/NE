@@ -60,9 +60,9 @@
         },
         "station": "https://api.weather.gov/stations/KRKD",
         "timestamp": "2023-04-19T17:56:00+00:00",
-        "rawMessage": "KRKD 191756Z AUTO 31007KT 10SM SCT048 OVC065 06/01 A2992 RMK AO2 RAE10 SLP131 P0000 60000 T00610011 10089 20056 51015",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "rawMessage": "",
+        "textDescription": "",
+        "icon": null,
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -124,8 +124,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -142,21 +142,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1460
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1980
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
