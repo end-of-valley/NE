@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2023-05-25T10:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KPQI/observations/2023-05-25T11:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2023-05-25T10:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPQI/observations/2023-05-25T11:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 146
         },
         "station": "https://api.weather.gov/stations/KPQI",
-        "timestamp": "2023-05-25T10:56:00+00:00",
-        "rawMessage": "KPQI 251056Z AUTO 34011KT 10SM -RA BKN040 OVC047 07/06 A3003 RMK AO2 SLP196 P0001 T00720061",
+        "timestamp": "2023-05-25T11:15:00+00:00",
+        "rawMessage": "KPQI 251115Z AUTO 34011KT 10SM -RA FEW008 BKN040 OVC047 07/07 A3003 RMK AO2 P0000",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
         "presentWeather": [
@@ -73,12 +73,12 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.2000000000000002,
+            "value": 7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.0999999999999996,
+            "value": 7,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -136,12 +136,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 92.720676321385994,
+            "value": 100,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.8016157543211113,
+            "value": 3.5488312746355555,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -150,6 +150,13 @@
             "qualityControl": "V"
         },
         "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 240
+                },
+                "amount": "FEW"
+            },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
