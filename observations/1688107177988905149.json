@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAQW/observations/2023-06-30T05:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2023-06-30T06:12:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAQW/observations/2023-06-30T05:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2023-06-30T06:12:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 201
         },
         "station": "https://api.weather.gov/stations/KAQW",
-        "timestamp": "2023-06-30T05:52:00+00:00",
-        "rawMessage": "KAQW 300552Z AUTO 00000KT 4SM BR CLR 15/14 A3007 RMK AO2 SLP180 T01500139 10228 20150 53001",
+        "timestamp": "2023-06-30T06:12:00+00:00",
+        "rawMessage": "KAQW 300612Z AUTO 00000KT 4SM BR SCT070 15/14 A3007 RMK AO2 T01500139",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -103,8 +103,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101800,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -153,9 +153,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 2130
                 },
-                "amount": "CLR"
+                "amount": "SCT"
             }
         ]
     }
