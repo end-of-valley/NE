@@ -42,38 +42,44 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBAF/observations/2023-07-14T07:02:00+00:00",
+    "id": "https://api.weather.gov/stations/KBOS/observations/2023-07-14T07:13:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.719999999999999,
-            42.170000000000002
+            -71.030000000000001,
+            42.369999999999997
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBAF/observations/2023-07-14T07:02:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBOS/observations/2023-07-14T07:13:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 83
+            "value": 9
         },
-        "station": "https://api.weather.gov/stations/KBAF",
-        "timestamp": "2023-07-14T07:02:00+00:00",
-        "rawMessage": "KBAF 140702Z AUTO 31004KT 10SM -RA BKN006 BKN019 BKN110 20/19 A2990 RMK AO2 LTG DSNT SE AND S CIG 004V013 P0000 T02000189",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
+        "station": "https://api.weather.gov/stations/KBOS",
+        "timestamp": "2023-07-14T07:13:00+00:00",
+        "rawMessage": "KBOS 140713Z 17006KT 10SM -TSRA FEW040 SCT060CB OVC100 21/19 A2988 RMK AO2 LTG DSNT SE AND S TSB11 FRQ LTGICCG VC SE TS VC SE MOV E FRQ LTGICCCCG DSNT E-S CB DSNT E-S MOV E P0001 T02110189 $",
+        "textDescription": "Thunderstorms and Rain",
+        "icon": "https://api.weather.gov/icons/land/night/tsra?size=medium",
         "presentWeather": [
             {
-                "intensity": "light",
+                "intensity": null,
+                "modifier": null,
+                "weather": "thunderstorms",
+                "rawString": "TS"
+            },
+            {
+                "intensity": null,
                 "modifier": null,
                 "weather": "rain",
-                "rawString": "-RA"
+                "rawString": "RA"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 21.100000000000001,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -83,12 +89,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 310,
+            "value": 170,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.5599999999999996,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,7 +104,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101250,
+            "value": 101190,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -136,7 +142,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.389863240725006,
+            "value": 87.266357692713996,
             "qualityControl": "V"
         },
         "windChill": {
@@ -153,23 +159,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 180
+                    "value": 1220
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 580
+                    "value": 1830
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3350
+                    "value": 3050
                 },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }
