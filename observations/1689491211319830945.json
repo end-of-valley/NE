@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFIT/observations/2023-07-16T05:59:00+00:00",
+    "id": "https://api.weather.gov/stations/KFIT/observations/2023-07-16T06:41:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFIT/observations/2023-07-16T05:59:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFIT/observations/2023-07-16T06:41:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 106
         },
         "station": "https://api.weather.gov/stations/KFIT",
-        "timestamp": "2023-07-16T05:59:00+00:00",
-        "rawMessage": "KFIT 160559Z AUTO 13003KT 10SM BKN018 24/22 A2994 RMK AO2 T02440217",
+        "timestamp": "2023-07-16T06:41:00+00:00",
+        "rawMessage": "KFIT 160641Z AUTO 16003KT 10SM FEW013 SCT018 BKN100 24/22 A2994 RMK AO2 T02440217",
         "textDescription": "Mostly Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
@@ -76,7 +76,7 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 130,
+            "value": 160,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -146,7 +146,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
+                    "value": 400
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
                     "value": 550
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3050
                 },
                 "amount": "BKN"
             }
