@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMVL/observations/2023-07-18T05:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KPSF/observations/2023-07-18T06:32:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.609999999999999,
-            44.530000000000001
+            -73.290000000000006,
+            42.43
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMVL/observations/2023-07-18T05:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPSF/observations/2023-07-18T06:32:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 223
+            "value": 364
         },
-        "station": "https://api.weather.gov/stations/KMVL",
-        "timestamp": "2023-07-18T05:54:00+00:00",
-        "rawMessage": "KMVL 180554Z AUTO 00000KT 4SM BR SCT110 19/18 A2996 RMK AO2 SLP141 T01890178 10233 20183 50004",
+        "station": "https://api.weather.gov/stations/KPSF",
+        "timestamp": "2023-07-18T06:32:00+00:00",
+        "rawMessage": "KPSF 180632Z AUTO 00000KT 2 1/2SM BR FEW009 SCT048 19/18 A2999 RMK AO2 T01890178",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101460,
+            "value": 101560,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101410,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6440,
+            "value": 4020,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,7 +153,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3350
+                    "value": 270
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1460
                 },
                 "amount": "SCT"
             }
