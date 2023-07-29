@@ -42,40 +42,28 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBID/observations/2023-07-29T09:26:00+00:00",
+    "id": "https://api.weather.gov/stations/KMPV/observations/2023-07-29T09:44:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.579999999999998,
-            41.170000000000002
+            -72.560000000000002,
+            44.200000000000003
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBID/observations/2023-07-29T09:26:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMPV/observations/2023-07-29T09:44:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 33
+            "value": 355
         },
-        "station": "https://api.weather.gov/stations/KBID",
-        "timestamp": "2023-07-29T09:26:00+00:00",
-        "rawMessage": "KBID 290926Z AUTO 27018G34KT 2 1/2SM TSRA BR BKN004 BKN048 22/22 RMK AO2 PK WND 25032/0922 LTG DSNT SW AND W TSB10RAB21 CIG 002V007 $",
-        "textDescription": "Thunderstorms and Rain and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/tsra?size=medium",
+        "station": "https://api.weather.gov/stations/KMPV",
+        "timestamp": "2023-07-29T09:44:00+00:00",
+        "rawMessage": "KMPV 290944Z AUTO 10004KT 1 1/2SM BR FEW001 FEW060 18/17 A2992 RMK AO2 T01830172",
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
-            {
-                "intensity": null,
-                "modifier": null,
-                "weather": "thunderstorms",
-                "rawString": "TS"
-            },
-            {
-                "intensity": null,
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "RA"
-            },
             {
                 "intensity": null,
                 "modifier": null,
@@ -85,23 +73,23 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 22,
+            "value": 18.300000000000001,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 22,
+            "value": 17.199999999999999,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 100,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 7.5599999999999996,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -120,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4020,
+            "value": 2410,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -148,7 +136,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 100,
+            "value": 93.306363604192995,
             "qualityControl": "V"
         },
         "windChill": {
@@ -158,23 +146,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.866666666666667,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 120
+                    "value": 30
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1460
+                    "value": 1830
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             }
         ]
     }
