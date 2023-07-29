@@ -60,9 +60,9 @@
         },
         "station": "https://api.weather.gov/stations/KWVL",
         "timestamp": "2023-07-29T05:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KWVL 290556Z AUTO 23003KT 8SM CLR 20/20 A2980 RMK AO2 SLP114 T02000200 10250 20200 58005",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -142,6 +142,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
