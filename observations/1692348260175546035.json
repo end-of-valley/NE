@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KACK/observations/2023-08-18T08:04:00+00:00",
+    "id": "https://api.weather.gov/stations/KACK/observations/2023-08-18T08:21:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,31 +52,31 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KACK/observations/2023-08-18T08:04:00+00:00",
+        "@id": "https://api.weather.gov/stations/KACK/observations/2023-08-18T08:21:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 15
         },
         "station": "https://api.weather.gov/stations/KACK",
-        "timestamp": "2023-08-18T08:04:00+00:00",
-        "rawMessage": "KACK 180804Z AUTO 17010KT 10SM BKN027 BKN035 OVC044 22/22 A2982 RMK AO2 T02170217",
+        "timestamp": "2023-08-18T08:21:00+00:00",
+        "rawMessage": "KACK 180821Z AUTO 18010KT 10SM FEW023 BKN030 OVC038 21/21 A2982 RMK AO2 T02110211",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.699999999999999,
+            "value": 21.100000000000001,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.699999999999999,
+            "value": 21.100000000000001,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 170,
+            "value": 180,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -139,28 +139,28 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.536666666666665,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 820
+                    "value": 700
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 910
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1070
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1340
+                    "value": 1160
                 },
                 "amount": "OVC"
             }
