@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2023-09-02T12:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KBML/observations/2023-09-02T12:59:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2023-09-02T12:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBML/observations/2023-09-02T12:59:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 353
         },
         "station": "https://api.weather.gov/stations/KBML",
-        "timestamp": "2023-09-02T12:52:00+00:00",
-        "rawMessage": "KBML 021252Z AUTO 00000KT 1/4SM FG OVC001 09/09 A3018 RMK AO2 SLP224 T00940094",
+        "timestamp": "2023-09-02T12:59:00+00:00",
+        "rawMessage": "KBML 021259Z AUTO 00000KT 1/4SM FG VV002 09/09 A3017 RMK AO2 T00940094",
         "textDescription": "Fog",
         "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
@@ -98,13 +98,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102200,
+            "value": 102170,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102240,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -153,9 +153,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 30
+                    "value": 60
                 },
-                "amount": "OVC"
+                "amount": "VV"
             }
         ]
     }
