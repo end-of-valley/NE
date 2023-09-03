@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPSF/observations/2023-09-03T08:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KDDH/observations/2023-09-03T09:27:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.290000000000006,
-            42.43
+            -73.25,
+            42.890000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPSF/observations/2023-09-03T08:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KDDH/observations/2023-09-03T09:27:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 364
+            "value": 252
         },
-        "station": "https://api.weather.gov/stations/KPSF",
-        "timestamp": "2023-09-03T08:54:00+00:00",
-        "rawMessage": "KPSF 030854Z AUTO 03004KT 1/4SM FG VV001 15/14 A2998 RMK AO2 SLP131 T01500144 56010",
+        "station": "https://api.weather.gov/stations/KDDH",
+        "timestamp": "2023-09-03T09:27:00+00:00",
+        "rawMessage": "KDDH 030927Z AUTO 00000KT 1/4SM FG BKN001 BKN036 15/14 A2997 RMK AO2 T01500144 $",
         "textDescription": "Fog",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -83,12 +83,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 30,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.5599999999999996,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,13 +98,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101520,
+            "value": 101490,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101310,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -155,7 +155,14 @@
                     "unitCode": "wmoUnit:m",
                     "value": 30
                 },
-                "amount": "VV"
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1100
+                },
+                "amount": "BKN"
             }
         ]
     }
