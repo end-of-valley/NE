@@ -42,46 +42,59 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K1P1/observations/2023-09-09T20:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KBVY/observations/2023-09-09T21:19:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.75,
-            43.780000000000001
+            -70.920000000000002,
+            42.579999999999998
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-09-09T20:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBVY/observations/2023-09-09T21:19:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 154
+            "value": 33
         },
-        "station": "https://api.weather.gov/stations/K1P1",
-        "timestamp": "2023-09-09T20:55:00+00:00",
-        "rawMessage": "K1P1 092055Z AUTO 00000KT 10SM CLR 26/17 A3009 RMK AO2 T02630169",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KBVY",
+        "timestamp": "2023-09-09T21:19:00+00:00",
+        "rawMessage": "KBVY 092119Z 02004KT 10SM -TSRA FEW045 SCT070 BKN095 21/19 A3008 RMK AO2 LTG DSNT SW-NW TS OVHD MOV NE T02060194 PNO $",
+        "textDescription": "Thunderstorms and Rain",
+        "icon": "https://api.weather.gov/icons/land/day/tsra?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "thunderstorms",
+                "rawString": "TS"
+            },
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.300000000000001,
+            "value": 20.600000000000001,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.899999999999999,
+            "value": 19.399999999999999,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 20,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 7.5599999999999996,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,7 +104,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101900,
+            "value": 101860,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -129,7 +142,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 56.263563846951001,
+            "value": 92.839980753296004,
             "qualityControl": "V"
         },
         "windChill": {
@@ -139,16 +152,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.454659722670556,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1370
                 },
-                "amount": "CLR"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2130
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2900
+                },
+                "amount": "BKN"
             }
         ]
     }
