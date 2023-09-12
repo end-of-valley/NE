@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHYA/observations/2023-09-12T05:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KHYA/observations/2023-09-12T07:05:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHYA/observations/2023-09-12T05:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHYA/observations/2023-09-12T07:05:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 16
         },
         "station": "https://api.weather.gov/stations/KHYA",
-        "timestamp": "2023-09-12T05:56:00+00:00",
-        "rawMessage": "KHYA 120556Z AUTO 00000KT 3/4SM BR VV002 21/21 A2996 RMK AO2 SLP146 60014 T02060206 10217 20200 56009",
+        "timestamp": "2023-09-12T07:05:00+00:00",
+        "rawMessage": "KHYA 120705Z AUTO 00000KT 1 1/2SM BR OVC002 21/21 A2995 RMK AO2 T02060206",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101460,
+            "value": 101420,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101460,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 1210,
+            "value": 2410,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,8 +131,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -155,7 +155,7 @@
                     "unitCode": "wmoUnit:m",
                     "value": 60
                 },
-                "amount": "VV"
+                "amount": "OVC"
             }
         ]
     }
