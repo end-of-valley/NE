@@ -1,3 +1,7 @@
+<HTML><HEAD><TITLE>Error</TITLE></HEAD><BODY>
+An error occurred while processing your request.<p>
+Reference&#32;&#35;102&#46;ef3b2f17&#46;1698666900&#46;327c5cdd
+</BODY></HTML>
 {
     "@context": [
         "https://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -42,53 +46,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHIE/observations/2023-10-30T10:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KMLT/observations/2023-10-30T10:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.549999999999997,
-            44.350000000000001
+            -68.680000000000007,
+            45.649999999999999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHIE/observations/2023-10-30T10:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMLT/observations/2023-10-30T10:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 319
+            "value": 124
         },
-        "station": "https://api.weather.gov/stations/KHIE",
-        "timestamp": "2023-10-30T10:52:00+00:00",
-        "rawMessage": "KHIE 301052Z AUTO 00000KT 10SM -RA OVC030 04/02 A2983 RMK AO2 SLP112 P0002 T00390022",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KMLT",
+        "timestamp": "2023-10-30T10:53:00+00:00",
+        "rawMessage": "KMLT 301053Z AUTO 05005KT 10SM OVC048 00/M04 A3005 RMK AO2 SLP183 T00001039",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.8999999999999999,
+            "value": 0,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 2.2000000000000002,
+            "value": -3.8999999999999999,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 50,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 9.3599999999999994,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,12 +95,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101020,
+            "value": 101760,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101120,
+            "value": 101830,
             "qualityControl": "V"
         },
         "visibility": {
@@ -121,8 +118,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -136,12 +133,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 88.67016884985,
+            "value": 75.018440463752,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": -3.1239610872050001,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -153,7 +150,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 910
+                    "value": 1460
                 },
                 "amount": "OVC"
             }
