@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K1P1/observations/2023-11-24T03:55:00+00:00",
+    "id": "https://api.weather.gov/stations/K1P1/observations/2023-11-24T04:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,26 +52,26 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-11-24T03:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/K1P1/observations/2023-11-24T04:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 154
         },
         "station": "https://api.weather.gov/stations/K1P1",
-        "timestamp": "2023-11-24T03:55:00+00:00",
-        "rawMessage": "K1P1 240355Z AUTO 00000KT 10SM OVC040 02/00 A2986 RMK AO2 T00210001 400580005",
+        "timestamp": "2023-11-24T04:15:00+00:00",
+        "rawMessage": "K1P1 240415Z AUTO 00000KT 10SM SCT040 SCT047 OVC055 03/00 A2987 RMK AO2 T00270000",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 2.1000000000000001,
+            "value": 2.7000000000000002,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 0.10000000000000001,
+            "value": 0,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -91,7 +91,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101120,
+            "value": 101150,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -129,7 +129,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 86.611616365200007,
+            "value": 82.394640598886994,
             "qualityControl": "V"
         },
         "windChill": {
@@ -147,6 +147,20 @@
                 "base": {
                     "unitCode": "wmoUnit:m",
                     "value": 1220
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1430
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1680
                 },
                 "amount": "OVC"
             }
