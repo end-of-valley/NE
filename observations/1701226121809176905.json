@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2023-11-29T01:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2023-11-29T02:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.180000000000007,
-            44.579999999999998
+            -72.010000000000005,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2023-11-29T01:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2023-11-29T02:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 353
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KBML",
-        "timestamp": "2023-11-29T01:52:00+00:00",
-        "rawMessage": "KBML 290152Z AUTO VRB05KT 4SM -SN BKN020 OVC031 M06/M11 A2968 RMK AO2 UPB13E15SNE08B15 SLP067 P0000 T10611106",
+        "station": "https://api.weather.gov/stations/KCDA",
+        "timestamp": "2023-11-29T02:15:00+00:00",
+        "rawMessage": "KCDA 290215Z AUTO 24008KT 5SM -SN OVC024 M07/M10 A2976 RMK AO2 T10701102",
         "textDescription": "Light Snow",
         "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
         "presentWeather": [
@@ -73,22 +73,22 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -6.0999999999999996,
+            "value": -7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -10.6,
+            "value": -10.199999999999999,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 240,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.3599999999999994,
+            "value": 14.76,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100510,
+            "value": 100780,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100670,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6440,
+            "value": 8050,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,8 +121,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -136,12 +136,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 70.468689669362007,
+            "value": 77.926049991750006,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -10.371369997277222,
+            "value": -12.968996234513334,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -153,14 +153,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 610
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 940
+                    "value": 730
                 },
                 "amount": "OVC"
             }
