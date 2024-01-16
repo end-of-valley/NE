@@ -1,4 +1,11 @@
 {
+    "correlationId": "4b5325c",
+    "title": "Unexpected Problem",
+    "type": "https://api.weather.gov/problems/UnexpectedProblem",
+    "status": 500,
+    "detail": "An unexpected problem has occurred. If this error continues, please contact support at nco.ops@noaa.gov.",
+    "instance": "https://api.weather.gov/requests/4b5325c"
+}{
     "@context": [
         "https://geojson.org/geojson-ld/geojson-context.jsonld",
         {
@@ -4848,7 +4855,22 @@
                     ]
                 },
                 {
-                    "validTime": "2024-01-17T06:00:00+00:00/PT12H",
+                    "validTime": "2024-01-17T06:00:00+00:00/PT2H",
+                    "value": [
+                        {
+                            "coverage": null,
+                            "weather": null,
+                            "intensity": null,
+                            "visibility": {
+                                "unitCode": "wmoUnit:km",
+                                "value": null
+                            },
+                            "attributes": []
+                        }
+                    ]
+                },
+                {
+                    "validTime": "2024-01-17T08:00:51+00:00/PT9H59M9S",
                     "value": [
                         {
                             "coverage": null,
