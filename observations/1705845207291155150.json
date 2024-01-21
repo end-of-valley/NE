@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMPV/observations/2024-01-21T13:04:00+00:00",
+    "id": "https://api.weather.gov/stations/KMPV/observations/2024-01-21T13:22:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,17 +52,17 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMPV/observations/2024-01-21T13:04:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMPV/observations/2024-01-21T13:22:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 355
         },
         "station": "https://api.weather.gov/stations/KMPV",
-        "timestamp": "2024-01-21T13:04:00+00:00",
-        "rawMessage": "KMPV 211304Z AUTO 32013KT 5SM HZ FEW011 BKN029 M14/M18 A3020 RMK AO2 SNE1255 P0000 T11441183",
+        "timestamp": "2024-01-21T13:22:00+00:00",
+        "rawMessage": "KMPV 211322Z AUTO 31009G19KT 5SM HZ FEW015 FEW025 SCT029 M14/M18 A3021 RMK AO2 SNE1255 P0000 T11441183",
         "textDescription": "Haze",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [
             {
                 "intensity": null,
@@ -83,13 +83,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 310,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 16.559999999999999,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -141,7 +141,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": -22.565761866851609,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -153,7 +153,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 340
+                    "value": 460
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 760
                 },
                 "amount": "FEW"
             },
@@ -162,7 +169,7 @@
                     "unitCode": "wmoUnit:m",
                     "value": 880
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             }
         ]
     }
