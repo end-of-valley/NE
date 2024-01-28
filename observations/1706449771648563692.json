@@ -42,43 +42,43 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KRKD/observations/2024-01-28T12:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KWVL/observations/2024-01-28T13:26:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.090000000000003,
-            44.07
+            -69.680000000000007,
+            44.530000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KRKD/observations/2024-01-28T12:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KWVL/observations/2024-01-28T13:26:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 17
+            "value": 101
         },
-        "station": "https://api.weather.gov/stations/KRKD",
-        "timestamp": "2024-01-28T12:56:00+00:00",
-        "rawMessage": "KRKD 281256Z AUTO 00000KT 9SM UP BKN010 OVC015 01/01 A3008 RMK AO2 RAB10E47UPB15E26B47 SLP188 P0000 T00060006 FZRANO $",
-        "textDescription": "Unknown Precipitation",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KWVL",
+        "timestamp": "2024-01-28T13:26:00+00:00",
+        "rawMessage": "KWVL 281326Z AUTO 00000KT 1/4SM FG SCT003 OVC022 00/00 A3005 RMK AO2 UPE03 P0000 FZRANO",
+        "textDescription": "Fog",
+        "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
             {
                 "intensity": null,
                 "modifier": null,
-                "weather": "unknown",
-                "rawString": "UP"
+                "weather": "fog",
+                "rawString": "FG"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 0.59999999999999998,
+            "value": 0,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 0.59999999999999998,
+            "value": 0,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101860,
+            "value": 101760,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101880,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 400,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,14 +153,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 90
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 460
+                    "value": 670
                 },
                 "amount": "OVC"
             }
