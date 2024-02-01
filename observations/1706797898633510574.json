@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAUG/observations/2024-02-01T13:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KAUG/observations/2024-02-01T14:11:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAUG/observations/2024-02-01T13:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAUG/observations/2024-02-01T14:11:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 107
         },
         "station": "https://api.weather.gov/stations/KAUG",
-        "timestamp": "2024-02-01T13:53:00+00:00",
-        "rawMessage": "KAUG 011353Z AUTO 16003KT 5SM BR OVC030 M04/M05 A2999 RMK AO2 SLP161 T10441050",
+        "timestamp": "2024-02-01T14:11:00+00:00",
+        "rawMessage": "KAUG 011411Z AUTO 16003KT 5SM BR FEW003 OVC030 M04/M06 A2999 RMK AO2 T10441056",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
@@ -78,7 +78,7 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -5,
+            "value": -5.5999999999999996,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -103,8 +103,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101610,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -136,7 +136,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 95.576385291359003,
+            "value": 91.327568802339002,
             "qualityControl": "V"
         },
         "windChill": {
@@ -150,6 +150,13 @@
             "qualityControl": "V"
         },
         "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 90
+                },
+                "amount": "FEW"
+            },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
