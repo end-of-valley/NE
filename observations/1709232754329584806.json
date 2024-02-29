@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KHVN",
         "timestamp": "2024-02-29T17:53:00+00:00",
         "rawMessage": "KHVN 291753Z 29018G26KT 10SM SCT070 03/M12 A3022 RMK AO2 PK WND 32029/1656 SLP234 T00331117 10033 20000 58002",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "textDescription": "Partly Cloudy and Windy",
+        "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -76,13 +76,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 290,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 33.479999999999997,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -134,7 +134,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": -2.4561886795499999,
             "qualityControl": "V"
         },
         "heatIndex": {
