@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K1P1/observations/2024-03-14T03:00:00+00:00",
+    "id": "https://api.weather.gov/stations/K1P1/observations/2024-03-14T03:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.760000000000005,
+            -71.75,
             43.780000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K1P1/observations/2024-03-14T03:00:00+00:00",
+        "@id": "https://api.weather.gov/stations/K1P1/observations/2024-03-14T03:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 155
+            "value": 154
         },
         "station": "https://api.weather.gov/stations/K1P1",
-        "timestamp": "2024-03-14T03:00:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "timestamp": "2024-03-14T03:15:00+00:00",
+        "rawMessage": "K1P1 140315Z AUTO 00000KT 10SM BKN075 BKN090 OVC110 02/M01 A2998 RMK AO2 T00201011",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -101,7 +101,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16093.440000000001,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -146,16 +146,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2743.1999999999998
+                    "value": 2290
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3352.8000000000002
+                    "value": 2740
                 },
                 "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3350
+                },
+                "amount": "OVC"
             }
         ]
     }
