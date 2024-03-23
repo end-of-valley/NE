@@ -42,33 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBTV/observations/2024-03-23T09:16:00+00:00",
+    "id": "https://api.weather.gov/stations/KPSF/observations/2024-03-23T09:21:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.150000000000006,
-            44.469999999999999
+            -73.290000000000006,
+            42.43
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBTV/observations/2024-03-23T09:16:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPSF/observations/2024-03-23T09:21:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 104
+            "value": 364
         },
-        "station": "https://api.weather.gov/stations/KBTV",
-        "timestamp": "2024-03-23T09:16:00+00:00",
-        "rawMessage": "KBTV 230916Z 09005KT 1 1/4SM -SN BR OVC017 M05/M07 A3017 RMK AO2 P0001 T10501067",
-        "textDescription": "Light Snow and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
+        "station": "https://api.weather.gov/stations/KPSF",
+        "timestamp": "2024-03-23T09:21:00+00:00",
+        "rawMessage": "KPSF 230921Z AUTO VRB04KT 4SM -FZRA BR BKN010 OVC016 M01/M03 A3006 RMK AO2 CIG 007V013 P0001 I1001 T10111028",
+        "textDescription": "Light Freezing Rain and Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/fzra?size=medium",
         "presentWeather": [
             {
                 "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
+                "modifier": "freezing",
+                "weather": "rain",
+                "rawString": "-FZRA"
             },
             {
                 "intensity": null,
@@ -114,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 2010,
+            "value": 6440,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -159,7 +159,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 520
+                    "value": 300
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 490
                 },
                 "amount": "OVC"
             }
