@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KBOS",
         "timestamp": "2024-03-25T16:54:00+00:00",
         "rawMessage": "KBOS 251654Z 06020G30KT 10SM FEW035 BKN220 OVC250 04/M04 A3055 RMK AO2 PK WND 04030/1641 SLP345 T00441039",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "textDescription": "Cloudy and Windy",
+        "icon": "https://api.weather.gov/icons/land/day/wind_ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -76,13 +76,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 60,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 37.079999999999998,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -134,7 +134,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": -1.286222484781111,
             "qualityControl": "V"
         },
         "heatIndex": {
