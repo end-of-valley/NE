@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPYM/observations/2024-04-06T09:07:00+00:00",
+    "id": "https://api.weather.gov/stations/KPSF/observations/2024-04-06T09:20:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.730000000000004,
-            41.920000000000002
+            -73.290000000000006,
+            42.43
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPYM/observations/2024-04-06T09:07:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPSF/observations/2024-04-06T09:20:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 45
+            "value": 364
         },
-        "station": "https://api.weather.gov/stations/KPYM",
-        "timestamp": "2024-04-06T09:07:00+00:00",
-        "rawMessage": "KPYM 060907Z AUTO 33008KT 10SM SCT008 BKN018 OVC027 03/01 A2961 RMK AO2 RAE0856 P0000 T00280011",
+        "station": "https://api.weather.gov/stations/KPSF",
+        "timestamp": "2024-04-06T09:20:00+00:00",
+        "rawMessage": "KPSF 060920Z AUTO 33007KT 10SM FEW019 SCT024 OVC050 01/M03 A2967 RMK AO2 T00061028",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
@@ -114,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -146,21 +146,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 240
+                    "value": 580
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 730
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 550
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 820
+                    "value": 1520
                 },
                 "amount": "OVC"
             }
