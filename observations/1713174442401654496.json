@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KDDH/observations/2024-04-15T09:19:00+00:00",
+    "id": "https://api.weather.gov/stations/KDDH/observations/2024-04-15T09:29:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KDDH/observations/2024-04-15T09:19:00+00:00",
+        "@id": "https://api.weather.gov/stations/KDDH/observations/2024-04-15T09:29:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 252
         },
         "station": "https://api.weather.gov/stations/KDDH",
-        "timestamp": "2024-04-15T09:19:00+00:00",
-        "rawMessage": "KDDH 150919Z AUTO 00000KT 3/4SM BR OVC001 03/02 A2973 RMK AO2 T00280022 $",
+        "timestamp": "2024-04-15T09:29:00+00:00",
+        "rawMessage": "KDDH 150929Z AUTO 00000KT 1SM BR BKN001 BKN070 03/02 A2972 RMK AO2 T00280017 $",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -108,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 1210,
+            "value": 1610,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -155,7 +155,14 @@
                     "unitCode": "wmoUnit:m",
                     "value": 30
                 },
-                "amount": "OVC"
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2130
+                },
+                "amount": "BKN"
             }
         ]
     }
