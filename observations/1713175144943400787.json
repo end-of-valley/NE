@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMPV/observations/2024-04-15T09:12:00+00:00",
+    "id": "https://api.weather.gov/stations/KBAF/observations/2024-04-15T09:29:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.560000000000002,
-            44.200000000000003
+            -72.719999999999999,
+            42.170000000000002
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMPV/observations/2024-04-15T09:12:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBAF/observations/2024-04-15T09:29:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 355
+            "value": 83
         },
-        "station": "https://api.weather.gov/stations/KMPV",
-        "timestamp": "2024-04-15T09:12:00+00:00",
-        "rawMessage": "KMPV 150912Z AUTO 00000KT 1 3/4SM BR OVC001 03/02 A2973 RMK AO2 T00330017",
+        "station": "https://api.weather.gov/stations/KBAF",
+        "timestamp": "2024-04-15T09:29:00+00:00",
+        "rawMessage": "KBAF 150929Z AUTO 36004KT 6SM BR FEW002 SCT110 04/03 A2972 RMK AO2 T00440033",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -108,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 2820,
+            "value": 9660,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,9 +153,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 30
+                    "value": 60
                 },
-                "amount": "OVC"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3350
+                },
+                "amount": "SCT"
             }
         ]
     }
