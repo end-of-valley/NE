@@ -61,9 +61,16 @@
         "station": "https://api.weather.gov/stations/KFMH",
         "timestamp": "2024-05-08T02:56:00+00:00",
         "rawMessage": "KFMH 080256Z 25004KT 1SM BR OVC003 11/11 A2974",
-        "textDescription": "",
-        "icon": null,
-        "presentWeather": [],
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 11,
@@ -142,6 +149,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 90
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
