@@ -42,46 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBGR/observations/2024-06-12T16:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KAUG/observations/2024-06-12T16:29:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.829999999999998,
-            44.799999999999997
+            -69.799999999999997,
+            44.32
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBGR/observations/2024-06-12T16:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAUG/observations/2024-06-12T16:29:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 59
+            "value": 107
         },
-        "station": "https://api.weather.gov/stations/KBGR",
-        "timestamp": "2024-06-12T16:53:00+00:00",
-        "rawMessage": "KBGR 121653Z 24003KT 10SM BKN030 BKN045 21/14 A2997 RMK AO2 SLP145 PRESENT WX VCSH T02110144",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KAUG",
+        "timestamp": "2024-06-12T16:29:00+00:00",
+        "rawMessage": "KAUG 121629Z AUTO 04006KT 10SM SCT022 BKN047 OVC100 21/15 A3000 RMK AO2 RAE1554 P0000 T02060150",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.100000000000001,
+            "value": 20.600000000000001,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 15,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 240,
+            "value": 40,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4000000000000004,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,13 +91,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101490,
+            "value": 101590,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101450,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -114,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -129,7 +129,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 65.569642339015004,
+            "value": 70.285014011563007,
             "qualityControl": "V"
         },
         "windChill": {
@@ -146,16 +146,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 910
+                    "value": 670
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1430
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1370
+                    "value": 3050
                 },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }
