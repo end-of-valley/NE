@@ -60,7 +60,7 @@
         },
         "station": "https://api.weather.gov/stations/KBML",
         "timestamp": "2024-06-30T03:26:00+00:00",
-        "rawMessage": "",
+        "rawMessage": "KBML 300326Z AUTO 00000KT 3SM -RA BR FEW019 BKN029 OVC035 17/16 A2991 RMK AO2 P0010 T01720161",
         "textDescription": "Light Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -155,6 +155,28 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 580
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 880
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1070
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
