@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KFMH",
         "timestamp": "2024-08-06T13:45:00+00:00",
         "rawMessage": "KFMH 061345Z 02008KT 10SM BKN009 OVC014 22/21 A2997",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -142,6 +142,21 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 270
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 430
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
