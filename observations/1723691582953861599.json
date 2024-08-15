@@ -42,25 +42,25 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMLT/observations/2024-08-15T02:29:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2024-08-15T02:25:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.680000000000007,
-            45.649999999999999
+            -68.370000000000005,
+            44.450000000000003
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMLT/observations/2024-08-15T02:29:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2024-08-15T02:25:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 124
+            "value": 26
         },
-        "station": "https://api.weather.gov/stations/KMLT",
-        "timestamp": "2024-08-15T02:29:00+00:00",
-        "rawMessage": "KMLT 150229Z AUTO 00000KT 3SM BR FEW001 SCT006 17/16 A3006 RMK AO2 T01670156",
+        "station": "https://api.weather.gov/stations/KBHB",
+        "timestamp": "2024-08-15T02:25:00+00:00",
+        "rawMessage": "KBHB 150225Z AUTO 00000KT 5SM BR BKN011 17/16 A3006 RMK AO2",
         "textDescription": "Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
         "presentWeather": [
@@ -73,13 +73,13 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.699999999999999,
+            "value": 17,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -108,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 8050,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -136,7 +136,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.226340261586003,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -153,16 +153,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 30
+                    "value": 340
                 },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 180
-                },
-                "amount": "SCT"
+                "amount": "BKN"
             }
         ]
     }
