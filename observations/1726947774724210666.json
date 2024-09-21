@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KUUU/observations/2024-09-21T18:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2024-09-21T19:17:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KUUU/observations/2024-09-21T18:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2024-09-21T19:17:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 52
         },
         "station": "https://api.weather.gov/stations/KUUU",
-        "timestamp": "2024-09-21T18:53:00+00:00",
-        "rawMessage": "KUUU 211853Z AUTO 01013G23KT 10SM -RA OVC012 14/13 A2995 RMK AO2 PK WND 03027/1757 SLP140 P0005 T01440133",
+        "timestamp": "2024-09-21T19:17:00+00:00",
+        "rawMessage": "KUUU 211917Z AUTO 01015G25KT 8SM -RA BKN008 OVC013 14/13 A2995 RMK AO2 CIG 008V011 P0002 T01440133",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
         "presentWeather": [
@@ -88,7 +88,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 24.120000000000001,
+            "value": 27.719999999999999,
             "qualityControl": "V"
         },
         "windGust": {
@@ -103,12 +103,12 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101400,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 12870,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,7 +153,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 370
+                    "value": 240
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 400
                 },
                 "amount": "OVC"
             }
