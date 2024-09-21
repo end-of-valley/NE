@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KACK/observations/2024-09-21T04:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KACK/observations/2024-09-21T04:36:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,18 +52,24 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KACK/observations/2024-09-21T04:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KACK/observations/2024-09-21T04:36:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 15
         },
         "station": "https://api.weather.gov/stations/KACK",
-        "timestamp": "2024-09-21T04:15:00+00:00",
-        "rawMessage": "KACK 210415Z 4SM BR BKN007 OVC011 16/15 A2983 RMK AO2 RAEMM P0002 T01610150 $",
-        "textDescription": "Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "timestamp": "2024-09-21T04:36:00+00:00",
+        "rawMessage": "KACK 210436Z 2SM +RA BR BKN006 OVC013 16/15 A2983 RMK AO2 RAEMMB30 P0007 T01610150 $",
+        "textDescription": "Heavy Rain and Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
+            {
+                "intensity": "heavy",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "+RA"
+            },
             {
                 "intensity": null,
                 "modifier": null,
@@ -108,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6440,
+            "value": 3220,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -153,14 +159,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 210
+                    "value": 180
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 340
+                    "value": 400
                 },
                 "amount": "OVC"
             }
