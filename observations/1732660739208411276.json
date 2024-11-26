@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KORH",
         "timestamp": "2024-11-26T20:54:00+00:00",
         "rawMessage": "KORH 262054Z 29009KT 10SM CLR 05/03 A2978 RMK AO2 RAE54 SLP091 P0001 60004 T00500028 53010",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -142,6 +142,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
