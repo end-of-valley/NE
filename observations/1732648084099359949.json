@@ -42,53 +42,59 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2024-11-26T17:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KWVL/observations/2024-11-26T18:26:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.700000000000003,
-            44.960000000000001
+            -69.680000000000007,
+            44.530000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2024-11-26T17:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KWVL/observations/2024-11-26T18:26:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 554
+            "value": 101
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "timestamp": "2024-11-26T17:55:00+00:00",
-        "rawMessage": "K8B0 261755Z AUTO VRB03KT 3SM -SN SCT010 BKN016 BKN027 M00/M00 A2976 RMK AO2 P0009",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
+        "station": "https://api.weather.gov/stations/KWVL",
+        "timestamp": "2024-11-26T18:26:00+00:00",
+        "rawMessage": "KWVL 261826Z AUTO 00000KT 4SM RA BR SCT019 BKN045 OVC055 01/01 A2983 RMK AO2 P0004 FZRANO",
+        "textDescription": "Rain and Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
         "presentWeather": [
             {
-                "intensity": "light",
+                "intensity": null,
                 "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
+                "weather": "rain",
+                "rawString": "RA"
+            },
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 0,
+            "value": 1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 0,
+            "value": 1,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4000000000000004,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,7 +104,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100780,
+            "value": 101020,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -108,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 6440,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -141,7 +147,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -1.7549121214722223,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -153,23 +159,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 580
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 490
+                    "value": 1370
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 820
+                    "value": 1680
                 },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }
