@@ -42,46 +42,53 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-01-05T14:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KBTV/observations/2025-01-05T15:32:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.010000000000005,
-            44.57
+            -73.150000000000006,
+            44.469999999999999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-01-05T14:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBTV/observations/2025-01-05T15:32:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 104
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "timestamp": "2025-01-05T14:55:00+00:00",
-        "rawMessage": "KCDA 051455Z AUTO 29007KT 1 1/4SM BKN015 OVC026 M11/M14 A2982 RMK AO2 T11141145",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KBTV",
+        "timestamp": "2025-01-05T15:32:00+00:00",
+        "rawMessage": "KBTV 051532Z 03011G18KT 3/4SM R15/4000V4500FT -SN BLSN VV013 M11/M14 A2995 RMK AO2 P0000 T11061139",
+        "textDescription": "Light Snow",
+        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "snow",
+                "rawString": "-SN"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -11.4,
+            "value": -10.6,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -14.5,
+            "value": -13.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 290,
+            "value": 30,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.960000000000001,
+            "value": 20.52,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,7 +98,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100980,
+            "value": 101420,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -101,7 +108,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 2010,
+            "value": 1210,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -114,8 +121,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -129,12 +136,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 77.814866079042005,
+            "value": 76.689531969241003,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -17.882071797521622,
+            "value": -18.696202937691055,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -146,16 +153,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 460
+                    "value": 400
                 },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 790
-                },
-                "amount": "OVC"
+                "amount": "VV"
             }
         ]
     }
