@@ -60,9 +60,9 @@
         },
         "station": "https://api.weather.gov/stations/KAQW",
         "timestamp": "2025-01-06T02:52:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KAQW 060252Z AUTO 25010KT 10SM SCT032 M08/M13 A2999 RMK AO2 SLP166 60000 T10781128 51014 $",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -142,6 +142,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 980
+                },
+                "amount": "SCT"
+            }
+        ]
     }
 }
