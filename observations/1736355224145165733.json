@@ -42,31 +42,31 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLEW/observations/2025-01-08T15:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KLCI/observations/2025-01-08T15:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.280000000000001,
-            44.049999999999997
+            -71.420000000000002,
+            43.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-01-08T15:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLCI/observations/2025-01-08T15:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 88
+            "value": 166
         },
-        "station": "https://api.weather.gov/stations/KLEW",
+        "station": "https://api.weather.gov/stations/KLCI",
         "timestamp": "2025-01-08T15:56:00+00:00",
-        "rawMessage": "KLEW 081556Z AUTO 29015G20KT 10SM CLR M08/M17 A2951 RMK AO2 SLP004 T10781167 FZRANO PNO $",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "rawMessage": "KLCI 081556Z AUTO 31014G19KT 10SM BKN090 M09/M17 A2962 RMK AO2 PK WND 30028/1521 SLP040 T10891167 FZRANO",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -7.7999999999999998,
+            "value": -8.9000000000000004,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -91,13 +91,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99930,
+            "value": 100310,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100040,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -129,7 +129,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 48.869399187417002,
+            "value": 53.234143875782003,
             "qualityControl": "V"
         },
         "windChill": {
@@ -146,9 +146,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 2740
                 },
-                "amount": "CLR"
+                "amount": "BKN"
             }
         ]
     }
