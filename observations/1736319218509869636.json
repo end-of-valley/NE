@@ -42,53 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KEFK/observations/2025-01-08T05:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KVSF/observations/2025-01-08T05:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.230000000000004,
-            44.880000000000003
+            -72.519999999999996,
+            43.350000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-01-08T05:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KVSF/observations/2025-01-08T05:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 283
+            "value": 176
         },
-        "station": "https://api.weather.gov/stations/KEFK",
-        "timestamp": "2025-01-08T05:55:00+00:00",
-        "rawMessage": "KEFK 080555Z AUTO 29012G16KT 2SM -SN SCT014 OVC026 M11/M15 A2977 RMK AO2 T11061147 11087 21106",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KVSF",
+        "timestamp": "2025-01-08T05:54:00+00:00",
+        "rawMessage": "",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -10.6,
+            "value": -7.2000000000000002,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -14.699999999999999,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 290,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 22.32,
+            "value": 7.5599999999999996,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,17 +91,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100810,
+            "value": 100850,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 100940,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 3220,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -136,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 71.827638662854994,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -19.037990452562443,
+            "value": -10.995296819812221,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -149,21 +142,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 430
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 790
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
