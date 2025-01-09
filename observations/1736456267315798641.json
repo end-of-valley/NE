@@ -42,36 +42,36 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMVL/observations/2025-01-09T19:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-01-09T20:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.609999999999999,
-            44.530000000000001
+            -71.420000000000002,
+            41.600000000000001
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMVL/observations/2025-01-09T19:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-01-09T20:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 223
+            "value": 6
         },
-        "station": "https://api.weather.gov/stations/KMVL",
-        "timestamp": "2025-01-09T19:54:00+00:00",
-        "rawMessage": "KMVL 091954Z AUTO VRB06G15KT 9SM SCT030 OVC038 M09/M14 A2973 RMK AO2 SNB43E53 SLP081 P0000 T10891144",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KOQU",
+        "timestamp": "2025-01-09T20:15:00+00:00",
+        "rawMessage": "KOQU 092015Z AUTO 32022G27KT 10SM BKN120 M01/M12 A2953 RMK AO2 PK WND 34029/58",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -8.9000000000000004,
+            "value": -1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -14.4,
+            "value": -12,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -81,8 +81,8 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 11.16,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -91,17 +91,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100680,
+            "value": 100000,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100810,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -114,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -129,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 64.397829998077,
+            "value": 43.058636576830999,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -14.305810036311222,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -146,16 +146,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 910
+                    "value": 3660
                 },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1160
-                },
-                "amount": "OVC"
+                "amount": "BKN"
             }
         ]
     }
