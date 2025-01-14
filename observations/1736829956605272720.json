@@ -60,9 +60,9 @@
         },
         "station": "https://api.weather.gov/stations/KBOS",
         "timestamp": "2025-01-14T02:54:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KBOS 140254Z 28013G21KT 10SM FEW043 FEW090 01/M06 A2984 RMK AO2 PK WND 28028/0226 SLP104 T00111061 53003",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -142,6 +142,21 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1310
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2740
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }
