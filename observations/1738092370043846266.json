@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KDDH",
         "timestamp": "2025-01-28T17:54:00+00:00",
         "rawMessage": "KDDH 281754Z AUTO 31011G22KT 270V350 10SM FEW050 M06/M17 A2961 RMK AO2 PK WND 28026/1708 SLP036 60000 T10561172 11006 21056 51030",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -124,8 +124,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -142,6 +142,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1520
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }
