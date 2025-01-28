@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KPQI",
         "timestamp": "2025-01-28T17:56:00+00:00",
         "rawMessage": "KPQI 281756Z AUTO 31012KT 10SM FEW041 M09/M18 A2929 RMK AO2 SLP953 60000 T10891178 11039 21111 53005",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -124,8 +124,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -142,6 +142,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1250
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }

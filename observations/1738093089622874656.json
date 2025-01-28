@@ -61,9 +61,16 @@
         "station": "https://api.weather.gov/stations/KACK",
         "timestamp": "2025-01-28T17:53:00+00:00",
         "rawMessage": "KACK 281753Z 26023G31KT 7SM -SN BKN033 BKN041 OVC060 03/M03 A2954 RMK AO2 SNB46 PRESRR SLP002 P0000 60000 T00331028 10067 20033 53023 $",
-        "textDescription": "Breezy",
-        "icon": "https://api.weather.gov/icons/land/day/wind_?size=medium",
-        "presentWeather": [],
+        "textDescription": "Light Snow",
+        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "snow",
+                "rawString": "-SN"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 3.2999999999999998,
@@ -114,8 +121,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -124,8 +131,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -142,6 +149,28 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1010
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1250
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1830
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
