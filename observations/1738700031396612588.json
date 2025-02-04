@@ -42,54 +42,47 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KWVL/observations/2025-02-04T18:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KHVN/observations/2025-02-04T18:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.680000000000007,
-            44.530000000000001
+            -72.879999999999995,
+            41.270000000000003
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KWVL/observations/2025-02-04T18:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHVN/observations/2025-02-04T18:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 101
+            "value": 4
         },
-        "station": "https://api.weather.gov/stations/KWVL",
-        "timestamp": "2025-02-04T18:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KHVN",
+        "timestamp": "2025-02-04T18:53:00+00:00",
+        "rawMessage": "KHVN 041853Z 34015G26KT 10SM CLR 07/M08 A2995 RMK AO2 PK WND 33032/1816 SLP140 T00671078",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -1.7,
+            "value": 6.7000000000000002,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -12.199999999999999,
+            "value": -7.7999999999999998,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 340,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 27.719999999999999,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,17 +91,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100780,
+            "value": 101420,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101400,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -136,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 44.604351372419998,
+            "value": 34.741164053448003,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 2.4735248739100002,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -149,6 +142,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
