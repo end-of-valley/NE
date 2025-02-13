@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-02-13T06:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KBDL/observations/2025-02-13T07:21:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,23 +52,23 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-02-13T06:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-02-13T07:21:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 55
         },
         "station": "https://api.weather.gov/stations/KBDL",
-        "timestamp": "2025-02-13T06:51:00+00:00",
-        "rawMessage": "KBDL 130651Z 01004KT 1 1/2SM -FZRA BR FEW005 OVC017 M01/M01 A3020 RMK AO2 SFC VIS 2 1/2 FZRAB51SNE51 SLP227 P0001 I1000 T10061011",
-        "textDescription": "Light Freezing Rain and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/fzra?size=medium",
+        "timestamp": "2025-02-13T07:21:00+00:00",
+        "rawMessage": "KBDL 130721Z 36004KT 1 1/2SM -PL BR FEW005 OVC016 M01/M01 A3019 RMK AO2 SFC VIS 2 1/2 FZRAE21PLB21 P0002 I1000 T10061011",
+        "textDescription": "Light Sleet and Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/sleet?size=medium",
         "presentWeather": [
             {
                 "intensity": "light",
-                "modifier": "freezing",
-                "weather": "rain",
-                "rawString": "-FZRA"
+                "modifier": null,
+                "weather": "ice_pellets",
+                "rawString": "-PL"
             },
             {
                 "intensity": null,
@@ -89,7 +89,7 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 10,
+            "value": 360,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -104,13 +104,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102270,
+            "value": 102240,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102270,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -166,7 +166,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 520
+                    "value": 490
                 },
                 "amount": "OVC"
             }
