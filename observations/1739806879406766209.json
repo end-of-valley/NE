@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KHYA",
         "timestamp": "2025-02-17T13:56:00+00:00",
         "rawMessage": "KHYA 171356Z 27020G42KT 10SM FEW050 M02/M11 A2947 RMK AO2 PK WND 27044/1342 SNB1257E07 PRESRR SLP979 P0000 T10171111",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "textDescription": "Mostly Clear and Windy",
+        "icon": "https://api.weather.gov/icons/land/day/wind_few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -76,13 +76,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 270,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 37.08,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -134,7 +134,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": -9.38526132682111,
             "qualityControl": "V"
         },
         "heatIndex": {
