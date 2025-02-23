@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAQW/observations/2025-02-23T09:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-02-23T10:34:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-02-23T09:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-02-23T10:34:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 201
+            "value": 196
         },
         "station": "https://api.weather.gov/stations/KAQW",
-        "timestamp": "2025-02-23T09:52:00+00:00",
-        "rawMessage": "KAQW 230952Z AUTO 27008KT 2 1/2SM -SN OVC028 M03/M06 A3002 RMK AO2 SNB25 SLP175 P0000 T10281061",
+        "timestamp": "2025-02-23T10:34:00+00:00",
+        "rawMessage": "",
         "textDescription": "Light Snow",
         "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
         "presentWeather": [
@@ -73,7 +73,7 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -2.8,
+            "value": -3.3,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -83,12 +83,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 270,
+            "value": 250,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101660,
+            "value": 101659.39,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101750,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4020,
+            "value": 9656.06,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -141,7 +141,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -7.799076764430556,
+            "value": -8.013170745707777,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -153,7 +153,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 850
+                    "value": 914.4
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1280.16
                 },
                 "amount": "OVC"
             }
