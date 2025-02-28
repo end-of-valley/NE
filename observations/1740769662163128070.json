@@ -42,31 +42,31 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KRKD/observations/2025-02-28T17:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KPVD/observations/2025-02-28T17:51:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.09,
-            44.07
+            -71.43,
+            41.7299999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-02-28T17:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-02-28T17:51:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 17
+            "value": 19
         },
-        "station": "https://api.weather.gov/stations/KRKD",
-        "timestamp": "2025-02-28T17:56:00+00:00",
-        "rawMessage": "KRKD 281756Z AUTO 31013G21KT 260V350 10SM CLR 03/M10 A2951 RMK AO2 PK WND 29029/1708 SLP994 60000 T00281100 10056 21006 53024 $",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KPVD",
+        "timestamp": "2025-02-28T17:51:00+00:00",
+        "rawMessage": "KPVD 281751Z 29015G27KT 10SM FEW055 FEW250 07/M12 A2964 RMK AO2 PK WND 30033/1652 SLP038 T00721122 10089 20028 53011",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 2.8,
+            "value": 7.2,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -91,12 +91,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99930,
+            "value": 100370,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99940,
+            "value": 100380,
             "qualityControl": "V"
         },
         "visibility": {
@@ -124,8 +124,8 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
@@ -146,9 +146,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1680
                 },
-                "amount": "CLR"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 7620
+                },
+                "amount": "FEW"
             }
         ]
     }
