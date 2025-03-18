@@ -42,49 +42,36 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2025-03-18T02:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNR/observations/2025-03-18T02:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.05,
-            46.68
+            -69.55,
+            45.46
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2025-03-18T02:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-03-18T02:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 146
+            "value": 427
         },
-        "station": "https://api.weather.gov/stations/KPQI",
+        "station": "https://api.weather.gov/stations/KGNR",
         "timestamp": "2025-03-18T02:56:00+00:00",
-        "rawMessage": "KPQI 180256Z AUTO 33011KT 3SM -SN BR SCT010 OVC027 M01/M01 A2995 RMK AO2 SLP172 P0000 60003 T10061011 51015",
-        "textDescription": "Light Snow and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            },
-            {
-                "intensity": null,
-                "modifier": null,
-                "weather": "fog_mist",
-                "rawString": "BR"
-            }
-        ],
+        "rawMessage": "KGNR 180256Z AUTO 33014G23KT 00/M02 A2987 RMK AO1 SLP128 P0001 60007 T00001017 51012",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -0.6,
+            "value": 0,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -1.1,
+            "value": -1.7,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -94,7 +81,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 20.52,
+            "value": 25.92,
             "qualityControl": "V"
         },
         "windGust": {
@@ -104,18 +91,18 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101420,
-            "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-            "unitCode": "wmoUnit:Pa",
             "value": null,
             "qualityControl": "Z"
         },
+        "seaLevelPressure": {
+            "unitCode": "wmoUnit:Pa",
+            "value": 101280,
+            "qualityControl": "V"
+        },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -142,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.414414801711,
+            "value": 88.324683513715,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -6.056978953414444,
+            "value": -6.000366281298889,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -155,21 +142,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 300
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 820
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
