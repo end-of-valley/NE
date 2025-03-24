@@ -42,53 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMPV/observations/2025-03-24T12:57:00+00:00",
+    "id": "https://api.weather.gov/stations/KGNR/observations/2025-03-24T12:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.56,
-            44.2
+            -69.55,
+            45.46
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMPV/observations/2025-03-24T12:57:00+00:00",
+        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-03-24T12:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 355
+            "value": 427
         },
-        "station": "https://api.weather.gov/stations/KMPV",
-        "timestamp": "2025-03-24T12:57:00+00:00",
-        "rawMessage": "KMPV 241257Z AUTO 17011G20KT 1 1/2SM -SN BKN014 OVC036 M04/M07 A2995 RMK AO2 P0000 T10391067",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/day/snow?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KGNR",
+        "timestamp": "2025-03-24T12:56:00+00:00",
+        "rawMessage": "KGNR 241256Z AUTO 14008KT M08/M13 A3001 RMK AO1 SLP189 T10781133",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -3.9,
+            "value": -7.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -6.7,
+            "value": -13.3,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 170,
+            "value": 140,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 20.52,
+            "value": 14.76,
             "qualityControl": "V"
         },
         "windGust": {
@@ -103,13 +96,13 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101890,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 2410,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -121,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -136,12 +129,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 80.879103407165,
+            "value": 64.665972791287,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -10.227922868225555,
+            "value": -13.953742800243333,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -149,21 +142,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 430
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1100
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
