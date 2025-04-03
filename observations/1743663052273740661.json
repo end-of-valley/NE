@@ -61,9 +61,16 @@
         "station": "https://api.weather.gov/stations/KLEW",
         "timestamp": "2025-04-03T03:56:00+00:00",
         "rawMessage": "KLEW 030356Z AUTO 21009KT 10SM UP OVC041 M01/M04 A3048 RMK AO2 RAB02E13UPB13 SLP331 T10061039 FZRANO PNO $",
-        "textDescription": "",
-        "icon": null,
-        "presentWeather": [],
+        "textDescription": "Unknown Precipitation",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "unknown",
+                "rawString": "UP"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": -0.6,
@@ -142,6 +149,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1250
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
