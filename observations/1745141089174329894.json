@@ -42,36 +42,36 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KEFK/observations/2025-04-20T07:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KHIE/observations/2025-04-20T08:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.23,
-            44.88
+            -71.55,
+            44.35
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-04-20T07:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-04-20T08:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 283
+            "value": 319
         },
-        "station": "https://api.weather.gov/stations/KEFK",
-        "timestamp": "2025-04-20T07:55:00+00:00",
-        "rawMessage": "KEFK 200755Z AUTO 28018G24KT 10SM BKN027 OVC038 07/01 A2999 RMK AO2 T00660005",
+        "station": "https://api.weather.gov/stations/KHIE",
+        "timestamp": "2025-04-20T08:18:00+00:00",
+        "rawMessage": "KHIE 200818Z AUTO 31023G33KT 10SM FEW028 BKN036 OVC065 08/01 A2994 RMK AO2 PK WND 30033/0817 T00780011",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.6,
+            "value": 7.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 0.5,
+            "value": 1.1,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -91,8 +91,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101560,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -129,7 +129,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 65.06483333381,
+            "value": 62.58483935326,
             "qualityControl": "V"
         },
         "windChill": {
@@ -146,14 +146,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 820
+                    "value": 850
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1100
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1160
+                    "value": 1980
                 },
                 "amount": "OVC"
             }
