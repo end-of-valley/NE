@@ -60,9 +60,9 @@
         },
         "station": "https://api.weather.gov/stations/KMLT",
         "timestamp": "2025-04-27T05:09:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KMLT 270509Z AUTO VRB05G15KT 10SM FEW007 OVC021 07/06 A2966 RMK AO2 T00670056",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -142,6 +142,21 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 210
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 640
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
