@@ -42,46 +42,53 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNR/observations/2025-04-28T01:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KHIE/observations/2025-04-28T02:58:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.55,
-            45.46
+            -71.55,
+            44.35
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-04-28T01:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-04-28T02:58:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 427
+            "value": 319
         },
-        "station": "https://api.weather.gov/stations/KGNR",
-        "timestamp": "2025-04-28T01:56:00+00:00",
-        "rawMessage": "KGNR 280156Z AUTO 35014G31KT 04/03 A2990 RMK AO1 PK WND 01052/0132 SLP137 P0004 T00440028",
-        "textDescription": "",
-        "icon": null,
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KHIE",
+        "timestamp": "2025-04-28T02:58:00+00:00",
+        "rawMessage": "KHIE 280258Z AUTO 00000KT 3SM BR FEW001 02/01 A3003 RMK AO2 T00170011",
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 4.4,
+            "value": 1.7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 2.8,
+            "value": 1.1,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 350,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 25.92,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,18 +98,18 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101690,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101370,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 4830,
+            "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -114,8 +121,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -129,12 +136,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.344634867018,
+            "value": 95.789756140034,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -0.33145236398,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -142,6 +149,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 30
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }
