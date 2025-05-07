@@ -42,46 +42,53 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-05-07T03:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KBML/observations/2025-05-07T04:39:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.68,
-            41.93
+            -71.18,
+            44.58
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-05-07T03:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBML/observations/2025-05-07T04:39:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 55
+            "value": 353
         },
-        "station": "https://api.weather.gov/stations/KBDL",
-        "timestamp": "2025-05-07T03:51:00+00:00",
-        "rawMessage": "KBDL 070351Z 16008KT 9SM BKN007 BKN014 OVC019 16/15 A2997 RMK AO2 DZB07E51 SLP149 P0000 T01560150",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KBML",
+        "timestamp": "2025-05-07T04:39:00+00:00",
+        "rawMessage": "KBML 070439Z AUTO 00000KT 10SM -RA SCT014 BKN070 OVC090 12/11 A2999 RMK AO2 RAB06 P0000 T01170106",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
+            "value": 11.7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 15,
+            "value": 10.6,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 160,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -91,17 +98,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101490,
+            "value": 101560,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101490,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -129,7 +136,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.222192128596,
+            "value": 92.966926628606,
             "qualityControl": "V"
         },
         "windChill": {
@@ -146,21 +153,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 210
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
                     "value": 430
                 },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2130
+                },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 580
+                    "value": 2740
                 },
                 "amount": "OVC"
             }
