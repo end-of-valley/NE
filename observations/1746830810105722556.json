@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOQU/observations/2025-05-09T21:50:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-05-09T21:55:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,15 +52,15 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-05-09T21:50:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-05-09T21:55:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 6
         },
         "station": "https://api.weather.gov/stations/KOQU",
-        "timestamp": "2025-05-09T21:50:00+00:00",
-        "rawMessage": "KOQU 092150Z AUTO 08016G26KT 21/2SM RA BR BKN005 BKN014 12/12 A2993 RMK AO2",
+        "timestamp": "2025-05-09T21:55:00+00:00",
+        "rawMessage": "KOQU 092155Z AUTO 05018KT 4SM RA BR SCT005 SCT009 BKN014 12/12 A2990 RMK AO2 PK WND 04026/40 P0027",
         "textDescription": "Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
         "presentWeather": [
@@ -89,12 +89,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 80,
+            "value": 50,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 29.52,
+            "value": 33.48,
             "qualityControl": "V"
         },
         "windGust": {
@@ -104,7 +104,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101360,
+            "value": 101250,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -114,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4020,
+            "value": 6440,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -127,8 +127,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 10,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -161,7 +161,14 @@
                     "unitCode": "wmoUnit:m",
                     "value": 150
                 },
-                "amount": "BKN"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 270
+                },
+                "amount": "SCT"
             },
             {
                 "base": {
