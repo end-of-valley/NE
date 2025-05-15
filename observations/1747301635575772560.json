@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOQU/observations/2025-05-15T08:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-05-15T08:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,23 +52,29 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-05-15T08:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-05-15T08:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
             "value": 6
         },
         "station": "https://api.weather.gov/stations/KOQU",
-        "timestamp": "2025-05-15T08:15:00+00:00",
-        "rawMessage": "KOQU 150815Z AUTO 14004KT 9SM -DZ OVC005 16/16 A2998 RMK AO2 LTG DSNT W AND NW",
-        "textDescription": "Light Drizzle",
+        "timestamp": "2025-05-15T08:35:00+00:00",
+        "rawMessage": "KOQU 150835Z AUTO 14003KT 5SM -RA BR OVC005 16/16 A2998 RMK AO2",
+        "textDescription": "Light Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
             {
                 "intensity": "light",
                 "modifier": null,
-                "weather": "drizzle",
-                "rawString": "-DZ"
+                "weather": "rain",
+                "rawString": "-RA"
+            },
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
             }
         ],
         "temperature": {
@@ -88,7 +94,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -108,7 +114,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 8050,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
