@@ -42,47 +42,47 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBTV/observations/2025-05-18T13:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KFIT/observations/2025-05-18T13:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.15,
-            44.47
+            -71.76,
+            42.55
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBTV/observations/2025-05-18T13:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFIT/observations/2025-05-18T13:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 104
+            "value": 106
         },
-        "station": "https://api.weather.gov/stations/KBTV",
-        "timestamp": "2025-05-18T13:54:00+00:00",
-        "rawMessage": "KBTV 181354Z 20008KT 10SM SCT009 BKN017 OVC055 14/12 A2943 RMK AO2 RAE31B38E46 SLP967 P0001 T01440122",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KFIT",
+        "timestamp": "2025-05-18T13:52:00+00:00",
+        "rawMessage": "KFIT 181352Z AUTO 25015G22KT 220V290 10SM FEW030 SCT043 18/10 A2949 RMK AO2 SLP986 T01780100",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 17.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.2,
+            "value": 10,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 200,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -91,12 +91,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99660,
+            "value": 99870,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99670,
+            "value": 99860,
             "qualityControl": "V"
         },
         "visibility": {
@@ -114,8 +114,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -129,7 +129,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 86.639151568653,
+            "value": 60.277058019152,
             "qualityControl": "V"
         },
         "windChill": {
@@ -146,23 +146,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 270
+                    "value": 910
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1310
                 },
                 "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 520
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1680
-                },
-                "amount": "OVC"
             }
         ]
     }
