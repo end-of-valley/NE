@@ -42,30 +42,36 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPVD/observations/2025-05-22T21:27:00+00:00",
+    "id": "https://api.weather.gov/stations/KHYA/observations/2025-05-22T22:17:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.43,
-            41.7299999
+            -70.28,
+            41.67
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-05-22T21:27:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHYA/observations/2025-05-22T22:17:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 19
+            "value": 16
         },
-        "station": "https://api.weather.gov/stations/KPVD",
-        "stationId": "KPVD",
-        "stationName": "Rhode Island TF Green International Airport",
-        "timestamp": "2025-05-22T21:27:00+00:00",
-        "rawMessage": "KPVD 222127Z 01017G26KT 3SM +RA BR SCT009 BKN017 OVC032 08/07 A2978 RMK AO2 PK WND 03031/2100 P0017 T00780072",
-        "textDescription": "Heavy Rain and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "station": "https://api.weather.gov/stations/KHYA",
+        "stationId": "KHYA",
+        "stationName": "Hyannis, Barnstable Municipal-Boardman Airport",
+        "timestamp": "2025-05-22T22:17:00+00:00",
+        "rawMessage": "KHYA 222217Z 08024G45KT 1 1/2SM +TSRA BR OVC005 10/09 A2951 RMK AO2 PK WND 10045/2212 LTG DSNT SW TSB17 TS S MOVG E P0010 T01000094 $",
+        "textDescription": "Heavy Thunderstorms and Heavy Rain and Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/day/tsra?size=medium",
         "presentWeather": [
+            {
+                "intensity": "heavy",
+                "modifier": null,
+                "weather": "thunderstorms",
+                "rawString": "+TS"
+            },
             {
                 "intensity": "heavy",
                 "modifier": null,
@@ -81,22 +87,22 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.8,
+            "value": 10,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.2,
+            "value": 9.4,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 10,
+            "value": 80,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 31.68,
+            "value": 44.64,
             "qualityControl": "V"
         },
         "windGust": {
@@ -106,8 +112,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100850,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -116,7 +122,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 2410,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -144,12 +150,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 95.988158411757,
+            "value": 96.056307711081,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.5947131682011113,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -161,21 +167,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 270
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 520
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 980
+                    "value": 150
                 },
                 "amount": "OVC"
             }
