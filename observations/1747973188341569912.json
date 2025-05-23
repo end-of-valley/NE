@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-05-23T02:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KPYM/observations/2025-05-23T03:24:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.68,
-            41.93
+            -70.73,
+            41.92
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-05-23T02:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPYM/observations/2025-05-23T03:24:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 55
+            "value": 45
         },
-        "station": "https://api.weather.gov/stations/KBDL",
-        "stationId": "KBDL",
-        "stationName": "Windsor Locks, Bradley International Airport",
-        "timestamp": "2025-05-23T02:51:00+00:00",
-        "rawMessage": "KBDL 230251Z 35012G21KT 4SM RA BR OVC055 06/05 A2980 RMK AO2 SLP091 P0014 60030 T00560050 58010",
+        "station": "https://api.weather.gov/stations/KPYM",
+        "stationId": "KPYM",
+        "stationName": "Plymouth, Plymouth Municipal Airport",
+        "timestamp": "2025-05-23T03:24:00+00:00",
+        "rawMessage": "KPYM 230324Z AUTO 36014G27KT 4SM RA BR FEW007 SCT022 OVC038 08/07 A2960 RMK AO2 PK WND 01028/0310 P0005 T00780072",
         "textDescription": "Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -81,23 +81,23 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 5.6,
+            "value": 7.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 5,
+            "value": 7.2,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 360,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 25.92,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -106,13 +106,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100920,
+            "value": 100240,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100910,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -134,8 +134,8 @@
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 10,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -144,12 +144,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 95.918240233481,
+            "value": 95.988158411757,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 4.049072026675,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -161,7 +161,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1680
+                    "value": 210
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 670
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1160
                 },
                 "amount": "OVC"
             }
