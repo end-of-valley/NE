@@ -42,55 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-05-23T08:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KMVL/observations/2025-05-23T08:38:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.7,
-            44.96
+            -72.61,
+            44.53
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-05-23T08:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMVL/observations/2025-05-23T08:38:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 554
+            "value": 223
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "stationId": "K8B0",
-        "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2025-05-23T08:15:00+00:00",
-        "rawMessage": "K8B0 230815Z AUTO 05011G16KT 3SM -SN OVC005 01/01 A2980 RMK AO2 LTG DSNT SE-SW",
-        "textDescription": "Light Snow",
-        "icon": "https://api.weather.gov/icons/land/night/snow?size=medium",
+        "station": "https://api.weather.gov/stations/KMVL",
+        "stationId": "KMVL",
+        "stationName": "Morrisville-Stowe State Airport",
+        "timestamp": "2025-05-23T08:38:00+00:00",
+        "rawMessage": "KMVL 230838Z AUTO 00000KT 10SM -RA FEW004 BKN014 OVC019 06/04 A2980 RMK AO2 RAB14 P0000 T00610039",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
             {
                 "intensity": "light",
                 "modifier": null,
-                "weather": "snow",
-                "rawString": "-SN"
+                "weather": "rain",
+                "rawString": "-RA"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 1,
+            "value": 6.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 1,
+            "value": 3.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 50,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 20.52,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -110,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -123,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -138,12 +138,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 100,
+            "value": 85.79775135553,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -4.03470311593,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -155,7 +155,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 150
+                    "value": 120
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 430
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 580
                 },
                 "amount": "OVC"
             }

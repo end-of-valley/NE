@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBVY/observations/2025-05-23T08:20:00+00:00",
+    "id": "https://api.weather.gov/stations/KBVY/observations/2025-05-23T08:28:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBVY/observations/2025-05-23T08:20:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBVY/observations/2025-05-23T08:28:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KBVY",
         "stationId": "KBVY",
         "stationName": "Beverly, Beverly Municipal Airport",
-        "timestamp": "2025-05-23T08:20:00+00:00",
-        "rawMessage": "KBVY 230820Z AUTO 36016G33KT 3SM -RA BR BKN010 OVC018 07/06 A2963 RMK AO2 PK WND 34035/0801 P0000 T00670061",
+        "timestamp": "2025-05-23T08:28:00+00:00",
+        "rawMessage": "KBVY 230828Z AUTO 36013G24KT 2 1/2SM -RA BR FEW007 BKN012 OVC018 07/06 A2963 RMK AO2 PK WND 34035/0801 P0000 T00670061",
         "textDescription": "Light Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -91,13 +91,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 360,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 24.12,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -116,7 +116,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 4020,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -149,7 +149,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 2.799683354908889,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -161,7 +161,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 210
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 370
                 },
                 "amount": "BKN"
             },
