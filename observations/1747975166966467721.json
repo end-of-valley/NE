@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPYM/observations/2025-05-23T03:24:00+00:00",
+    "id": "https://api.weather.gov/stations/KPYM/observations/2025-05-23T03:39:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPYM/observations/2025-05-23T03:24:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPYM/observations/2025-05-23T03:39:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,16 +61,16 @@
         "station": "https://api.weather.gov/stations/KPYM",
         "stationId": "KPYM",
         "stationName": "Plymouth, Plymouth Municipal Airport",
-        "timestamp": "2025-05-23T03:24:00+00:00",
-        "rawMessage": "KPYM 230324Z AUTO 36014G27KT 4SM RA BR FEW007 SCT022 OVC038 08/07 A2960 RMK AO2 PK WND 01028/0310 P0005 T00780072",
-        "textDescription": "Rain and Fog/Mist",
+        "timestamp": "2025-05-23T03:39:00+00:00",
+        "rawMessage": "KPYM 230339Z AUTO 36014G24KT 5SM -RA BR SCT007 BKN018 OVC040 08/07 A2959 RMK AO2 PK WND 01028/0310 P0009 T00780072",
+        "textDescription": "Light Rain and Fog/Mist",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
             {
-                "intensity": null,
+                "intensity": "light",
                 "modifier": null,
                 "weather": "rain",
-                "rawString": "RA"
+                "rawString": "-RA"
             },
             {
                 "intensity": null,
@@ -106,7 +106,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100240,
+            "value": 100200,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -116,7 +116,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6440,
+            "value": 8050,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -163,19 +163,19 @@
                     "unitCode": "wmoUnit:m",
                     "value": 210
                 },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 670
-                },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1160
+                    "value": 550
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1220
                 },
                 "amount": "OVC"
             }
