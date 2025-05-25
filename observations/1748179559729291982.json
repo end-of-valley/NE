@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHIE/observations/2025-05-25T11:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-05-25T12:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.55,
-            44.35
+            -71.42,
+            41.6
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-05-25T11:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-05-25T12:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 319
+            "value": 6
         },
-        "station": "https://api.weather.gov/stations/KHIE",
-        "stationId": "KHIE",
-        "stationName": "Whitefield - Mount Washington Regional Airport",
-        "timestamp": "2025-05-25T11:52:00+00:00",
-        "rawMessage": "KHIE 251152Z AUTO 28003KT 10SM BKN014 BKN021 OVC041 08/06 A2997 RMK AO2 SLP157 60000 70013 T00780061 10078 20056 53006",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KOQU",
+        "stationId": "KOQU",
+        "stationName": "N. Kingston / Quonset",
+        "timestamp": "2025-05-25T12:15:00+00:00",
+        "rawMessage": "KOQU 251215Z AUTO 31013KT 10SM FEW025 BKN050 14/09 A3001 RMK AO2",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.8,
+            "value": 14,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.1,
+            "value": 9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 280,
+            "value": 310,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 24.12,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101490,
+            "value": 101630,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101570,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -126,17 +126,17 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.000869667825,
+            "value": 71.84904007654,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.139943476366111,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -148,23 +148,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 430
+                    "value": 760
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 640
+                    "value": 1520
                 },
                 "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1250
-                },
-                "amount": "OVC"
             }
         ]
     }
