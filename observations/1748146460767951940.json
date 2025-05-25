@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2025-05-25T02:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KBML/observations/2025-05-25T03:03:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2025-05-25T02:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBML/observations/2025-05-25T03:03:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,8 +61,8 @@
         "station": "https://api.weather.gov/stations/KBML",
         "stationId": "KBML",
         "stationName": "Berlin, Berlin Municipal Airport",
-        "timestamp": "2025-05-25T02:52:00+00:00",
-        "rawMessage": "KBML 250252Z AUTO 33004KT 10SM FEW019 BKN027 OVC033 07/04 A2989 RMK AO2 RAE16 SLP128 P0000 60000 T00670044 50001",
+        "timestamp": "2025-05-25T03:03:00+00:00",
+        "rawMessage": "KBML 250303Z AUTO 34004KT 10SM SCT027 OVC037 07/04 A2989 RMK AO2 T00670039",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
@@ -73,12 +73,12 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 4.4,
+            "value": 3.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 330,
+            "value": 340,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -98,8 +98,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101280,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -116,13 +116,13 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 85.262756549264,
+            "value": 82.325880313448,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,21 +148,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 580
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
                     "value": 820
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1010
+                    "value": 1130
                 },
                 "amount": "OVC"
             }
