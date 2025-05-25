@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBID/observations/2025-05-25T02:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KFIT/observations/2025-05-25T03:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.58,
-            41.17
+            -71.76,
+            42.55
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBID/observations/2025-05-25T02:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFIT/observations/2025-05-25T03:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 33
+            "value": 106
         },
-        "station": "https://api.weather.gov/stations/KBID",
-        "stationId": "KBID",
-        "stationName": "Block Island State Airport",
-        "timestamp": "2025-05-25T02:56:00+00:00",
-        "rawMessage": "KBID 250256Z AUTO 31008KT 10SM OVC070 12/08 A2996 RMK AO2 RAB18E30 SLP147 P0000 60000 T01220078 51011 $",
+        "station": "https://api.weather.gov/stations/KFIT",
+        "stationId": "KFIT",
+        "stationName": "Fitchburg, Fitchburg Municipal Airport",
+        "timestamp": "2025-05-25T03:52:00+00:00",
+        "rawMessage": "KFIT 250352Z AUTO 31006KT 10SM FEW043 BKN060 OVC075 11/07 A2995 RMK AO2 SLP141 T01060067",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.2,
+            "value": 10.6,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.8,
+            "value": 6.7,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -83,7 +83,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101460,
+            "value": 101420,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101470,
+            "value": 101410,
             "qualityControl": "V"
         },
         "visibility": {
@@ -116,13 +116,13 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 74.499044679056,
+            "value": 76.817807374338,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,7 +148,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2130
+                    "value": 1310
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1830
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2290
                 },
                 "amount": "OVC"
             }
