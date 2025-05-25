@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMPV/observations/2025-05-25T17:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2025-05-25T18:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.56,
-            44.2
+            -72.01,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMPV/observations/2025-05-25T17:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-05-25T18:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 355
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KMPV",
-        "stationId": "KMPV",
-        "stationName": "Barre / Montpelier, Knapp State Airport",
-        "timestamp": "2025-05-25T17:51:00+00:00",
-        "rawMessage": "KMPV 251751Z AUTO 33005KT 10SM BKN028 OVC033 10/05 A3007 RMK AO2 SLP191 60000 T01000050 10100 20072 53008",
+        "station": "https://api.weather.gov/stations/KCDA",
+        "stationId": "KCDA",
+        "stationName": "Caledonia County Airport",
+        "timestamp": "2025-05-25T18:15:00+00:00",
+        "rawMessage": "KCDA 251815Z AUTO 00000KT 10SM SCT021 BKN028 OVC034 10/06 A3005 RMK AO2 T01020057",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 10,
+            "value": 10.2,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 5,
+            "value": 5.7,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 330,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101760,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101910,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -126,12 +126,12 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 71.088489426375,
+            "value": 73.637622429138,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,6 +148,13 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
+                    "value": 640
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
                     "value": 850
                 },
                 "amount": "BKN"
@@ -155,7 +162,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1010
+                    "value": 1040
                 },
                 "amount": "OVC"
             }
