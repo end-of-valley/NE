@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KRKD/observations/2025-05-29T15:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KBDL/observations/2025-05-29T16:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.09,
-            44.07
+            -72.68,
+            41.93
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-05-29T15:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-05-29T16:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 17
+            "value": 55
         },
-        "station": "https://api.weather.gov/stations/KRKD",
-        "stationId": "KRKD",
-        "stationName": "Rockland, Knox County Regional Airport",
-        "timestamp": "2025-05-29T15:56:00+00:00",
-        "rawMessage": "KRKD 291556Z AUTO 20010G18KT 10SM CLR 19/12 A3005 RMK AO2 SLP174 T01940122 PNO $",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KBDL",
+        "stationId": "KBDL",
+        "stationName": "Windsor Locks, Bradley International Airport",
+        "timestamp": "2025-05-29T16:18:00+00:00",
+        "rawMessage": "KBDL 291618Z 00000KT 9SM SCT011 BKN015 OVC020 17/14 A3002 RMK AO2 T01670139",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 16.7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.2,
+            "value": 13.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 200,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 18.36,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101760,
+            "value": 101660,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101740,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 14480,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 63.10142584486,
+            "value": 83.550482942249,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 340
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 460
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 610
+                },
+                "amount": "OVC"
             }
         ]
     }

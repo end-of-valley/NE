@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KEFK/observations/2025-05-29T15:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KBTV/observations/2025-05-29T15:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.23,
-            44.88
+            -73.15,
+            44.47
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-05-29T15:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBTV/observations/2025-05-29T15:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 283
+            "value": 104
         },
-        "station": "https://api.weather.gov/stations/KEFK",
-        "stationId": "KEFK",
-        "stationName": "Northeast Kingdom International Airport",
-        "timestamp": "2025-05-29T15:55:00+00:00",
-        "rawMessage": "KEFK 291555Z AUTO 00000KT 10SM BKN100 21/09 A3000 RMK AO2 T02120094",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KBTV",
+        "stationId": "KBTV",
+        "stationName": "Burlington, Burlington International Airport",
+        "timestamp": "2025-05-29T15:54:00+00:00",
+        "rawMessage": "KBTV 291554Z 19013G18KT 10SM BKN065 OVC090 19/12 A2998 RMK AO2 SLP150 T01940117",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.2,
+            "value": 19.4,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 9.4,
+            "value": 11.7,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 190,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 24.12,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101590,
+            "value": 101520,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101500,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 46.871478065034,
+            "value": 61.056691641937,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 20.59942192725389,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3050
+                    "value": 1980
                 },
                 "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2740
+                },
+                "amount": "OVC"
             }
         ]
     }
