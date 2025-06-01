@@ -42,56 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPSF/observations/2025-05-31T21:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KPVD/observations/2025-05-31T21:51:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.29,
-            42.43
+            -71.43,
+            41.7299999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPSF/observations/2025-05-31T21:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-05-31T21:51:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 364
+            "value": 19
         },
-        "station": "https://api.weather.gov/stations/KPSF",
-        "stationId": "KPSF",
-        "stationName": "Pittsfield Municipal Airport",
-        "timestamp": "2025-05-31T21:54:00+00:00",
-        "rawMessage": "KPSF 312154Z AUTO 29013G26KT 9SM -RA SCT008 OVC012 09/08 A2929 RMK AO2 PK WND 27034/2108 SLP906 P0018 T00940078",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KPVD",
+        "stationId": "KPVD",
+        "stationName": "Rhode Island TF Green International Airport",
+        "timestamp": "2025-05-31T21:51:00+00:00",
+        "rawMessage": "KPVD 312151Z 26018G27KT 10SM FEW025 SCT035 SCT130 BKN250 17/12 A2920 RMK AO2 PK WND 26034/2114 SLP888 T01670122",
+        "textDescription": "Mostly Cloudy and Windy",
+        "icon": "https://api.weather.gov/icons/land/day/wind_bkn?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 9.4,
+            "value": 16.7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.8,
+            "value": 12.2,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 260,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 33.48,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -100,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99190,
+            "value": 98880,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99060,
+            "value": 98880,
             "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -123,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.741574390528,
+            "value": 74.769652314474,
             "qualityControl": "V"
         },
         "windChill": {
@@ -155,16 +148,30 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 240
+                    "value": 760
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1070
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 370
+                    "value": 3960
                 },
-                "amount": "OVC"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 7620
+                },
+                "amount": "BKN"
             }
         ]
     }
