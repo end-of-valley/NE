@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2025-06-02T08:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KMLT/observations/2025-06-02T09:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.05,
-            46.68
+            -68.68,
+            45.65
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2025-06-02T08:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMLT/observations/2025-06-02T09:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 146
+            "value": 124
         },
-        "station": "https://api.weather.gov/stations/KPQI",
-        "stationId": "KPQI",
-        "stationName": "Presque Isle",
-        "timestamp": "2025-06-02T08:56:00+00:00",
-        "rawMessage": "KPQI 020856Z AUTO 22008KT 10SM BKN070 OVC095 09/06 A2970 RMK AO2 SLP084 T00890061 51014",
+        "station": "https://api.weather.gov/stations/KMLT",
+        "stationId": "KMLT",
+        "stationName": "Millinocket, Millinocket Municipal Airport",
+        "timestamp": "2025-06-02T09:53:00+00:00",
+        "rawMessage": "KMLT 020953Z AUTO VRB03KT 10SM BKN036 BKN080 OVC100 10/07 A2978 RMK AO2 SLP089 T01000067",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 8.9,
+            "value": 10,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.1,
+            "value": 6.7,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 220,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100580,
+            "value": 100850,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 100890,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,12 +131,12 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 82.606319428922,
+            "value": 79.956420984676,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 6.6028417593711115,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -148,14 +148,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2130
+                    "value": 1100
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2900
+                    "value": 2440
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3050
                 },
                 "amount": "OVC"
             }
