@@ -42,48 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-06-04T04:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-06-04T04:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.01,
-            44.57
+            -71.42,
+            41.6
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-06-04T04:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-06-04T04:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 6
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "stationId": "KCDA",
-        "stationName": "Caledonia County Airport",
-        "timestamp": "2025-06-04T04:15:00+00:00",
-        "rawMessage": "KCDA 040415Z AUTO 00000KT 10SM CLR 12/08 A3016 RMK AO2 T01220079",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KOQU",
+        "stationId": "KOQU",
+        "stationName": "N. Kingston / Quonset",
+        "timestamp": "2025-06-04T04:35:00+00:00",
+        "rawMessage": "KOQU 040435Z AUTO 21006KT 1/2SM -DZ HZ OVC090 16/11 A3020 RMK AO2",
+        "textDescription": "Light Drizzle",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "drizzle",
+                "rawString": "-DZ"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.2,
+            "value": 16,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.9,
+            "value": 11,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 210,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102130,
+            "value": 102270,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 800,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 75.007753731784,
+            "value": 72.218947621294,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +155,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 2740
                 },
-                "amount": "CLR"
+                "amount": "OVC"
             }
         ]
     }
