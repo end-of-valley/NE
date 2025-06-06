@@ -42,37 +42,30 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLCI/observations/2025-06-06T19:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KHYA/observations/2025-06-06T19:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            43.57
+            -70.28,
+            41.67
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLCI/observations/2025-06-06T19:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHYA/observations/2025-06-06T19:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 166
+            "value": 16
         },
-        "station": "https://api.weather.gov/stations/KLCI",
-        "stationId": "KLCI",
-        "stationName": "Laconia, Laconia Municipal Airport",
+        "station": "https://api.weather.gov/stations/KHYA",
+        "stationId": "KHYA",
+        "stationName": "Hyannis, Barnstable Municipal-Boardman Airport",
         "timestamp": "2025-06-06T19:56:00+00:00",
-        "rawMessage": "KLCI 061956Z AUTO 11005KT 10SM -RA SCT028 OVC055 23/19 A2988 RMK AO2 LTG DSNT S-W RAE09B47 SLP116 P0000 T02330194",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "rawMessage": "KHYA 061956Z 21011KT 7SM CLR 23/18 A2988 RMK AO2 SLP118 T02330178",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 23.3,
@@ -80,17 +73,17 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 17.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 110,
+            "value": 210,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 20.52,
             "qualityControl": "V"
         },
         "windGust": {
@@ -105,12 +98,12 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101180,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 11270,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -123,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 78.741177808945,
+            "value": 71.239385163397,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,23 +141,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 23.741575198344446,
+            "value": 23.545695057044444,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 850
+                    "value": null
                 },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1680
-                },
-                "amount": "OVC"
+                "amount": "CLR"
             }
         ]
     }
