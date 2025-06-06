@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBVY/observations/2025-06-06T12:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KBVY/observations/2025-06-06T13:04:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBVY/observations/2025-06-06T12:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBVY/observations/2025-06-06T13:04:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,11 +61,18 @@
         "station": "https://api.weather.gov/stations/KBVY",
         "stationId": "KBVY",
         "stationName": "Beverly, Beverly Municipal Airport",
-        "timestamp": "2025-06-06T12:53:00+00:00",
-        "rawMessage": "KBVY 061253Z 04008KT 10SM VCTS FEW120 22/19 A2994 RMK AO2 LTG DSNT N AND NE SLP134 T02170189",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
-        "presentWeather": [],
+        "timestamp": "2025-06-06T13:04:00+00:00",
+        "rawMessage": "KBVY 061304Z 04007KT 10SM -RA SCT110 22/19 A2994 RMK AO2 LTG DSNT N RAB1254 P0000 T02170189",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 21.7,
@@ -83,7 +90,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,8 +105,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101340,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -116,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -148,9 +155,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3660
+                    "value": 3350
                 },
-                "amount": "FEW"
+                "amount": "SCT"
             }
         ]
     }

@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-06-06T12:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2025-06-06T13:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-06-06T12:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-06-06T13:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,14 +61,14 @@
         "station": "https://api.weather.gov/stations/KCDA",
         "stationId": "KCDA",
         "stationName": "Caledonia County Airport",
-        "timestamp": "2025-06-06T12:55:00+00:00",
-        "rawMessage": "KCDA 061255Z AUTO 00000KT 10SM SCT075 OVC110 19/17 A3001 RMK AO2 T01930166",
+        "timestamp": "2025-06-06T13:15:00+00:00",
+        "rawMessage": "KCDA 061315Z AUTO 00000KT 10SM SCT034 BKN075 OVC110 20/17 A3001 RMK AO2 T01970166",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.3,
+            "value": 19.7,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 84.38346070794,
+            "value": 82.311666053327,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2290
+                    "value": 1040
                 },
                 "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2290
+                },
+                "amount": "BKN"
             },
             {
                 "base": {
