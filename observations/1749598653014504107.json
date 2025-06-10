@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAUG/observations/2025-06-10T21:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KBID/observations/2025-06-10T22:38:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.8,
-            44.32
+            -71.58,
+            41.17
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAUG/observations/2025-06-10T21:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBID/observations/2025-06-10T22:38:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 107
+            "value": 33
         },
-        "station": "https://api.weather.gov/stations/KAUG",
-        "stationId": "KAUG",
-        "stationName": "Augusta, Augusta State Airport",
-        "timestamp": "2025-06-10T21:53:00+00:00",
-        "rawMessage": "KAUG 102153Z AUTO 04003KT 10SM OVC005 16/14 A2982 RMK AO2 SLP098 T01560144 PWINO",
+        "station": "https://api.weather.gov/stations/KBID",
+        "stationId": "KBID",
+        "stationName": "Block Island State Airport",
+        "timestamp": "2025-06-10T22:38:00+00:00",
+        "rawMessage": "KBID 102238Z AUTO 26006KT 10SM BKN004 OVC015 17/16 A2986 RMK AO2 CIG 002V006 $",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
+            "value": 17,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 16,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 40,
+            "value": 260,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100980,
+            "value": 101120,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100980,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 92.570484068067,
+            "value": 93.838813960785,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,7 +148,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 150
+                    "value": 120
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 460
                 },
                 "amount": "OVC"
             }
