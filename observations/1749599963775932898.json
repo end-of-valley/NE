@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMVL/observations/2025-06-10T21:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KDDH/observations/2025-06-10T22:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.61,
-            44.53
+            -73.25,
+            42.89
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMVL/observations/2025-06-10T21:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KDDH/observations/2025-06-10T22:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 223
+            "value": 252
         },
-        "station": "https://api.weather.gov/stations/KMVL",
-        "stationId": "KMVL",
-        "stationName": "Morrisville-Stowe State Airport",
-        "timestamp": "2025-06-10T21:54:00+00:00",
-        "rawMessage": "KMVL 102154Z AUTO 00000KT 10SM FEW040 21/17 A2978 RMK AO2 SLP083 T02110172",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "station": "https://api.weather.gov/stations/KDDH",
+        "stationId": "KDDH",
+        "stationName": "Bennington Morse State Airport",
+        "timestamp": "2025-06-10T22:54:00+00:00",
+        "rawMessage": "KDDH 102254Z AUTO 00000KT 10SM FEW016 SCT021 BKN060 19/16 A2985 RMK AO2 RAB13E42 SLP104 P0003 T01890161",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.1,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.2,
+            "value": 16.1,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100850,
+            "value": 101080,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100830,
+            "value": 101040,
             "qualityControl": "V"
         },
         "visibility": {
@@ -116,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 78.424650325911,
+            "value": 83.803385441596,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1220
+                    "value": 490
                 },
                 "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 640
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1830
+                },
+                "amount": "BKN"
             }
         ]
     }
