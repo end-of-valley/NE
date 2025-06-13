@@ -62,9 +62,9 @@
         "stationId": "KLEW",
         "stationName": "Auburn-Lewiston",
         "timestamp": "2025-06-13T16:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KLEW 131656Z AUTO 31010KT 10SM CLR 18/06 A3013 RMK AO2 SLP209 T01830061 PNO $",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }

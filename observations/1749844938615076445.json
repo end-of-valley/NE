@@ -62,9 +62,9 @@
         "stationId": "KRKD",
         "stationName": "Rockland, Knox County Regional Airport",
         "timestamp": "2025-06-13T16:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KRKD 131656Z AUTO 25008KT 190V260 10SM CLR 19/06 A3012 RMK AO2 SLP199 T01890056 PNO $",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
