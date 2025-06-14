@@ -42,39 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KDDH/observations/2025-06-14T07:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2025-06-14T09:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.25,
-            42.89
+            -68.37,
+            44.45
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KDDH/observations/2025-06-14T07:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-06-14T09:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 252
+            "value": 26
         },
-        "station": "https://api.weather.gov/stations/KDDH",
-        "stationId": "KDDH",
-        "stationName": "Bennington Morse State Airport",
-        "timestamp": "2025-06-14T07:54:00+00:00",
-        "rawMessage": "KDDH 140754Z AUTO 00000KT 10SM OVC055 13/12 A3014 RMK AO2 RAE18 SLP205 P0002 T01280117",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KBHB",
+        "stationId": "KBHB",
+        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
+        "timestamp": "2025-06-14T09:56:00+00:00",
+        "rawMessage": "KBHB 140956Z AUTO 00000KT 10SM -RA OVC048 11/11 A3021 RMK AO2 RAB47 SLP231 P0000 T01110106",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.8,
+            "value": 11.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 11.7,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -93,12 +100,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102070,
+            "value": 102300,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102050,
+            "value": 102310,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.025244755636,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,7 +155,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1680
+                    "value": 1460
                 },
                 "amount": "OVC"
             }
