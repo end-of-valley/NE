@@ -42,48 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBGR/observations/2025-06-14T05:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KHIE/observations/2025-06-14T06:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.83,
-            44.8
+            -71.55,
+            44.35
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBGR/observations/2025-06-14T05:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-06-14T06:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 59
+            "value": 319
         },
-        "station": "https://api.weather.gov/stations/KBGR",
-        "stationId": "KBGR",
-        "stationName": "Bangor, Bangor International Airport",
-        "timestamp": "2025-06-14T05:53:00+00:00",
-        "rawMessage": "KBGR 140553Z 35004KT 10SM BKN070 BKN200 11/07 A3018 RMK AO2 SLP220 T01110072 10172 20100 58001",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KHIE",
+        "stationId": "KHIE",
+        "stationName": "Whitefield - Mount Washington Regional Airport",
+        "timestamp": "2025-06-14T06:52:00+00:00",
+        "rawMessage": "KHIE 140652Z AUTO 00000KT 10SM -RA BKN075 OVC090 10/09 A3019 RMK AO2 SLP227 P0001 T01000089",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 11.1,
+            "value": 10,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.2,
+            "value": 8.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 350,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +100,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102200,
+            "value": 102240,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102200,
+            "value": 102270,
             "qualityControl": "V"
         },
         "visibility": {
@@ -116,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 76.898108532185,
+            "value": 92.875368778185,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,16 +155,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2130
+                    "value": 2290
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 6100
+                    "value": 2740
                 },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }

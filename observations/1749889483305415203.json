@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHIE/observations/2025-06-14T05:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KBML/observations/2025-06-14T06:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.55,
-            44.35
+            -71.18,
+            44.58
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-06-14T05:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBML/observations/2025-06-14T06:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 319
+            "value": 353
         },
-        "station": "https://api.weather.gov/stations/KHIE",
-        "stationId": "KHIE",
-        "stationName": "Whitefield - Mount Washington Regional Airport",
-        "timestamp": "2025-06-14T05:52:00+00:00",
-        "rawMessage": "KHIE 140552Z AUTO 00000KT 10SM -RA OVC080 10/09 A3019 RMK AO2 SLP226 P0001 60001 T01000089 10144 20100 58001",
+        "station": "https://api.weather.gov/stations/KBML",
+        "stationId": "KBML",
+        "stationName": "Berlin, Berlin Municipal Airport",
+        "timestamp": "2025-06-14T06:52:00+00:00",
+        "rawMessage": "KBML 140652Z AUTO 35003KT 10SM -RA FEW070 OVC090 10/08 A3020 RMK AO2 RAB45 SLP229 P0000 T01000078",
         "textDescription": "Light Rain",
         "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
@@ -80,17 +80,17 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 8.9,
+            "value": 7.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 350,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,12 +100,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102240,
+            "value": 102270,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102260,
+            "value": 102290,
             "qualityControl": "V"
         },
         "visibility": {
@@ -133,12 +133,12 @@
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 92.875368778185,
+            "value": 86.202442841334,
             "qualityControl": "V"
         },
         "windChill": {
@@ -155,7 +155,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2440
+                    "value": 2130
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2740
                 },
                 "amount": "OVC"
             }
