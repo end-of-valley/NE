@@ -42,49 +42,56 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-06-14T15:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KPVD/observations/2025-06-14T16:02:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.68,
-            41.93
+            -71.43,
+            41.7299999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-06-14T15:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-06-14T16:02:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 55
+            "value": 19
         },
-        "station": "https://api.weather.gov/stations/KBDL",
-        "stationId": "KBDL",
-        "stationName": "Windsor Locks, Bradley International Airport",
-        "timestamp": "2025-06-14T15:51:00+00:00",
-        "rawMessage": "KBDL 141551Z 02008KT 10SM BKN009 BKN060 OVC075 16/14 A3013 RMK AO2 RAE45 SLP201 P0000 T01610144",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KPVD",
+        "stationId": "KPVD",
+        "stationName": "Rhode Island TF Green International Airport",
+        "timestamp": "2025-06-14T16:02:00+00:00",
+        "rawMessage": "KPVD 141602Z 04012KT 7SM -RA OVC028 16/13 A3013 RMK AO2 P0000 T01560133 $",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 15.6,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 13.3,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 20,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,12 +105,12 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102010,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 11270,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.659105457718,
+            "value": 86.191267982613,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,21 +155,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 270
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1830
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 2290
+                    "value": 850
                 },
                 "amount": "OVC"
             }
