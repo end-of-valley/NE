@@ -62,9 +62,9 @@
         "stationId": "KMPV",
         "stationName": "Barre / Montpelier, Knapp State Airport",
         "timestamp": "2025-06-16T20:51:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KMPV 162051Z AUTO 17009KT 10SM OVC085 24/10 A3011 RMK AO2 SLP195 T02390100 56013",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -98,8 +98,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101950,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -144,6 +144,14 @@
             "value": 23.426984091302224,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2590
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
