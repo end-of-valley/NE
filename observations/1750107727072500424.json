@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBVY/observations/2025-06-16T19:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2025-06-16T20:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.92,
-            42.58
+            -72.01,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBVY/observations/2025-06-16T19:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-06-16T20:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 33
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KBVY",
-        "stationId": "KBVY",
-        "stationName": "Beverly, Beverly Municipal Airport",
-        "timestamp": "2025-06-16T19:53:00+00:00",
-        "rawMessage": "KBVY 161953Z 14010KT 10SM CLR 19/14 A3016 RMK AO2 SLP208 T01890144",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KCDA",
+        "stationId": "KCDA",
+        "stationName": "Caledonia County Airport",
+        "timestamp": "2025-06-16T20:15:00+00:00",
+        "rawMessage": "KCDA 162015Z AUTO 15007KT 10SM SCT050 SCT070 OVC085 23/12 A3010 RMK AO2 T02300120",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.9,
+            "value": 23,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 12,
+            "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 140,
+            "value": 150,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 18.36,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102130,
+            "value": 101930,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102080,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": null,
+            "value": 49.934634256059,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 22.659404338908335,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1520
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2130
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2590
+                },
+                "amount": "OVC"
             }
         ]
     }
