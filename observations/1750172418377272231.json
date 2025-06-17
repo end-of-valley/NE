@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMLT/observations/2025-06-17T11:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KMLT/observations/2025-06-17T13:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMLT/observations/2025-06-17T11:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMLT/observations/2025-06-17T13:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,10 +61,10 @@
         "station": "https://api.weather.gov/stations/KMLT",
         "stationId": "KMLT",
         "stationName": "Millinocket, Millinocket Municipal Airport",
-        "timestamp": "2025-06-17T11:53:00+00:00",
-        "rawMessage": "KMLT 171153Z AUTO 20004KT 10SM FEW015 OVC100 A3010 RMK AO2 SLPNO 55000 $",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "timestamp": "2025-06-17T13:53:00+00:00",
+        "rawMessage": "KMLT 171353Z AUTO 10SM FEW047 A3010 RMK AO2 SLPNO $",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -78,13 +78,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 200,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -148,16 +148,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 460
+                    "value": 1430
                 },
                 "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 3050
-                },
-                "amount": "OVC"
             }
         ]
     }
