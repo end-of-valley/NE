@@ -42,48 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-06-17T06:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-06-17T07:25:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.7,
-            44.96
+            -73.17,
+            42.7
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-06-17T06:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-06-17T07:25:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 554
+            "value": 196
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "stationId": "K8B0",
-        "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2025-06-17T06:55:00+00:00",
-        "rawMessage": "K8B0 170655Z AUTO 00000KT 10SM FEW110 11/09 A3011 RMK AO2",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KAQW",
+        "stationId": "KAQW",
+        "stationName": "North Adams Harriman-and-West Airport",
+        "timestamp": "2025-06-17T07:25:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 11,
+            "value": 16.7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 9,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 90,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101970,
+            "value": 101896.44,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 14484.1,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -116,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 87.476252351683,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +155,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3350
+                    "value": 883.92
                 },
-                "amount": "FEW"
+                "amount": "OVC"
             }
         ]
     }
