@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHIE/observations/2025-06-19T06:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KHIE/observations/2025-06-19T07:26:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-06-19T06:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-06-19T07:26:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,10 +61,10 @@
         "station": "https://api.weather.gov/stations/KHIE",
         "stationId": "KHIE",
         "stationName": "Whitefield - Mount Washington Regional Airport",
-        "timestamp": "2025-06-19T06:52:00+00:00",
-        "rawMessage": "KHIE 190652Z AUTO 00000KT 10SM BKN001 15/14 A2984 RMK AO2 SLP101 T01500144",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
+        "timestamp": "2025-06-19T07:26:00+00:00",
+        "rawMessage": "KHIE 190726Z AUTO 00000KT 10SM SCT001 SCT085 15/14 A2983 RMK AO2 T01500139",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -73,7 +73,7 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 13.9,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101050,
+            "value": 101020,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101010,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.204921152027,
+            "value": 93.139753054128,
             "qualityControl": "V"
         },
         "windChill": {
@@ -150,7 +150,14 @@
                     "unitCode": "wmoUnit:m",
                     "value": 30
                 },
-                "amount": "BKN"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2590
+                },
+                "amount": "SCT"
             }
         ]
     }

@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFIT/observations/2025-06-19T07:03:00+00:00",
+    "id": "https://api.weather.gov/stations/KFIT/observations/2025-06-19T07:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFIT/observations/2025-06-19T07:03:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFIT/observations/2025-06-19T07:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,14 +61,14 @@
         "station": "https://api.weather.gov/stations/KFIT",
         "stationId": "KFIT",
         "stationName": "Fitchburg, Fitchburg Municipal Airport",
-        "timestamp": "2025-06-19T07:03:00+00:00",
-        "rawMessage": "KFIT 190703Z AUTO 00000KT 7SM BKN010 OVC050 19/19 A2983 RMK AO2 T01890189",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "timestamp": "2025-06-19T07:18:00+00:00",
+        "rawMessage": "KFIT 190718Z AUTO 00000KT 9SM SCT011 SCT050 BKN080 19/19 A2983 RMK AO2 T01940189",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.9,
+            "value": 19.4,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -103,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 11270,
+            "value": 14480,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 100,
+            "value": 96.932411448598,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,16 +148,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 340
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
                     "value": 1520
                 },
-                "amount": "OVC"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2440
+                },
+                "amount": "BKN"
             }
         ]
     }
