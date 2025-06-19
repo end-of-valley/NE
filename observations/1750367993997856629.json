@@ -62,9 +62,9 @@
         "stationId": "KEWB",
         "stationName": "New Bedford, New Bedford Regional Airport",
         "timestamp": "2025-06-19T18:53:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KEWB 191853Z 23012G21KT 10SM CLR 30/23 A2976 RMK AO2 SLP077 T03000233",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": 34.42172668461556,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
