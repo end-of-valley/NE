@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KRKD/observations/2025-06-19T18:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEB/observations/2025-06-19T20:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.09,
-            44.07
+            -72.3,
+            43.63
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-06-19T18:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEB/observations/2025-06-19T20:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 17
+            "value": 182
         },
-        "station": "https://api.weather.gov/stations/KRKD",
-        "stationId": "KRKD",
-        "stationName": "Rockland, Knox County Regional Airport",
-        "timestamp": "2025-06-19T18:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KLEB",
+        "stationId": "KLEB",
+        "stationName": "Lebanon Municipal Airport",
+        "timestamp": "2025-06-19T20:53:00+00:00",
+        "rawMessage": "KLEB 192053Z 21009KT 10SM CLR 31/21 A2961 RMK AO2 LTG DSNT E-S SLP013 T03110211 56020",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.9,
+            "value": 31.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.2,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 170,
+            "value": 210,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 16.56,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100710,
+            "value": 100270,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100710,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.868137503874,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
