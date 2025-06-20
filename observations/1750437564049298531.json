@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2025-06-20T14:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEB/observations/2025-06-20T15:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.05,
-            46.68
+            -72.3,
+            43.63
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2025-06-20T14:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEB/observations/2025-06-20T15:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 146
+            "value": 182
         },
-        "station": "https://api.weather.gov/stations/KPQI",
-        "stationId": "KPQI",
-        "stationName": "Presque Isle",
-        "timestamp": "2025-06-20T14:56:00+00:00",
-        "rawMessage": "KPQI 201456Z AUTO 16010KT 10SM OVC010 19/18 A2942 RMK AO2 SLP984 60001 T01940178 56008",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KLEB",
+        "stationId": "KLEB",
+        "stationName": "Lebanon Municipal Airport",
+        "timestamp": "2025-06-20T15:35:00+00:00",
+        "rawMessage": "KLEB 201535Z 31016G32KT 10SM FEW006 SCT036 BKN046 22/13 A2970 RMK AO2 PK WND 29032/1529 T02220128",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 22.2,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.8,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 160,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 18.36,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99630,
+            "value": 100580,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -121,8 +121,8 @@
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 90.47284679466,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 180
                 },
-                "amount": "OVC"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1100
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1400
+                },
+                "amount": "BKN"
             }
         ]
     }
