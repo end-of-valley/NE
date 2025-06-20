@@ -42,39 +42,39 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHYA/observations/2025-06-20T18:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-06-20T18:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.28,
-            41.67
+            -73.17,
+            42.7
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHYA/observations/2025-06-20T18:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-06-20T18:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 16
+            "value": 201
         },
-        "station": "https://api.weather.gov/stations/KHYA",
-        "stationId": "KHYA",
-        "stationName": "Hyannis, Barnstable Municipal-Boardman Airport",
-        "timestamp": "2025-06-20T18:56:00+00:00",
-        "rawMessage": "KHYA 201856Z 26017G27KT 10SM CLR 28/12 A2974 RMK AO2 PK WND 25032/1836 SLP070 T02780117",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KAQW",
+        "stationId": "KAQW",
+        "stationName": "North Adams Harriman-and-West Airport",
+        "timestamp": "2025-06-20T18:52:00+00:00",
+        "rawMessage": "KAQW 201852Z AUTO 26017G28KT 250V310 10SM BKN039 OVC046 21/13 A2986 RMK AO2 PK WND 24031/1800 SLP110 T02110133",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 27.8,
+            "value": 21.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 11.7,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100710,
+            "value": 101120,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100700,
+            "value": 101100,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 36.802953533286,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 27.29877456640389,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1190
                 },
-                "amount": "CLR"
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1400
+                },
+                "amount": "OVC"
             }
         ]
     }
