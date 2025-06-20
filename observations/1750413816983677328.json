@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHYA/observations/2025-06-20T08:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2025-06-20T09:07:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.28,
-            41.67
+            -71.28,
+            41.53
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHYA/observations/2025-06-20T08:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-06-20T09:07:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 16
+            "value": 52
         },
-        "station": "https://api.weather.gov/stations/KHYA",
-        "stationId": "KHYA",
-        "stationName": "Hyannis, Barnstable Municipal-Boardman Airport",
-        "timestamp": "2025-06-20T08:56:00+00:00",
-        "rawMessage": "KHYA 200856Z AUTO 23018G28KT 10SM SCT010 19/18 A2963 RMK AO2 PK WND 24031/0839 SLP035 T01940178 58003 $",
+        "station": "https://api.weather.gov/stations/KUUU",
+        "stationId": "KUUU",
+        "stationName": "Newport, Newport State Airport",
+        "timestamp": "2025-06-20T09:07:00+00:00",
+        "rawMessage": "KUUU 200907Z AUTO VRB06KT 9SM SCT005 SCT020 18/17 A2965 RMK AO2 T01830172",
         "textDescription": "Partly Cloudy",
         "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 18.3,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.8,
+            "value": 17.2,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -83,8 +83,8 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 11.16,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100340,
+            "value": 100410,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100350,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 14480,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 90.47284679466,
+            "value": 93.306363604193,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,7 +148,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 150
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 610
                 },
                 "amount": "SCT"
             }
