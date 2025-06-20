@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLEW/observations/2025-06-20T21:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEW/observations/2025-06-20T22:10:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-06-20T21:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-06-20T22:10:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,19 +61,19 @@
         "station": "https://api.weather.gov/stations/KLEW",
         "stationId": "KLEW",
         "stationName": "Auburn-Lewiston",
-        "timestamp": "2025-06-20T21:56:00+00:00",
-        "rawMessage": "KLEW 202156Z AUTO 29019G29KT 260V330 10SM BKN060 22/12 A2974 RMK AO2 PK WND 29029/2156 SLP076 T02220122 PNO $",
+        "timestamp": "2025-06-20T22:10:00+00:00",
+        "rawMessage": "KLEW 202210Z AUTO 30015G24KT 10SM FEW002 BKN060 22/12 A2975 RMK AO2 PNO $",
         "textDescription": "Mostly Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.2,
+            "value": 22,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.2,
+            "value": 12,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100710,
+            "value": 100750,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100760,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 53.113926613178,
+            "value": 53.062217933001,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,10 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.862419194899445,
+            "value": 21.64106902380611,
             "qualityControl": "V"
         },
         "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 60
+                },
+                "amount": "FEW"
+            },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
