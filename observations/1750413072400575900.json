@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KACK/observations/2025-06-20T07:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KOQU/observations/2025-06-20T08:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.06,
-            41.25
+            -71.42,
+            41.6
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KACK/observations/2025-06-20T07:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-06-20T08:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 15
+            "value": 6
         },
-        "station": "https://api.weather.gov/stations/KACK",
-        "stationId": "KACK",
-        "stationName": "Nantucket, Nantucket Memorial Airport",
-        "timestamp": "2025-06-20T07:53:00+00:00",
-        "rawMessage": "KACK 200753Z AUTO 22017KT 8SM CLR 17/16 A2969 RMK AO2 SLP054 T01670161",
-        "textDescription": "Clear and Windy",
-        "icon": "https://api.weather.gov/icons/land/night/wind_skc?size=medium",
+        "station": "https://api.weather.gov/stations/KOQU",
+        "stationId": "KOQU",
+        "stationName": "N. Kingston / Quonset",
+        "timestamp": "2025-06-20T08:35:00+00:00",
+        "rawMessage": "KOQU 200835Z AUTO 22015KT 10SM FEW013 SCT019 SCT042 21/21 A2963 RMK AO2",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.7,
+            "value": 21,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 21,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -83,7 +83,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 31.68,
+            "value": 27.72,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100540,
+            "value": 100340,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100540,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 12870,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.253552852801,
+            "value": 100,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,23 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 400
                 },
-                "amount": "CLR"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 580
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1280
+                },
+                "amount": "SCT"
             }
         ]
     }
