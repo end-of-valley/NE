@@ -42,40 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAQW/observations/2025-06-20T14:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2025-06-20T14:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.17,
-            42.7
+            -68.37,
+            44.45
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-06-20T14:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-06-20T14:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 201
+            "value": 26
         },
-        "station": "https://api.weather.gov/stations/KAQW",
-        "stationId": "KAQW",
-        "stationName": "North Adams Harriman-and-West Airport",
-        "timestamp": "2025-06-20T14:52:00+00:00",
-        "rawMessage": "KAQW 201452Z AUTO 27017G34KT 10SM -RA BKN036 OVC047 20/13 A2980 RMK AO2 PK WND 29036/1404 SLP089 P0000 60000 T02000128 51029",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KBHB",
+        "stationId": "KBHB",
+        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
+        "timestamp": "2025-06-20T14:56:00+00:00",
+        "rawMessage": "KBHB 201456Z AUTO 19013KT 10SM FEW008 SCT035 OVC060 19/17 A2948 RMK AO2 SLP985 T01890167 58006",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -100,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100920,
+            "value": 99830,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100890,
+            "value": 99850,
             "qualityControl": "V"
         },
         "visibility": {
@@ -123,13 +116,13 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -155,14 +148,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1100
+                    "value": 240
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1430
+                    "value": 1070
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1830
                 },
                 "amount": "OVC"
             }

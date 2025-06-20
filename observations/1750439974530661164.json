@@ -42,39 +42,46 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBOS/observations/2025-06-20T14:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-06-20T14:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.03,
-            42.37
+            -73.17,
+            42.7
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-06-20T14:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-06-20T14:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 9
+            "value": 201
         },
-        "station": "https://api.weather.gov/stations/KBOS",
-        "stationId": "KBOS",
-        "stationName": "Boston, Logan International Airport",
-        "timestamp": "2025-06-20T14:54:00+00:00",
-        "rawMessage": "KBOS 201454Z 27021G37KT 10SM SCT050 24/13 A2965 RMK AO2 PK WND 28038/1415 SLP040 T02440128 51014",
-        "textDescription": "Partly Cloudy and Windy",
-        "icon": "https://api.weather.gov/icons/land/day/wind_sct?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KAQW",
+        "stationId": "KAQW",
+        "stationName": "North Adams Harriman-and-West Airport",
+        "timestamp": "2025-06-20T14:52:00+00:00",
+        "rawMessage": "KAQW 201452Z AUTO 27017G34KT 10SM -RA BKN036 OVC047 20/13 A2980 RMK AO2 PK WND 29036/1404 SLP089 P0000 60000 T02000128 51029",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.4,
+            "value": 20,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.8,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -83,7 +90,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 38.88,
+            "value": 31.68,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +100,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100410,
+            "value": 100920,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100400,
+            "value": 100890,
             "qualityControl": "V"
         },
         "visibility": {
@@ -116,13 +123,13 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 48.373255174627,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +148,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.158634996226112,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1520
+                    "value": 1100
                 },
-                "amount": "SCT"
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1430
+                },
+                "amount": "OVC"
             }
         ]
     }
