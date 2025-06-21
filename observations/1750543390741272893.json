@@ -42,29 +42,29 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KRKD/observations/2025-06-21T19:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2025-06-21T19:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.09,
-            44.07
+            -68.37,
+            44.45
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-06-21T19:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-06-21T19:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 17
+            "value": 26
         },
-        "station": "https://api.weather.gov/stations/KRKD",
-        "stationId": "KRKD",
-        "stationName": "Rockland, Knox County Regional Airport",
+        "station": "https://api.weather.gov/stations/KBHB",
+        "stationId": "KBHB",
+        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
         "timestamp": "2025-06-21T19:56:00+00:00",
-        "rawMessage": "KRKD 211956Z AUTO 29005G14KT 10SM CLR 26/09 A3003 RMK AO2 SLP170 T02610089 PNO $",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KBHB 211956Z AUTO 26008KT 10SM CLR 26/07 A3002 RMK AO2 SLP167 T02610067",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -73,17 +73,17 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 8.9,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 290,
+            "value": 260,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 14.76,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101690,
+            "value": 101660,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101700,
+            "value": 101670,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 33.736980058847,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,9 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 25.646465590425557,
+            "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
