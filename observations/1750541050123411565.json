@@ -42,29 +42,29 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMVL/observations/2025-06-21T19:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KAUG/observations/2025-06-21T19:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.61,
-            44.53
+            -69.8,
+            44.32
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMVL/observations/2025-06-21T19:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAUG/observations/2025-06-21T19:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 223
+            "value": 107
         },
-        "station": "https://api.weather.gov/stations/KMVL",
-        "stationId": "KMVL",
-        "stationName": "Morrisville-Stowe State Airport",
-        "timestamp": "2025-06-21T19:54:00+00:00",
-        "rawMessage": "KMVL 211954Z AUTO VRB03KT 10SM CLR 27/11 A3006 RMK AO2 SLP180 T02720106",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KAUG",
+        "stationId": "KAUG",
+        "stationName": "Augusta, Augusta State Airport",
+        "timestamp": "2025-06-21T19:53:00+00:00",
+        "rawMessage": "KAUG 211953Z AUTO VRB05KT 10SM CLR 27/06 A3004 RMK AO2 SLP172 T02720061 PWINO",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -73,7 +73,7 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 10.6,
+            "value": 6.1,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -83,7 +83,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101800,
+            "value": 101730,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101800,
+            "value": 101720,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 35.437371722543,
+            "value": 26.120644507811,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,9 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.78342553873389,
+            "value": 26.657594606592777,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
