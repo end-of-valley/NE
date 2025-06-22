@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOQU/observations/2025-06-22T06:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KEFK/observations/2025-06-22T07:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            41.6
+            -72.23,
+            44.88
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-06-22T06:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-06-22T07:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 6
+            "value": 283
         },
-        "station": "https://api.weather.gov/stations/KOQU",
-        "stationId": "KOQU",
-        "stationName": "N. Kingston / Quonset",
-        "timestamp": "2025-06-22T06:55:00+00:00",
-        "rawMessage": "KOQU 220655Z AUTO 18010KT 10SM CLR 20/19 A3003 RMK AO2",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KEFK",
+        "stationId": "KEFK",
+        "stationName": "Northeast Kingdom International Airport",
+        "timestamp": "2025-06-22T07:15:00+00:00",
+        "rawMessage": "KEFK 220715Z AUTO 19005KT 10SM SCT075 OVC100 20/14 A2992 RMK AO2 T01980142",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 19.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 19,
+            "value": 14.2,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 180,
+            "value": 190,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 18.36,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101690,
+            "value": 101320,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.974509366621,
+            "value": 70.132438369714,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 2290
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3050
+                },
+                "amount": "OVC"
             }
         ]
     }
