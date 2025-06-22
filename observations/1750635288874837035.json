@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAQW/observations/2025-06-22T20:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-06-22T22:14:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-06-22T20:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-06-22T22:14:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,14 +61,14 @@
         "station": "https://api.weather.gov/stations/KAQW",
         "stationId": "KAQW",
         "stationName": "North Adams Harriman-and-West Airport",
-        "timestamp": "2025-06-22T20:52:00+00:00",
-        "rawMessage": "KAQW 222052Z AUTO 27009KT 10SM OVC022 26/22 A2999 RMK AO2 SLP152 T02560217 50003",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "timestamp": "2025-06-22T22:14:00+00:00",
+        "rawMessage": "KAQW 222214Z AUTO 27013KT 10SM FEW022 SCT029 27/22 A2999 RMK AO2 T02670222",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 25.6,
+            "value": 26.7,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,13 +78,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 270,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 16.56,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,8 +98,8 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101520,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -150,7 +150,14 @@
                     "unitCode": "wmoUnit:m",
                     "value": 670
                 },
-                "amount": "OVC"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 880
+                },
+                "amount": "SCT"
             }
         ]
     }
