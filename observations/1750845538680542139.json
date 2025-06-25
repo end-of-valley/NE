@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAUG/observations/2025-06-25T07:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KMPV/observations/2025-06-25T08:51:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.8,
-            44.32
+            -72.56,
+            44.2
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAUG/observations/2025-06-25T07:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMPV/observations/2025-06-25T08:51:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 107
+            "value": 355
         },
-        "station": "https://api.weather.gov/stations/KAUG",
-        "stationId": "KAUG",
-        "stationName": "Augusta, Augusta State Airport",
-        "timestamp": "2025-06-25T07:53:00+00:00",
-        "rawMessage": "KAUG 250753Z AUTO 29004KT 10SM CLR 26/22 A2992 RMK AO2 SLP131 T02560217 PWINO",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KMPV",
+        "stationId": "KMPV",
+        "stationName": "Barre / Montpelier, Knapp State Airport",
+        "timestamp": "2025-06-25T08:51:00+00:00",
+        "rawMessage": "KMPV 250851Z AUTO 29005KT 10SM SCT001 BKN070 20/19 A3008 RMK AO2 SLP179 T02000189 53005",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 25.6,
+            "value": 20,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.7,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -83,7 +83,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101320,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101310,
+            "value": 101790,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 79.065066797532,
+            "value": 93.389863240725,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.280032299713334,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 30
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2130
+                },
+                "amount": "BKN"
             }
         ]
     }
