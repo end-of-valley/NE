@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPYM/observations/2025-06-29T19:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KWVL/observations/2025-06-29T20:22:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.73,
-            41.92
+            -69.68,
+            44.53
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPYM/observations/2025-06-29T19:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KWVL/observations/2025-06-29T20:22:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 45
+            "value": 101
         },
-        "station": "https://api.weather.gov/stations/KPYM",
-        "stationId": "KPYM",
-        "stationName": "Plymouth, Plymouth Municipal Airport",
-        "timestamp": "2025-06-29T19:52:00+00:00",
-        "rawMessage": "KPYM 291952Z AUTO 02011KT 10SM CLR 27/19 A2992 RMK AO2 SLP131 T02720189",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KWVL",
+        "stationId": "KWVL",
+        "stationName": "Waterville, Waterville Robert LaFleur Airport",
+        "timestamp": "2025-06-29T20:22:00+00:00",
+        "rawMessage": "KWVL 292022Z AUTO 00000KT 10SM SCT029 OVC065 22/18 A2991 RMK AO2",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 27.2,
+            "value": 22,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.9,
+            "value": 18,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101320,
+            "value": 101290,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101310,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 60.515800007043,
+            "value": 78.062863996432,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 28.378832723747777,
+            "value": 22.293863671017778,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 880
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1980
+                },
+                "amount": "OVC"
             }
         ]
     }
