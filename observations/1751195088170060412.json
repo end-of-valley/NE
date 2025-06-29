@@ -42,36 +42,30 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2025-06-29T09:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KBAF/observations/2025-06-29T10:06:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.05,
-            46.68
+            -72.72,
+            42.17
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2025-06-29T09:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBAF/observations/2025-06-29T10:06:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 146
+            "value": 83
         },
-        "station": "https://api.weather.gov/stations/KPQI",
-        "stationId": "KPQI",
-        "stationName": "Presque Isle",
-        "timestamp": "2025-06-29T09:56:00+00:00",
-        "rawMessage": "KPQI 290956Z AUTO 13003KT 5SM -RA BR OVC004 13/13 A2996 RMK AO2 SLP171 P0003 T01280128",
-        "textDescription": "Light Rain and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "station": "https://api.weather.gov/stations/KBAF",
+        "stationId": "KBAF",
+        "stationName": "Westfield, Barnes Municipal Airport",
+        "timestamp": "2025-06-29T10:06:00+00:00",
+        "rawMessage": "KBAF 291006Z AUTO 00000KT 3SM BR CLR 19/19 A2997 RMK AO2 T01940189",
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            },
             {
                 "intensity": null,
                 "modifier": null,
@@ -81,22 +75,22 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.8,
+            "value": 19.4,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 12.8,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 130,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -106,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101460,
+            "value": 101490,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -116,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 8050,
+            "value": 4830,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -129,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -144,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 100,
+            "value": 96.932411448598,
             "qualityControl": "V"
         },
         "windChill": {
@@ -161,9 +155,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 120
+                    "value": null
                 },
-                "amount": "OVC"
+                "amount": "CLR"
             }
         ]
     }
