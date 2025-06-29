@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHUL/observations/2025-06-29T14:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEW/observations/2025-06-29T15:42:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -67.8,
-            46.12
+            -70.28,
+            44.05
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHUL/observations/2025-06-29T14:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-06-29T15:42:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 150
+            "value": 88
         },
-        "station": "https://api.weather.gov/stations/KHUL",
-        "stationId": "KHUL",
-        "stationName": "Houlton, Houlton International Airport",
-        "timestamp": "2025-06-29T14:53:00+00:00",
-        "rawMessage": "KHUL 291453Z AUTO 17004KT 10SM OVC005 16/14 A2993 RMK AO2 CIG 004V009 SLP137 T01560144 57008",
+        "station": "https://api.weather.gov/stations/KLEW",
+        "stationId": "KLEW",
+        "stationName": "Auburn-Lewiston",
+        "timestamp": "2025-06-29T15:42:00+00:00",
+        "rawMessage": "KLEW 291542Z AUTO VRB03KT 10SM SCT015 SCT022 OVC055 22/17 A2994 RMK AO2 PNO $",
         "textDescription": "Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
+            "value": 22,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 17,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 170,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101360,
+            "value": 101390,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101370,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 92.570484068067,
+            "value": 73.288964682767,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,14 +141,28 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 22.169211855605557,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 150
+                    "value": 460
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 670
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1680
                 },
                 "amount": "OVC"
             }
