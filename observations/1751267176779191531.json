@@ -42,34 +42,41 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFMH/observations/2025-06-30T04:45:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2025-06-30T06:23:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.52,
-            41.65
+            -68.37,
+            44.45
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-06-30T04:45:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-06-30T06:23:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 40
+            "value": 26
         },
-        "station": "https://api.weather.gov/stations/KFMH",
-        "stationId": "KFMH",
-        "stationName": "Otis Air National Guard Base",
-        "timestamp": "2025-06-30T04:45:00+00:00",
-        "rawMessage": "KFMH 300445Z 00000KT 10SM CLR 16/16 A3002",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KBHB",
+        "stationId": "KBHB",
+        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
+        "timestamp": "2025-06-30T06:23:00+00:00",
+        "rawMessage": "KBHB 300623Z AUTO 00000KT 2SM BR FEW001 14/14 A2996 RMK AO2 VIS 1V5",
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16,
-            "qualityControl": "V"
+            "value": 14,
+            "qualityControl": "S"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
@@ -79,12 +86,12 @@
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
             "value": 0,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
             "value": 0,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,8 +100,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101660,
-            "qualityControl": "V"
+            "value": 101460,
+            "qualityControl": "S"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -103,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 3220,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -132,25 +139,25 @@
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 30
                 },
-                "amount": "CLR"
+                "amount": "FEW"
             }
         ]
     }
