@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KUUU/observations/2025-06-30T20:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2025-06-30T21:16:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-06-30T20:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-06-30T21:16:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,11 +61,18 @@
         "station": "https://api.weather.gov/stations/KUUU",
         "stationId": "KUUU",
         "stationName": "Newport, Newport State Airport",
-        "timestamp": "2025-06-30T20:53:00+00:00",
-        "rawMessage": "KUUU 302053Z AUTO 18009KT 10SM OVC005 22/20 A2997 RMK AO2 SLP148 T02170200 58008",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "timestamp": "2025-06-30T21:16:00+00:00",
+        "rawMessage": "KUUU 302116Z AUTO 18008KT 5SM BR OVC004 22/20 A2997 RMK AO2 T02170200",
+        "textDescription": "Fog/Mist",
+        "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog_mist",
+                "rawString": "BR"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 21.7,
@@ -83,7 +90,7 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 16.56,
+            "value": 14.76,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,12 +105,12 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101480,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 8050,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -148,7 +155,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 150
+                    "value": 120
                 },
                 "amount": "OVC"
             }
