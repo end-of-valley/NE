@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPVD/observations/2025-07-01T19:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2025-07-01T20:05:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.43,
-            41.7299999
+            -70.52,
+            41.65
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-07-01T19:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-07-01T20:05:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 19
+            "value": 40
         },
-        "station": "https://api.weather.gov/stations/KPVD",
-        "stationId": "KPVD",
-        "stationName": "Rhode Island TF Green International Airport",
-        "timestamp": "2025-07-01T19:51:00+00:00",
-        "rawMessage": "KPVD 011951Z 22012G19KT 10SM FEW036 SCT045 SCT200 BKN300 32/22 A2977 RMK AO2 SLP079 T03170222",
+        "station": "https://api.weather.gov/stations/KFMH",
+        "stationId": "KFMH",
+        "stationName": "Otis Air National Guard Base",
+        "timestamp": "2025-07-01T20:05:00+00:00",
+        "rawMessage": "KFMH 012005Z 24012KT 10SM BKN008 27/22 A2981",
         "textDescription": "Mostly Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 31.7,
+            "value": 27,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.2,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 240,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 22.32,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100810,
+            "value": 100950,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100790,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 57.210595373135,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,35 +141,14 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 35.60863211262389,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1100
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1370
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 6100
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 9140
+                    "value": 240
                 },
                 "amount": "BKN"
             }
