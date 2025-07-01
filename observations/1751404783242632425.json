@@ -42,49 +42,56 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPVD/observations/2025-07-01T19:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KPSF/observations/2025-07-01T20:41:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.43,
-            41.7299999
+            -73.29,
+            42.43
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-07-01T19:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPSF/observations/2025-07-01T20:41:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 19
+            "value": 364
         },
-        "station": "https://api.weather.gov/stations/KPVD",
-        "stationId": "KPVD",
-        "stationName": "Rhode Island TF Green International Airport",
-        "timestamp": "2025-07-01T19:51:00+00:00",
-        "rawMessage": "KPVD 011951Z 22012G19KT 10SM FEW036 SCT045 SCT200 BKN300 32/22 A2977 RMK AO2 SLP079 T03170222",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KPSF",
+        "stationId": "KPSF",
+        "stationName": "Pittsfield Municipal Airport",
+        "timestamp": "2025-07-01T20:41:00+00:00",
+        "rawMessage": "KPSF 012041Z AUTO 22008KT 3SM -RA SCT045 BKN080 OVC095 22/19 A2981 RMK AO2 LTG DSNT N AND E AND SW RAB04 TSB01E16B17E38 P0029 T02170189",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 31.7,
-            "qualityControl": "V"
+            "value": 21.7,
+            "qualityControl": "S"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.2,
-            "qualityControl": "V"
+            "value": 18.9,
+            "qualityControl": "S"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
             "value": 220,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 22.32,
-            "qualityControl": "V"
+            "value": 14.76,
+            "qualityControl": "S"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,17 +100,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100810,
-            "qualityControl": "V"
+            "value": 100950,
+            "qualityControl": "S"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100790,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 4830,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -116,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 10,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,27 +138,20 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 57.210595373135,
-            "qualityControl": "V"
+            "value": 84.117198153574,
+            "qualityControl": "S"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 35.60863211262389,
-            "qualityControl": "V"
+            "value": 22.12194906289889,
+            "qualityControl": "S"
         },
         "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1100
-                },
-                "amount": "FEW"
-            },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
@@ -162,16 +162,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 6100
+                    "value": 2440
                 },
-                "amount": "SCT"
+                "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 9140
+                    "value": 2900
                 },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }
