@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFMH/observations/2025-07-01T17:45:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2025-07-01T18:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-07-01T17:45:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-07-01T18:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,15 +61,15 @@
         "station": "https://api.weather.gov/stations/KFMH",
         "stationId": "KFMH",
         "stationName": "Otis Air National Guard Base",
-        "timestamp": "2025-07-01T17:45:00+00:00",
-        "rawMessage": "KFMH 011745Z 22015G22KT 10SM BKN010 BKN017 26/23 A2984",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "timestamp": "2025-07-01T18:15:00+00:00",
+        "rawMessage": "KFMH 011815Z 23015KT 10SM OVC008 25/22 A2983",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 26,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
@@ -93,8 +93,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101050,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -132,32 +132,25 @@
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 300
+                    "value": 240
                 },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 520
-                },
-                "amount": "BKN"
+                "amount": "OVC"
             }
         ]
     }
