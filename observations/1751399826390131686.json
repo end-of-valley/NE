@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-07-01T19:24:00+00:00",
+    "id": "https://api.weather.gov/stations/KRKD/observations/2025-07-01T19:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.66,
-            44.99
+            -69.09,
+            44.07
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-07-01T19:24:00+00:00",
+        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-07-01T19:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 552
+            "value": 17
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "stationId": "K8B0",
-        "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2025-07-01T19:24:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "station": "https://api.weather.gov/stations/KRKD",
+        "stationId": "KRKD",
+        "stationName": "Rockland, Knox County Regional Airport",
+        "timestamp": "2025-07-01T19:18:00+00:00",
+        "rawMessage": "KRKD 011918Z AUTO 20005KT 10SM OVC007 21/20 A2973 RMK AO2 CIG 003V008 $",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
-            "unitCode": "wmoUnit:degC",
-            "value": 24,
-            "qualityControl": "V"
-        },
-        "dewpoint": {
             "unitCode": "wmoUnit:degC",
             "value": 21,
             "qualityControl": "V"
         },
+        "dewpoint": {
+            "unitCode": "wmoUnit:degC",
+            "value": 20,
+            "qualityControl": "V"
+        },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 280,
+            "value": 200,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 11.124,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100812.79,
+            "value": 100680,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16093.44,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 83.338787521304,
+            "value": 94.018757001038,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,30 +141,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.631623896389446,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 609.6
+                    "value": 210
                 },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 822.96
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1524
-                },
-                "amount": "SCT"
+                "amount": "OVC"
             }
         ]
     }

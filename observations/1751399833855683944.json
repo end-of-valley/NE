@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLEW/observations/2025-07-01T18:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2025-07-01T19:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.28,
-            44.05
+            -72.01,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-07-01T18:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-07-01T19:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 88
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KLEW",
-        "stationId": "KLEW",
-        "stationName": "Auburn-Lewiston",
-        "timestamp": "2025-07-01T18:56:00+00:00",
-        "rawMessage": "KLEW 011856Z AUTO 23010KT 10SM FEW036 BKN047 BKN055 29/22 A2970 RMK AO2 SLP062 T02890222 PNO $",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KCDA",
+        "stationId": "KCDA",
+        "stationName": "Caledonia County Airport",
+        "timestamp": "2025-07-01T19:15:00+00:00",
+        "rawMessage": "KCDA 011915Z AUTO 22010G15KT 10SM BKN041 BKN050 OVC065 27/20 A2975 RMK AO2 T02740200",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 28.9,
+            "value": 27.4,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.2,
+            "value": 20,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 230,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 18.36,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100580,
+            "value": 100750,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100620,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 67.17318846555,
+            "value": 64.043943903235,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,30 +141,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 32.01364039703556,
+            "value": 28.967427381961112,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1100
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1430
+                    "value": 1250
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1680
+                    "value": 1520
                 },
                 "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1980
+                },
+                "amount": "OVC"
             }
         ]
     }
