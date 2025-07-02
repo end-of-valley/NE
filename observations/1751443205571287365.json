@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KAQW/observations/2025-07-02T06:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-07-02T07:23:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,24 +52,24 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-07-02T06:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-07-02T07:23:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 196
+            "value": 201
         },
         "station": "https://api.weather.gov/stations/KAQW",
         "stationId": "KAQW",
         "stationName": "North Adams Harriman-and-West Airport",
-        "timestamp": "2025-07-02T06:52:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "timestamp": "2025-07-02T07:23:00+00:00",
+        "rawMessage": "KAQW 020723Z AUTO 00000KT 7SM SCT002 SCT042 19/19 A2983 RMK AO2 T01940189",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 19.4,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
@@ -79,12 +79,12 @@
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
             "value": 0,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
             "value": 0,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101015.98,
-            "qualityControl": "V"
+            "value": 101020,
+            "qualityControl": "S"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100960,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16093.44,
+            "value": 11270,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -132,25 +132,32 @@
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "S"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 60
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1280
+                },
+                "amount": "SCT"
             }
         ]
     }
