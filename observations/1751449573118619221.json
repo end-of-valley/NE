@@ -42,45 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2025-07-02T08:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KAUG/observations/2025-07-02T09:16:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.18,
-            44.58
+            -69.8,
+            44.32
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2025-07-02T08:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAUG/observations/2025-07-02T09:16:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 353
+            "value": 107
         },
-        "station": "https://api.weather.gov/stations/KBML",
-        "stationId": "KBML",
-        "stationName": "Berlin, Berlin Municipal Airport",
-        "timestamp": "2025-07-02T08:52:00+00:00",
-        "rawMessage": "KBML 020852Z AUTO 00000KT 4SM BR BKN001 16/16 RMK AO2 SLPNO T01610156 $",
-        "textDescription": "Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
-        "presentWeather": [
-            {
-                "intensity": null,
-                "modifier": null,
-                "weather": "fog_mist",
-                "rawString": "BR"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KAUG",
+        "stationId": "KAUG",
+        "stationName": "Augusta, Augusta State Airport",
+        "timestamp": "2025-07-02T09:16:00+00:00",
+        "rawMessage": "KAUG 020916Z AUTO 00000KT 8SM CLR 21/20 A2974 RMK AO2 T02110200 PWINO",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 21.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
+            "value": 20,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -100,8 +93,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 100710,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -110,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6440,
+            "value": 12870,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.854960153164,
+            "value": 93.443072582485,
             "qualityControl": "V"
         },
         "windChill": {
@@ -155,9 +148,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 30
+                    "value": null
                 },
-                "amount": "BKN"
+                "amount": "CLR"
             }
         ]
     }
