@@ -42,48 +42,61 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KDDH/observations/2025-07-03T14:21:00+00:00",
+    "id": "https://api.weather.gov/stations/KVSF/observations/2025-07-03T14:27:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.25,
-            42.89
+            -72.52,
+            43.35
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KDDH/observations/2025-07-03T14:21:00+00:00",
+        "@id": "https://api.weather.gov/stations/KVSF/observations/2025-07-03T14:27:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 252
+            "value": 176
         },
-        "station": "https://api.weather.gov/stations/KDDH",
-        "stationId": "KDDH",
-        "stationName": "Bennington Morse State Airport",
-        "timestamp": "2025-07-03T14:21:00+00:00",
-        "rawMessage": "KDDH 031421Z AUTO 30005KT 2SM VCTS -RA BR SCT025 BKN043 OVC080 18/17 A2992 RMK AO2 PK WND 29029/1403 VIS 1 1/4V5 LTG DSNT N AND NE RAB01 P0033 T01780172",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KVSF",
+        "stationId": "KVSF",
+        "stationName": "Springfield, Hartness State Springfield Airport",
+        "timestamp": "2025-07-03T14:27:00+00:00",
+        "rawMessage": "KVSF 031427Z AUTO 28008G24KT 3/4SM +TSRA SCT033 BKN045 OVC060 19/17 A2985 RMK AO2 PK WND 27029/1414 LTG DSNT ALQDS RAB12 TSB08 P0024 T01940167",
+        "textDescription": "Heavy Thunderstorms and Heavy Rain",
+        "icon": "https://api.weather.gov/icons/land/day/tsra?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "heavy",
+                "modifier": null,
+                "weather": "thunderstorms",
+                "rawString": "+TS"
+            },
+            {
+                "intensity": "heavy",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "+RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.8,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.2,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 300,
+            "value": 280,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 14.76,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +106,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101320,
+            "value": 101080,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +116,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 3220,
+            "value": 1210,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,38 +144,38 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.284527228549,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 760
+                    "value": 1010
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1310
+                    "value": 1370
                 },
                 "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 2440
+                    "value": 1830
                 },
                 "amount": "OVC"
             }
