@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-07-03T16:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KBTV/observations/2025-07-03T16:31:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.01,
-            44.57
+            -73.15,
+            44.47
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-07-03T16:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBTV/observations/2025-07-03T16:31:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 104
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "stationId": "KCDA",
-        "stationName": "Caledonia County Airport",
-        "timestamp": "2025-07-03T16:15:00+00:00",
-        "rawMessage": "KCDA 031615Z AUTO 14005KT 10SM BKN100 22/15 A2982 RMK AO2 T02150150",
+        "station": "https://api.weather.gov/stations/KBTV",
+        "stationId": "KBTV",
+        "stationName": "Burlington, Burlington International Airport",
+        "timestamp": "2025-07-03T16:31:00+00:00",
+        "rawMessage": "KBTV 031631Z 23008KT 10SM VCTS SCT050CB BKN100 BKN120 24/16 A2980 RMK AO2 LTG DSNT W-N TS VC W-N MOV NE T02390156",
         "textDescription": "Mostly Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.5,
+            "value": 23.9,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 15,
+            "value": 15.6,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 140,
+            "value": 230,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 14.76,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100980,
+            "value": 100920,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 66.505278113207,
+            "value": 59.752298549825,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,14 +141,28 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.442082261845,
+            "value": 23.905754462134446,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
+                    "value": 1520
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
                     "value": 3050
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3660
                 },
                 "amount": "BKN"
             }
