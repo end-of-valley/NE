@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNR/observations/2025-07-03T03:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2025-07-03T04:42:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.55,
-            45.46
+            -71.28,
+            41.53
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-07-03T03:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-07-03T04:42:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 427
+            "value": 52
         },
-        "station": "https://api.weather.gov/stations/KGNR",
-        "stationId": "KGNR",
-        "stationName": "Greenville",
-        "timestamp": "2025-07-03T03:56:00+00:00",
-        "rawMessage": "KGNR 030356Z AUTO 29003KT 20/14 A2979 RMK AO1 SLP083 T02000144",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KUUU",
+        "stationId": "KUUU",
+        "stationName": "Newport, Newport State Airport",
+        "timestamp": "2025-07-03T04:42:00+00:00",
+        "rawMessage": "KUUU 030442Z AUTO 20005KT 10SM BKN003 19/19 A2983 RMK AO2 T01940189",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 19.4,
+            "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 290,
+            "value": 200,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,18 +93,18 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101020,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100830,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 16090,
+            "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -131,19 +131,27 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 96.932411448598,
+            "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "Z"
+            "qualityControl": "V"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "Z"
+            "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 90
+                },
+                "amount": "BKN"
+            }
+        ]
     }
 }
