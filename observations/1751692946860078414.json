@@ -42,33 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBHB/observations/2025-07-05T02:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-07-05T03:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.37,
-            44.45
+            -73.17,
+            42.7
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-07-05T02:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-07-05T03:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 26
+            "value": 201
         },
-        "station": "https://api.weather.gov/stations/KBHB",
-        "stationId": "KBHB",
-        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
-        "timestamp": "2025-07-05T02:56:00+00:00",
-        "rawMessage": "KBHB 050256Z AUTO 26004KT 10SM CLR 16/13 A3002 RMK AO2 SLP168 T01610128 51013",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KAQW",
+        "stationId": "KAQW",
+        "stationName": "North Adams Harriman-and-West Airport",
+        "timestamp": "2025-07-05T03:52:00+00:00",
+        "rawMessage": "KAQW 050352Z AUTO 00000KT 10SM CLR 13/12 A3018 RMK AO2 SLP220 T01330117",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 13.3,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,12 +78,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 260,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101660,
+            "value": 102200,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101680,
+            "value": 102200,
             "qualityControl": "V"
         },
         "visibility": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
