@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KWVL/observations/2025-07-06T14:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KPVD/observations/2025-07-06T14:51:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.68,
-            44.53
+            -71.43,
+            41.7299999
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KWVL/observations/2025-07-06T14:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-07-06T14:51:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 101
+            "value": 19
         },
-        "station": "https://api.weather.gov/stations/KWVL",
-        "stationId": "KWVL",
-        "stationName": "Waterville, Waterville Robert LaFleur Airport",
-        "timestamp": "2025-07-06T14:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KPVD",
+        "stationId": "KPVD",
+        "stationName": "Rhode Island TF Green International Airport",
+        "timestamp": "2025-07-06T14:51:00+00:00",
+        "rawMessage": "KPVD 061451Z 22010KT 10SM BKN250 28/19 A3004 RMK AO2 SLP173 T02830189 57010",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 27.2,
+            "value": 28.3,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20.6,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 220,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 18.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101320,
+            "value": 101730,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101730,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 67.245731175273,
+            "value": 56.749404885928,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,9 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 28.94773513848611,
+            "value": 29.514740830025556,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 7620
+                },
+                "amount": "BKN"
+            }
+        ]
     }
 }
