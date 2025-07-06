@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KFMH/observations/2025-07-06T11:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2025-07-06T12:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-07-06T11:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-07-06T12:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,14 +61,14 @@
         "station": "https://api.weather.gov/stations/KFMH",
         "stationId": "KFMH",
         "stationName": "Otis Air National Guard Base",
-        "timestamp": "2025-07-06T11:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "timestamp": "2025-07-06T12:56:00+00:00",
+        "rawMessage": "KFMH 061256Z 24015G25KT 10SM CLR 24/19 A3008",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 23,
+            "value": 24,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,13 +78,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 240,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 27.72,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
