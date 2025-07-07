@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KDDH/observations/2025-07-07T15:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KEFK/observations/2025-07-07T17:55:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.25,
-            42.89
+            -72.23,
+            44.88
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KDDH/observations/2025-07-07T15:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-07-07T17:55:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 252
+            "value": 283
         },
-        "station": "https://api.weather.gov/stations/KDDH",
-        "stationId": "KDDH",
-        "stationName": "Bennington Morse State Airport",
-        "timestamp": "2025-07-07T15:54:00+00:00",
-        "rawMessage": "KDDH 071554Z AUTO 18009G15KT 10SM CLR 27/21 A2999 RMK AO2 SLP148 T02720211",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KEFK",
+        "stationId": "KEFK",
+        "stationName": "Northeast Kingdom International Airport",
+        "timestamp": "2025-07-07T17:55:00+00:00",
+        "rawMessage": "KEFK 071755Z AUTO 21007KT 10SM SCT055 SCT065 OVC085 31/19 A2989 RMK AO2 T03050194 10312 20253",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 27.2,
+            "value": 30.5,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.1,
+            "value": 19.4,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 180,
+            "value": 210,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 16.56,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101560,
+            "value": 101220,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101480,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 69.346082049321,
+            "value": 51.564488472838,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 29.13748033924889,
+            "value": 32.09255713606,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1680
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1980
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2590
+                },
+                "amount": "OVC"
             }
         ]
     }
