@@ -42,29 +42,29 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPVD/observations/2025-07-07T14:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KEFK/observations/2025-07-07T15:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.43,
-            41.7299999
+            -72.23,
+            44.88
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPVD/observations/2025-07-07T14:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-07-07T15:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 19
+            "value": 283
         },
-        "station": "https://api.weather.gov/stations/KPVD",
-        "stationId": "KPVD",
-        "stationName": "Rhode Island TF Green International Airport",
-        "timestamp": "2025-07-07T14:51:00+00:00",
-        "rawMessage": "KPVD 071451Z 22013G18KT 10SM BKN036TCU BKN060 BKN300 30/22 A3001 RMK AO2 SLP162 TCU S T03000222 58006 $",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KEFK",
+        "stationId": "KEFK",
+        "stationName": "Northeast Kingdom International Airport",
+        "timestamp": "2025-07-07T15:35:00+00:00",
+        "rawMessage": "KEFK 071535Z AUTO 17007KT 10SM CLR 30/19 A2992 RMK AO2 T03000185",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -73,18 +73,18 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.2,
+            "value": 18.5,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 170,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 12.96,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101630,
+            "value": 101320,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101620,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 63.042819340597,
+            "value": 50.166273838789,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,30 +141,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 33.45849672498111,
+            "value": 31.075268752480557,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1100
+                    "value": null
                 },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1830
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 9140
-                },
-                "amount": "BKN"
+                "amount": "CLR"
             }
         ]
     }
