@@ -42,29 +42,29 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNR/observations/2025-07-10T23:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KDDH/observations/2025-07-11T02:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.55,
-            45.46
+            -73.25,
+            42.89
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-07-10T23:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KDDH/observations/2025-07-11T02:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 427
+            "value": 252
         },
-        "station": "https://api.weather.gov/stations/KGNR",
-        "stationId": "KGNR",
-        "stationName": "Greenville",
-        "timestamp": "2025-07-10T23:56:00+00:00",
-        "rawMessage": "KGNR 102356Z AUTO 13005KT 18/14 A3002 RMK AO1 SLP163 T01830139 10217 20183 50000",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KDDH",
+        "stationId": "KDDH",
+        "stationName": "Bennington Morse State Airport",
+        "timestamp": "2025-07-11T02:54:00+00:00",
+        "rawMessage": "KDDH 110254Z AUTO VRB03KT 10SM CLR 18/18 A2999 RMK AO2 SLP150 60008 T01830178 51010",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -73,17 +73,17 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 13.9,
+            "value": 17.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 130,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,18 +93,18 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101560,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101630,
+            "value": 101500,
             "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 16090,
+            "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -121,8 +121,8 @@
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 75.526486555437,
+            "value": 96.906913592371,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
