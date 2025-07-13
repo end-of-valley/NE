@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-07-13T11:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2025-07-13T14:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.68,
-            41.93
+            -70.52,
+            41.65
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-07-13T11:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2025-07-13T14:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 55
+            "value": 40
         },
-        "station": "https://api.weather.gov/stations/KBDL",
-        "stationId": "KBDL",
-        "stationName": "Windsor Locks, Bradley International Airport",
-        "timestamp": "2025-07-13T11:51:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KFMH",
+        "stationId": "KFMH",
+        "stationName": "Otis Air National Guard Base",
+        "timestamp": "2025-07-13T14:15:00+00:00",
+        "rawMessage": "KFMH 131415Z 14006KT 10SM OVC012 21/19 A3017",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 21,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.3,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 230,
+            "value": 140,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102070,
+            "value": 102170,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102050,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.94856028028,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 370
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }

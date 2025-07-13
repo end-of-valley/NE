@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPYM/observations/2025-07-13T12:40:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEB/observations/2025-07-13T14:03:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.73,
-            41.92
+            -72.3,
+            43.63
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPYM/observations/2025-07-13T12:40:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEB/observations/2025-07-13T14:03:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 45
+            "value": 182
         },
-        "station": "https://api.weather.gov/stations/KPYM",
-        "stationId": "KPYM",
-        "stationName": "Plymouth, Plymouth Municipal Airport",
-        "timestamp": "2025-07-13T12:40:00+00:00",
-        "rawMessage": "KPYM 131240Z AUTO 12005KT 10SM BKN008 21/19 A3014 RMK AO2 CIG 006V010 T02110194",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KLEB",
+        "stationId": "KLEB",
+        "stationName": "Lebanon Municipal Airport",
+        "timestamp": "2025-07-13T14:03:00+00:00",
+        "rawMessage": "KLEB 131403Z 21006KT 10SM SCT017 OVC033 23/19 A3010 RMK AO2 T02330194",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.1,
+            "value": 23.3,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 120,
+            "value": 210,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102070,
+            "value": 101930,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 90.028047779447,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 240
+                    "value": 520
                 },
-                "amount": "BKN"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1010
+                },
+                "amount": "OVC"
             }
         ]
     }
