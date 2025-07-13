@@ -42,44 +42,44 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-07-13T17:51:00+00:00",
+    "id": "https://api.weather.gov/stations/KSFZ/observations/2025-07-13T18:21:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.68,
-            41.93
+            -71.5,
+            41.92
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-07-13T17:51:00+00:00",
+        "@id": "https://api.weather.gov/stations/KSFZ/observations/2025-07-13T18:21:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 55
+            "value": 134
         },
-        "station": "https://api.weather.gov/stations/KBDL",
-        "stationId": "KBDL",
-        "stationName": "Windsor Locks, Bradley International Airport",
-        "timestamp": "2025-07-13T17:51:00+00:00",
-        "rawMessage": "KBDL 131751Z 18004KT 10SM BKN025 OVC030 26/20 A3010 RMK AO2 SLP190 T02610200 10261 20200 56012",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KSFZ",
+        "stationId": "KSFZ",
+        "stationName": "Pawtucket, North Central State Airport",
+        "timestamp": "2025-07-13T18:21:00+00:00",
+        "rawMessage": "KSFZ 131821Z AUTO VRB04KT 10SM SCT027 28/22 A3012 RMK AO2 $",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.1,
+            "value": 28,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 180,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101930,
+            "value": 102000,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101900,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 69.136060289174,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,23 +141,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.570774907550554,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 760
+                    "value": 820
                 },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 910
-                },
-                "amount": "OVC"
+                "amount": "SCT"
             }
         ]
     }
