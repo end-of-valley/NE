@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KPQI/observations/2025-07-13T11:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KCDA/observations/2025-07-13T14:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.05,
-            46.68
+            -72.01,
+            44.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KPQI/observations/2025-07-13T11:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-07-13T14:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 146
+            "value": 362
         },
-        "station": "https://api.weather.gov/stations/KPQI",
-        "stationId": "KPQI",
-        "stationName": "Presque Isle",
-        "timestamp": "2025-07-13T11:56:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KCDA",
+        "stationId": "KCDA",
+        "stationName": "Caledonia County Airport",
+        "timestamp": "2025-07-13T14:35:00+00:00",
+        "rawMessage": "KCDA 131435Z AUTO 11004KT 10SM OVC008 21/19 A3012 RMK AO2 T02110188",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 21.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.3,
+            "value": 18.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 190,
+            "value": 110,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 7.56,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,8 +93,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101930,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.94856028028,
+            "value": 86.723031773396,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 240
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
