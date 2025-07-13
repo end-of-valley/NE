@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBHB/observations/2025-07-13T16:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2025-07-13T17:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-07-13T16:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-07-13T17:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,14 +61,14 @@
         "station": "https://api.weather.gov/stations/KBHB",
         "stationId": "KBHB",
         "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
-        "timestamp": "2025-07-13T16:56:00+00:00",
-        "rawMessage": "KBHB 131656Z AUTO 22010KT 10SM BKN015 19/17 A3017 RMK AO2 SLP217 T01940167",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "timestamp": "2025-07-13T17:18:00+00:00",
+        "rawMessage": "KBHB 131718Z AUTO 21010KT 10SM SCT015 SCT100 19/17 A3016 RMK AO2",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 19,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,7 +78,7 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 220,
+            "value": 210,
             "qualityControl": "V"
         },
         "windSpeed": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102170,
+            "value": 102130,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102170,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -150,7 +150,14 @@
                     "unitCode": "wmoUnit:m",
                     "value": 460
                 },
-                "amount": "BKN"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3050
+                },
+                "amount": "SCT"
             }
         ]
     }
