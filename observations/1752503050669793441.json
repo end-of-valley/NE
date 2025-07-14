@@ -42,29 +42,29 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLCI/observations/2025-07-14T12:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KEFK/observations/2025-07-14T13:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            43.57
+            -72.23,
+            44.88
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLCI/observations/2025-07-14T12:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-07-14T13:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 166
+            "value": 283
         },
-        "station": "https://api.weather.gov/stations/KLCI",
-        "stationId": "KLCI",
-        "stationName": "Laconia, Laconia Municipal Airport",
-        "timestamp": "2025-07-14T12:56:00+00:00",
-        "rawMessage": "KLCI 141256Z AUTO 21007KT 10SM FEW018 24/20 A3005 RMK AO2 SLP172 T02440200",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "station": "https://api.weather.gov/stations/KEFK",
+        "stationId": "KEFK",
+        "stationName": "Northeast Kingdom International Airport",
+        "timestamp": "2025-07-14T13:15:00+00:00",
+        "rawMessage": "KEFK 141315Z AUTO 18005KT 10SM BKN010 OVC032 24/21 A3004 RMK AO2 T02440211",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -73,17 +73,17 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
+            "value": 21.1,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 210,
+            "value": 180,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.96,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101760,
+            "value": 101730,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 76.496601974948,
+            "value": 81.864390650705,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.89296682934611,
+            "value": 25.033125755879446,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 550
+                    "value": 300
                 },
-                "amount": "FEW"
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 980
+                },
+                "amount": "OVC"
             }
         ]
     }

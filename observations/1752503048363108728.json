@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBOS/observations/2025-07-14T12:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KLEB/observations/2025-07-14T13:16:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.03,
-            42.37
+            -72.3,
+            43.63
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-07-14T12:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLEB/observations/2025-07-14T13:16:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 9
+            "value": 182
         },
-        "station": "https://api.weather.gov/stations/KBOS",
-        "stationId": "KBOS",
-        "stationName": "Boston, Logan International Airport",
-        "timestamp": "2025-07-14T12:54:00+00:00",
-        "rawMessage": "KBOS 141254Z 18008KT 10SM SCT015 24/20 A3007 RMK AO2 SLP182 T02390200",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
+        "station": "https://api.weather.gov/stations/KLEB",
+        "stationId": "KLEB",
+        "stationName": "Lebanon Municipal Airport",
+        "timestamp": "2025-07-14T13:16:00+00:00",
+        "rawMessage": "KLEB 141316Z 200/06KT 10SM FEW010 BKN025 24/21 A3004",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 23.9,
+            "value": 24,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 180,
+            "value": 200,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101830,
+            "value": 101730,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101820,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 78.82635534845,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.403799278542778,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 460
+                    "value": 300
                 },
-                "amount": "SCT"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 760
+                },
+                "amount": "BKN"
             }
         ]
     }
