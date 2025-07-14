@@ -42,38 +42,45 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-07-14T07:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KEWB/observations/2025-07-14T08:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.01,
-            44.57
+            -70.97,
+            41.68
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-07-14T07:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEWB/observations/2025-07-14T08:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 24
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "stationId": "KCDA",
-        "stationName": "Caledonia County Airport",
-        "timestamp": "2025-07-14T07:55:00+00:00",
-        "rawMessage": "KCDA 140755Z AUTO 00000KT 10SM OVC013 21/19 A3005 RMK AO2 T02120191",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KEWB",
+        "stationId": "KEWB",
+        "stationName": "New Bedford, New Bedford Regional Airport",
+        "timestamp": "2025-07-14T08:18:00+00:00",
+        "rawMessage": "KEWB 140818Z AUTO 00000KT 1/2SM R05/2200V6000FT FG VV002 19/19 A3007 RMK AO2 T01890189",
+        "textDescription": "Fog",
+        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "presentWeather": [
+            {
+                "intensity": null,
+                "modifier": null,
+                "weather": "fog",
+                "rawString": "FG"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.2,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.1,
+            "value": 18.9,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101760,
+            "value": 101830,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 800,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 87.821340372971,
+            "value": 100,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +148,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.66866833196111,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 400
+                    "value": 60
                 },
-                "amount": "OVC"
+                "amount": "VV"
             }
         ]
     }
