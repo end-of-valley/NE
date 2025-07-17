@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KOQU/observations/2025-07-17T15:50:00+00:00",
+    "id": "https://api.weather.gov/stations/KMLT/observations/2025-07-17T16:53:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            41.6
+            -68.68,
+            45.65
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KOQU/observations/2025-07-17T15:50:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMLT/observations/2025-07-17T16:53:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 6
+            "value": 124
         },
-        "station": "https://api.weather.gov/stations/KOQU",
-        "stationId": "KOQU",
-        "stationName": "N. Kingston / Quonset",
-        "timestamp": "2025-07-17T15:50:00+00:00",
-        "rawMessage": "KOQU 171550Z AUTO 24016G22KT 10SM SCT065 30/24 A2985 RMK AO2",
+        "station": "https://api.weather.gov/stations/KMLT",
+        "stationId": "KMLT",
+        "stationName": "Millinocket, Millinocket Municipal Airport",
+        "timestamp": "2025-07-17T16:53:00+00:00",
+        "rawMessage": "KMLT 171653Z AUTO VRB06G17KT 10SM FEW029 SCT036 29/21 A2975 RMK AO2 SLP077 T02940211",
         "textDescription": "Partly Cloudy",
         "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 30,
+            "value": 29.4,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 24,
+            "value": 21.1,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 240,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 29.52,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101080,
+            "value": 100750,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 100770,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 70.293061425925,
+            "value": 61.014400994541,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,14 +141,21 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 35.109046890103336,
+            "value": 31.902762375369445,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1980
+                    "value": 880
+                },
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1100
                 },
                 "amount": "SCT"
             }
