@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-07-17T19:55:00+00:00",
+    "id": "https://api.weather.gov/stations/KRKD/observations/2025-07-17T20:23:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.7,
-            44.96
+            -69.09,
+            44.07
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-07-17T19:55:00+00:00",
+        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-07-17T20:23:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 554
+            "value": 17
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "stationId": "K8B0",
-        "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2025-07-17T19:55:00+00:00",
-        "rawMessage": "K8B0 171955Z AUTO 19008G17KT 10SM FEW036 FEW050 FEW065 26/21 A2972 RMK AO2 P0001",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "station": "https://api.weather.gov/stations/KRKD",
+        "stationId": "KRKD",
+        "stationName": "Rockland, Knox County Regional Airport",
+        "timestamp": "2025-07-17T20:23:00+00:00",
+        "rawMessage": "KRKD 172023Z AUTO 20007KT 8SM OVC003 21/20 A2973 RMK AO2 $",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
-            "unitCode": "wmoUnit:degC",
-            "value": 26,
-            "qualityControl": "V"
-        },
-        "dewpoint": {
             "unitCode": "wmoUnit:degC",
             "value": 21,
             "qualityControl": "V"
         },
+        "dewpoint": {
+            "unitCode": "wmoUnit:degC",
+            "value": 20,
+            "qualityControl": "V"
+        },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 190,
+            "value": 200,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100640,
+            "value": 100680,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 12870,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -116,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 73.970629005511,
+            "value": 94.018757001038,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,30 +141,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 26.587010868477222,
+            "value": null,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1100
+                    "value": 90
                 },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1520
-                },
-                "amount": "FEW"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1980
-                },
-                "amount": "FEW"
+                "amount": "OVC"
             }
         ]
     }
