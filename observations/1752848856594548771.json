@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KHIE/observations/2025-07-18T12:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KPQI/observations/2025-07-18T13:06:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.55,
-            44.35
+            -68.05,
+            46.68
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KHIE/observations/2025-07-18T12:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KPQI/observations/2025-07-18T13:06:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 319
+            "value": 146
         },
-        "station": "https://api.weather.gov/stations/KHIE",
-        "stationId": "KHIE",
-        "stationName": "Whitefield - Mount Washington Regional Airport",
-        "timestamp": "2025-07-18T12:52:00+00:00",
-        "rawMessage": "KHIE 181252Z AUTO VRB06KT 10SM OVC024 15/11 A3004 RMK AO2 SLP169 T01500106",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "station": "https://api.weather.gov/stations/KPQI",
+        "stationId": "KPQI",
+        "stationName": "Presque Isle",
+        "timestamp": "2025-07-18T13:06:00+00:00",
+        "rawMessage": "KPQI 181306Z AUTO 32014G23KT 10SM SCT026 BKN035 17/12 A2984 RMK AO2",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 15,
+            "value": 17,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 10.6,
+            "value": 12,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 320,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 11.16,
+            "value": 25.92,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101730,
+            "value": 101050,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101690,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 74.978033950497,
+            "value": 72.401374699018,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +148,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 730
+                    "value": 790
                 },
-                "amount": "OVC"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1070
+                },
+                "amount": "BKN"
             }
         ]
     }
