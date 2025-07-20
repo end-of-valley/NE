@@ -42,46 +42,39 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMLT/observations/2025-07-20T13:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-07-20T14:13:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.68,
-            45.65
+            -73.17,
+            42.7
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMLT/observations/2025-07-20T13:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-07-20T14:13:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 124
+            "value": 196
         },
-        "station": "https://api.weather.gov/stations/KMLT",
-        "stationId": "KMLT",
-        "stationName": "Millinocket, Millinocket Municipal Airport",
-        "timestamp": "2025-07-20T13:53:00+00:00",
-        "rawMessage": "KMLT 201353Z AUTO 00000KT 10SM -RA BKN004 BKN065 OVC085 16/16 A2986 RMK AO2 CIG 003V012 SLP114 P0002 T01610156",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KAQW",
+        "stationId": "KAQW",
+        "stationName": "North Adams Harriman-and-West Airport",
+        "timestamp": "2025-07-20T14:13:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 25,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -100,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101120,
+            "value": 101083.7,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101140,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -123,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 96.854960153164,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -155,21 +148,14 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 120
+                    "value": 914.4
                 },
-                "amount": "BKN"
+                "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1980
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 2590
+                    "value": 1066.8
                 },
                 "amount": "OVC"
             }
