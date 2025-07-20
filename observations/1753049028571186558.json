@@ -42,48 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBTV/observations/2025-07-20T20:25:00+00:00",
+    "id": "https://api.weather.gov/stations/KBHB/observations/2025-07-20T20:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -73.15,
-            44.47
+            -68.37,
+            44.45
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBTV/observations/2025-07-20T20:25:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-07-20T20:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 104
+            "value": 26
         },
-        "station": "https://api.weather.gov/stations/KBTV",
-        "stationId": "KBTV",
-        "stationName": "Burlington, Burlington International Airport",
-        "timestamp": "2025-07-20T20:25:00+00:00",
-        "rawMessage": "KBTV 202025Z 00000KT 10SM BKN007 BKN011 OVC100 21/17 A2978 RMK AO2 RAE07 CIG 006V010 P0000 T02060172 $",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KBHB",
+        "stationId": "KBHB",
+        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
+        "timestamp": "2025-07-20T20:56:00+00:00",
+        "rawMessage": "KBHB 202056Z AUTO 19007KT 7SM -RA FEW006 BKN011 OVC065 18/17 A2977 RMK AO2 SLP082 P0002 60009 T01780172 58008",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 20.6,
+            "value": 17.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.2,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 190,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,17 +100,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100850,
+            "value": 100810,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 100820,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 11270,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,8 +128,8 @@
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 80.874163179441,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,9 +155,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 210
+                    "value": 180
                 },
-                "amount": "BKN"
+                "amount": "FEW"
             },
             {
                 "base": {
@@ -162,7 +169,7 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3050
+                    "value": 1980
                 },
                 "amount": "OVC"
             }
