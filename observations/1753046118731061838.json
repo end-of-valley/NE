@@ -42,55 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KMVL/observations/2025-07-20T19:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KBGR/observations/2025-07-20T20:16:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.61,
-            44.53
+            -68.83,
+            44.8
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KMVL/observations/2025-07-20T19:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBGR/observations/2025-07-20T20:16:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 223
+            "value": 59
         },
-        "station": "https://api.weather.gov/stations/KMVL",
-        "stationId": "KMVL",
-        "stationName": "Morrisville-Stowe State Airport",
-        "timestamp": "2025-07-20T19:54:00+00:00",
-        "rawMessage": "KMVL 201954Z AUTO 03007KT 10SM -RA SCT008 SCT048 OVC100 18/17 A2980 RMK AO2 SLP091 P0008 T01830167",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/KBGR",
+        "stationId": "KBGR",
+        "stationName": "Bangor, Bangor International Airport",
+        "timestamp": "2025-07-20T20:16:00+00:00",
+        "rawMessage": "KBGR 202016Z 14003KT 10SM BKN009 BKN070 OVC110 20/18 A2975 RMK AO2 RAB06E16 CIG 007V014 PRESENT WX VCSH P0000 T02000178",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.3,
+            "value": 20,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.7,
+            "value": 17.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 30,
+            "value": 140,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.96,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100920,
+            "value": 100750,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100910,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 90.396229795155,
+            "value": 87.166373588393,
             "qualityControl": "V"
         },
         "windChill": {
@@ -155,21 +148,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 240
+                    "value": 270
                 },
-                "amount": "SCT"
+                "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1460
+                    "value": 2130
                 },
-                "amount": "SCT"
+                "amount": "BKN"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3050
+                    "value": 3350
                 },
                 "amount": "OVC"
             }
