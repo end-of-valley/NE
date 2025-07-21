@@ -42,38 +42,38 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KORE/observations/2025-07-21T12:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KBOS/observations/2025-07-21T13:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.27,
-            42.57
+            -71.03,
+            42.37
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KORE/observations/2025-07-21T12:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-07-21T13:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 164
+            "value": 9
         },
-        "station": "https://api.weather.gov/stations/KORE",
-        "stationId": "KORE",
-        "stationName": "Orange Municipal Airport",
-        "timestamp": "2025-07-21T12:52:00+00:00",
-        "rawMessage": "KORE 211252Z AUTO 33011KT 10SM FEW042 22/13 A2991 RMK AO2 SLP125 T02170133",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "station": "https://api.weather.gov/stations/KBOS",
+        "stationId": "KBOS",
+        "stationName": "Boston, Logan International Airport",
+        "timestamp": "2025-07-21T13:54:00+00:00",
+        "rawMessage": "KBOS 211354Z 33017G25KT 10SM FEW030 BKN100 23/13 A2986 RMK AO2 SLP110 T02330128 $",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 23.3,
+            "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 13.3,
+            "value": 12.8,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101290,
+            "value": 101120,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101250,
+            "value": 101100,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,26 +131,33 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 51.681409983201,
+            "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "Z"
+            "qualityControl": "V"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 23.035014594005556,
+            "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1280
+                    "value": 910
                 },
                 "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3050
+                },
+                "amount": "BKN"
             }
         ]
     }

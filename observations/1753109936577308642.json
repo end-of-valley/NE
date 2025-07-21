@@ -42,33 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLEW/observations/2025-07-21T12:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KAQW/observations/2025-07-21T14:18:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.28,
-            44.05
+            -73.17,
+            42.7
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-07-21T12:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KAQW/observations/2025-07-21T14:18:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 88
+            "value": 201
         },
-        "station": "https://api.weather.gov/stations/KLEW",
-        "stationId": "KLEW",
-        "stationName": "Auburn-Lewiston",
-        "timestamp": "2025-07-21T12:56:00+00:00",
-        "rawMessage": "KLEW 211256Z AUTO 34013G20KT 10SM CLR 18/10 A2985 RMK AO2 SLP112 T01830100 PNO $",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KAQW",
+        "stationId": "KAQW",
+        "stationName": "North Adams Harriman-and-West Airport",
+        "timestamp": "2025-07-21T14:18:00+00:00",
+        "rawMessage": "KAQW 211418Z AUTO 10SM SCT028 BKN036 20/13 A2994 RMK AO2 T02000133",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 18.3,
+            "value": 20,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -93,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101080,
+            "value": 101390,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101120,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -148,9 +148,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 850
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1100
+                },
+                "amount": "BKN"
             }
         ]
     }

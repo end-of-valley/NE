@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2025-07-21T12:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KFIT/observations/2025-07-21T13:52:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.18,
-            44.58
+            -71.76,
+            42.55
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2025-07-21T12:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFIT/observations/2025-07-21T13:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 353
+            "value": 106
         },
-        "station": "https://api.weather.gov/stations/KBML",
-        "stationId": "KBML",
-        "stationName": "Berlin, Berlin Municipal Airport",
-        "timestamp": "2025-07-21T12:52:00+00:00",
-        "rawMessage": "KBML 211252Z AUTO 33008G17KT 290V360 10SM CLR 16/07 A2989 RMK AO2 SLP123 T01560072",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "station": "https://api.weather.gov/stations/KFIT",
+        "stationId": "KFIT",
+        "stationName": "Fitchburg, Fitchburg Municipal Airport",
+        "timestamp": "2025-07-21T13:52:00+00:00",
+        "rawMessage": "KFIT 211352Z AUTO 34014G20KT 10SM FEW045 SCT055 BKN080 23/13 A2989 RMK AO2 SLP122 T02280128",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 15.6,
+            "value": 22.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.2,
+            "value": 12.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 330,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.76,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,7 +98,7 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101230,
+            "value": 101220,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 57.352861203314,
+            "value": 53.268639384947,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 22.52645891727389,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1370
                 },
-                "amount": "CLR"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1680
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2440
+                },
+                "amount": "BKN"
             }
         ]
     }
