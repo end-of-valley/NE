@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBAF/observations/2025-07-21T14:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KBDL/observations/2025-07-21T14:51:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.72,
-            42.17
+            -72.68,
+            41.93
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBAF/observations/2025-07-21T14:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-07-21T14:51:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 83
+            "value": 55
         },
-        "station": "https://api.weather.gov/stations/KBAF",
-        "stationId": "KBAF",
-        "stationName": "Westfield, Barnes Municipal Airport",
-        "timestamp": "2025-07-21T14:53:00+00:00",
-        "rawMessage": "KBAF 211453Z 35013G17KT 10SM BKN043 25/13 A2990 RMK AO2 SLP123 T02500133 51013",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "station": "https://api.weather.gov/stations/KBDL",
+        "stationId": "KBDL",
+        "stationName": "Windsor Locks, Bradley International Airport",
+        "timestamp": "2025-07-21T14:51:00+00:00",
+        "rawMessage": "KBDL 211451Z 32010KT 10SM FEW030 SCT040 24/14 A2990 RMK AO2 SLP122 T02440144 51013",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 25,
+            "value": 24.4,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 13.3,
+            "value": 14.4,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 350,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 24.12,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -98,7 +98,7 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101230,
+            "value": 101220,
             "qualityControl": "V"
         },
         "visibility": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 48.218931729106,
+            "value": 53.678188152682,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +141,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 24.814605439593333,
+            "value": 24.297152690653334,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1310
+                    "value": 910
                 },
-                "amount": "BKN"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1220
+                },
+                "amount": "SCT"
             }
         ]
     }
