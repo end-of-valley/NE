@@ -42,7 +42,7 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBOS/observations/2025-07-24T06:54:00+00:00",
+    "id": "https://api.weather.gov/stations/KBOS/observations/2025-07-24T07:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
@@ -52,7 +52,7 @@
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-07-24T06:54:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-07-24T07:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
@@ -61,10 +61,10 @@
         "station": "https://api.weather.gov/stations/KBOS",
         "stationId": "KBOS",
         "stationName": "Boston, Logan International Airport",
-        "timestamp": "2025-07-24T06:54:00+00:00",
-        "rawMessage": "KBOS 240654Z 22012KT 10SM FEW130 20/15 A3019 RMK AO2 SLP221 T02000150 $",
-        "textDescription": "",
-        "icon": null,
+        "timestamp": "2025-07-24T07:54:00+00:00",
+        "rawMessage": "KBOS 240754Z 22012KT 10SM FEW130 20/15 A3018 RMK AO2 SLP218 T02000150 $",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -93,12 +93,12 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102240,
+            "value": 102200,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102210,
+            "value": 102180,
             "qualityControl": "V"
         },
         "visibility": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3960
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }
