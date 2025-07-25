@@ -42,48 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBML/observations/2025-07-25T13:52:00+00:00",
+    "id": "https://api.weather.gov/stations/KEFK/observations/2025-07-25T14:35:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.18,
-            44.58
+            -72.23,
+            44.88
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBML/observations/2025-07-25T13:52:00+00:00",
+        "@id": "https://api.weather.gov/stations/KEFK/observations/2025-07-25T14:35:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 353
+            "value": 283
         },
-        "station": "https://api.weather.gov/stations/KBML",
-        "stationId": "KBML",
-        "stationName": "Berlin, Berlin Municipal Airport",
-        "timestamp": "2025-07-25T13:52:00+00:00",
-        "rawMessage": "KBML 251352Z AUTO 33009KT 9SM SCT033 OVC041 25/21 A2987 RMK AO2 SLP110 T02500206",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KEFK",
+        "stationId": "KEFK",
+        "stationName": "Northeast Kingdom International Airport",
+        "timestamp": "2025-07-25T14:35:00+00:00",
+        "rawMessage": "KEFK 251435Z AUTO 22004KT 10SM -RA SCT020 OVC025 23/20 A2989 RMK AO2 T02300200",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 25,
+            "value": 23,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 20.6,
+            "value": 20,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 330,
+            "value": 220,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 16.56,
+            "value": 7.56,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,17 +100,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101150,
+            "value": 101220,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101100,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 14480,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 76.589075240688,
+            "value": 83.223812842562,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,21 +148,21 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 25.55538140906222,
+            "value": 23.52862177977778,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1010
+                    "value": 610
                 },
                 "amount": "SCT"
             },
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1250
+                    "value": 760
                 },
                 "amount": "OVC"
             }
