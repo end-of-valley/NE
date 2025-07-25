@@ -42,55 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KSFZ/observations/2025-07-25T19:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KUUU/observations/2025-07-25T20:31:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.5,
-            41.92
+            -71.28,
+            41.53
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KSFZ/observations/2025-07-25T19:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KUUU/observations/2025-07-25T20:31:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 134
+            "value": 52
         },
-        "station": "https://api.weather.gov/stations/KSFZ",
-        "stationId": "KSFZ",
-        "stationName": "Pawtucket, North Central State Airport",
-        "timestamp": "2025-07-25T19:56:00+00:00",
-        "rawMessage": "KSFZ 251956Z AUTO 21004KT 7SM TS FEW015 24/ A2987 RMK AO2 PK WND 33026/1858 WSHFT 1850 LTG DSNT E-SW RAE50 SLP111 P0101 T0239 $",
-        "textDescription": "Thunderstorms",
-        "icon": "https://api.weather.gov/icons/land/day/tsra?size=medium",
+        "station": "https://api.weather.gov/stations/KUUU",
+        "stationId": "KUUU",
+        "stationName": "Newport, Newport State Airport",
+        "timestamp": "2025-07-25T20:31:00+00:00",
+        "rawMessage": "KUUU 252031Z AUTO 03005KT 7SM VCTS -RA FEW023 SCT033 BKN075 24/23 A2990 RMK AO2 LTG DSNT ALQDS RAB00 TSB08E23 P0007 T02390233",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
         "presentWeather": [
             {
-                "intensity": null,
+                "intensity": "light",
                 "modifier": null,
-                "weather": "thunderstorms",
-                "rawString": "TS"
+                "weather": "rain",
+                "rawString": "-RA"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 24,
+            "value": 23.9,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 23.3,
+            "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 210,
+            "value": 30,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 7.56,
+            "value": 9.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,13 +100,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101150,
+            "value": 101250,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101110,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -123,7 +123,7 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 30,
+            "value": 0,
             "qualityControl": "C"
         },
         "precipitationLast3Hours": {
@@ -138,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": null,
+            "value": 96.449562600165,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,16 +148,30 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 24.863960801226668,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 460
+                    "value": 700
                 },
                 "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1010
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2290
+                },
+                "amount": "BKN"
             }
         ]
     }
