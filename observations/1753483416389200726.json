@@ -42,30 +42,37 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KACK/observations/2025-07-25T19:53:00+00:00",
+    "id": "https://api.weather.gov/stations/KHYA/observations/2025-07-25T21:30:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.06,
-            41.25
+            -70.28,
+            41.67
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KACK/observations/2025-07-25T19:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/KHYA/observations/2025-07-25T21:30:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 15
+            "value": 16
         },
-        "station": "https://api.weather.gov/stations/KACK",
-        "stationId": "KACK",
-        "stationName": "Nantucket, Nantucket Memorial Airport",
-        "timestamp": "2025-07-25T19:53:00+00:00",
-        "rawMessage": "KACK 251953Z 24013KT 10SM CLR 25/22 A2986 RMK AO2 SLP112 T02500217",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KHYA",
+        "stationId": "KHYA",
+        "stationName": "Hyannis, Barnstable Municipal-Boardman Airport",
+        "timestamp": "2025-07-25T21:30:00+00:00",
+        "rawMessage": "KHYA 252130Z 23010KT 10SM -RA FEW110 25/23 A2983 RMK AO2 RAB2058 P0001 T02500228",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
             "value": 25,
@@ -73,17 +80,17 @@
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 21.7,
+            "value": 22.8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 240,
+            "value": 230,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 24.12,
+            "value": 18.36,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,13 +100,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101120,
+            "value": 101020,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101120,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -116,8 +123,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 0,
+            "qualityControl": "C"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -131,7 +138,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 81.938137162883,
+            "value": 87.61182167843,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,16 +148,16 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 25.695051359253334,
+            "value": 25.843197566047778,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 3350
                 },
-                "amount": "CLR"
+                "amount": "FEW"
             }
         ]
     }
