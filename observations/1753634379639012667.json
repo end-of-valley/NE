@@ -63,8 +63,8 @@
         "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
         "timestamp": "2025-07-27T13:56:00+00:00",
         "rawMessage": "KBHB 271356Z AUTO 21011KT 9SM CLR 23/15 A3000 RMK AO2 SLP160 T02280150",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
