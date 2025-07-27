@@ -42,62 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KORH/observations/2025-07-27T14:00:00+00:00",
+    "id": "https://api.weather.gov/stations/K8B0/observations/2025-07-27T14:39:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.88,
-            42.27
+            -70.66,
+            44.99
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KORH/observations/2025-07-27T14:00:00+00:00",
+        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-07-27T14:39:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 308
+            "value": 552
         },
-        "station": "https://api.weather.gov/stations/KORH",
-        "stationId": "KORH",
-        "stationName": "Worcester, Worcester Regional Airport",
-        "timestamp": "2025-07-27T14:00:00+00:00",
-        "rawMessage": "KORH 271400Z 23012KT 3SM -RA BR SCT009 OVC032 17/16 A3006 RMK AO2 P0002 T01720161 $",
-        "textDescription": "Light Rain and Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            },
-            {
-                "intensity": null,
-                "modifier": null,
-                "weather": "fog_mist",
-                "rawString": "BR"
-            }
-        ],
+        "station": "https://api.weather.gov/stations/K8B0",
+        "stationId": "K8B0",
+        "stationName": "Steven A Bean Municipal Airport",
+        "timestamp": "2025-07-27T14:39:00+00:00",
+        "rawMessage": "",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 17.2,
+            "value": 24,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 14,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 200,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 7.416,
+            "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -106,8 +93,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101557.8,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -116,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 4830,
+            "value": 9656.06,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -129,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -144,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 93.251499106659,
+            "value": 53.576211354435,
             "qualityControl": "V"
         },
         "windChill": {
@@ -154,24 +141,9 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 23.854489963143333,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 270
-                },
-                "amount": "SCT"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 980
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
