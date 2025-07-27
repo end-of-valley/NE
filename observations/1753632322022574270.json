@@ -42,55 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLCI/observations/2025-07-27T13:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KRKD/observations/2025-07-27T13:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            43.57
+            -69.09,
+            44.07
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLCI/observations/2025-07-27T13:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KRKD/observations/2025-07-27T13:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 166
+            "value": 17
         },
-        "station": "https://api.weather.gov/stations/KLCI",
-        "stationId": "KLCI",
-        "stationName": "Laconia, Laconia Municipal Airport",
+        "station": "https://api.weather.gov/stations/KRKD",
+        "stationId": "KRKD",
+        "stationName": "Rockland, Knox County Regional Airport",
         "timestamp": "2025-07-27T13:56:00+00:00",
-        "rawMessage": "KLCI 271356Z AUTO 22006KT 7SM -RA BKN029 OVC038 19/16 A3000 RMK AO2 RAB08 SLP159 P0000 T01940161",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "rawMessage": "KRKD 271356Z AUTO 23011KT 10SM CLR 23/16 A2999 RMK AO2 SLP157 T02280156 $",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 22.8,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
+            "value": 15.6,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 220,
+            "value": 230,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 11.16,
+            "value": 20.52,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,17 +93,17 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101590,
+            "value": 101560,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101570,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 11270,
+            "value": 16090,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -123,8 +116,8 @@
         },
         "precipitationLastHour": {
             "unitCode": "wmoUnit:mm",
-            "value": 0,
-            "qualityControl": "C"
+            "value": null,
+            "qualityControl": "Z"
         },
         "precipitationLast3Hours": {
             "unitCode": "wmoUnit:mm",
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 81.232642384103,
+            "value": 63.854514058556,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,24 +141,9 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": null,
+            "value": 22.802867867084444,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 880
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1160
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }

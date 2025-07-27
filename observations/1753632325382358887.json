@@ -42,55 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLCI/observations/2025-07-27T13:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KSFZ/observations/2025-07-27T13:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -71.42,
-            43.57
+            -71.5,
+            41.92
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLCI/observations/2025-07-27T13:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KSFZ/observations/2025-07-27T13:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 166
+            "value": 134
         },
-        "station": "https://api.weather.gov/stations/KLCI",
-        "stationId": "KLCI",
-        "stationName": "Laconia, Laconia Municipal Airport",
+        "station": "https://api.weather.gov/stations/KSFZ",
+        "stationId": "KSFZ",
+        "stationName": "Pawtucket, North Central State Airport",
         "timestamp": "2025-07-27T13:56:00+00:00",
-        "rawMessage": "KLCI 271356Z AUTO 22006KT 7SM -RA BKN029 OVC038 19/16 A3000 RMK AO2 RAB08 SLP159 P0000 T01940161",
-        "textDescription": "Light Rain",
-        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
-        "presentWeather": [
-            {
-                "intensity": "light",
-                "modifier": null,
-                "weather": "rain",
-                "rawString": "-RA"
-            }
-        ],
+        "rawMessage": "KSFZ 271356Z AUTO 00000KT 7SM -RA FEW036 OVC050 20/20 A3008 RMK AO2 RAB17 SLP182 P0002 T02000200 $",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.4,
+            "value": 20,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 16.1,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 220,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 11.16,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,13 +93,13 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101590,
+            "value": 101860,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101820,
+            "qualityControl": "V"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
@@ -138,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 81.232642384103,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
@@ -151,21 +144,6 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": [
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 880
-                },
-                "amount": "BKN"
-            },
-            {
-                "base": {
-                    "unitCode": "wmoUnit:m",
-                    "value": 1160
-                },
-                "amount": "OVC"
-            }
-        ]
+        "cloudLayers": []
     }
 }
