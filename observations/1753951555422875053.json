@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-07-31T07:15:00+00:00",
+    "id": "https://api.weather.gov/stations/K8B0/observations/2025-07-31T07:39:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.01,
-            44.57
+            -70.66,
+            44.99
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-07-31T07:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-07-31T07:39:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 552
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "stationId": "KCDA",
-        "stationName": "Caledonia County Airport",
-        "timestamp": "2025-07-31T07:15:00+00:00",
-        "rawMessage": "KCDA 310715Z AUTO 31005KT 19/14 A3008 RMK AO2 T01910142",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/K8B0",
+        "stationId": "K8B0",
+        "stationName": "Steven A Bean Municipal Airport",
+        "timestamp": "2025-07-31T07:39:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 19.1,
+            "value": 17,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.2,
+            "value": 12,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 310,
+            "value": 340,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 9.36,
+            "value": 11.124,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,8 +93,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101828.7,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -103,8 +103,8 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 14484.1,
+            "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 73.251927211552,
+            "value": 72.401374699018,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,21 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2438.4
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3352.8
+                },
+                "amount": "OVC"
+            }
+        ]
     }
 }
