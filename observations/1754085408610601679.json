@@ -62,9 +62,9 @@
         "stationId": "KFIT",
         "stationName": "Fitchburg, Fitchburg Municipal Airport",
         "timestamp": "2025-08-01T19:52:00+00:00",
-        "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "rawMessage": "KFIT 011952Z AUTO 34007KT 10SM BKN075 23/11 A3018 RMK AO2 SLP221 T02330111",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -144,6 +144,14 @@
             "value": 22.89203280804889,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2290
+                },
+                "amount": "BKN"
+            }
+        ]
     }
 }
