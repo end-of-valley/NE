@@ -42,68 +42,68 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KEWB/observations/2025-08-02T16:53:00+00:00",
+    "id": "https://api.weather.gov/stations/K8B0/observations/2025-08-02T18:54:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.97,
-            41.68
+            -70.66,
+            44.99
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KEWB/observations/2025-08-02T16:53:00+00:00",
+        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-08-02T18:54:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 24
+            "value": 552
         },
-        "station": "https://api.weather.gov/stations/KEWB",
-        "stationId": "KEWB",
-        "stationName": "New Bedford, New Bedford Regional Airport",
-        "timestamp": "2025-08-02T16:53:00+00:00",
+        "station": "https://api.weather.gov/stations/K8B0",
+        "stationId": "K8B0",
+        "stationName": "Steven A Bean Municipal Airport",
+        "timestamp": "2025-08-02T18:54:00+00:00",
         "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 23.3,
+            "value": 22,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 11.1,
+            "value": 8,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 300,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 12.96,
             "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 20.376,
+            "qualityControl": "S"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102240,
+            "value": 102302.8,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102240,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 46.205511797614,
+            "value": 40.603202667227,
             "qualityControl": "V"
         },
         "windChill": {
@@ -141,9 +141,17 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 22.89203280804889,
+            "value": 21.315750291866667,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1676.4
+                },
+                "amount": "SCT"
+            }
+        ]
     }
 }
