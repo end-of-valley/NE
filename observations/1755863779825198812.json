@@ -42,33 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNR/observations/2025-08-22T10:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KMPV/observations/2025-08-22T11:34:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.55,
-            45.46
+            -72.56,
+            44.2
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-08-22T10:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMPV/observations/2025-08-22T11:34:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 427
+            "value": 355
         },
-        "station": "https://api.weather.gov/stations/KGNR",
-        "stationId": "KGNR",
-        "stationName": "Greenville",
-        "timestamp": "2025-08-22T10:56:00+00:00",
-        "rawMessage": "KGNR 221056Z AUTO 34007KT 14/12 A3000 RMK AO1 SLP159 T01440117",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KMPV",
+        "stationId": "KMPV",
+        "stationName": "Barre / Montpelier, Knapp State Airport",
+        "timestamp": "2025-08-22T11:34:00+00:00",
+        "rawMessage": "KMPV 221134Z AUTO 00000KT 9SM FEW001 12/12 A3008 RMK AO2 T01170117",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 14.4,
+            "value": 11.7,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,12 +78,12 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 340,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.96,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -98,13 +98,13 @@
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101590,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 14480,
+            "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -131,7 +131,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 83.831702542696,
+            "value": 100,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 30
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }
