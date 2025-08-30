@@ -42,55 +42,55 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KLEW/observations/2025-08-30T04:30:00+00:00",
+    "id": "https://api.weather.gov/stations/KBGR/observations/2025-08-30T04:30:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.28,
-            44.05
+            -68.83,
+            44.8
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KLEW/observations/2025-08-30T04:30:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBGR/observations/2025-08-30T04:30:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 88
+            "value": 59
         },
-        "station": "https://api.weather.gov/stations/KLEW",
-        "stationId": "KLEW",
-        "stationName": "Auburn-Lewiston",
+        "station": "https://api.weather.gov/stations/KBGR",
+        "stationId": "KBGR",
+        "stationName": "Bangor, Bangor International Airport",
         "timestamp": "2025-08-30T04:30:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Fog/Mist",
-        "icon": "https://api.weather.gov/icons/land/night/fog?size=medium",
+        "rawMessage": "KBGR 300430Z 13003KT 9SM RA BKN012 BKN065 OVC075 16/15 A2991 RMK AO2 RAB00 OCNL LTGIC DSNT S-SW CB DSNT S-SW P0004 T01610150",
+        "textDescription": "Rain",
+        "icon": "https://api.weather.gov/icons/land/night/rain?size=medium",
         "presentWeather": [
             {
                 "intensity": null,
                 "modifier": null,
-                "weather": "fog_mist",
-                "rawString": "BR"
+                "weather": "rain",
+                "rawString": "RA"
             }
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 13,
+            "value": 16.1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 13,
+            "value": 15,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 130,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 5.4,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101253.02,
+            "value": 101290,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -110,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 6437.38,
+            "value": 14480,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,14 +121,24 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
+        "precipitationLastHour": {
+            "unitCode": "wmoUnit:mm",
+            "value": 0,
+            "qualityControl": "C"
+        },
         "precipitationLast3Hours": {
+            "unitCode": "wmoUnit:mm",
+            "value": null,
+            "qualityControl": "Z"
+        },
+        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 100,
+            "value": 93.195965844652,
             "qualityControl": "V"
         },
         "windChill": {
@@ -145,7 +155,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3048
+                    "value": 370
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1980
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2290
                 },
                 "amount": "OVC"
             }
