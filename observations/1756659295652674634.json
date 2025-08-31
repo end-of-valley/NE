@@ -42,34 +42,34 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBHB/observations/2025-08-31T16:20:00+00:00",
+    "id": "https://api.weather.gov/stations/K8B0/observations/2025-08-31T16:29:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -68.37,
-            44.45
+            -70.66,
+            44.99
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBHB/observations/2025-08-31T16:20:00+00:00",
+        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-08-31T16:29:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 26
+            "value": 552
         },
-        "station": "https://api.weather.gov/stations/KBHB",
-        "stationId": "KBHB",
-        "stationName": "Bar Harbor, Hancock County-Bar Harbor Airport",
-        "timestamp": "2025-08-31T16:20:00+00:00",
+        "station": "https://api.weather.gov/stations/K8B0",
+        "stationId": "K8B0",
+        "stationName": "Steven A Bean Municipal Airport",
+        "timestamp": "2025-08-31T16:29:00+00:00",
         "rawMessage": "",
-        "textDescription": "Mostly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 21,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
@@ -78,13 +78,13 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 350,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 16.668,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,8 +93,8 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102065.75,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -114,7 +114,17 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
+        "precipitationLastHour": {
+            "unitCode": "wmoUnit:mm",
+            "value": null,
+            "qualityControl": "Z"
+        },
         "precipitationLast3Hours": {
+            "unitCode": "wmoUnit:mm",
+            "value": null,
+            "qualityControl": "Z"
+        },
+        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
@@ -122,25 +132,32 @@
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
             "value": null,
-            "qualityControl": "V"
+            "qualityControl": "Z"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 1188.72
+                    "value": 1280.16
                 },
                 "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1493.52
+                },
+                "amount": "OVC"
             }
         ]
     }
