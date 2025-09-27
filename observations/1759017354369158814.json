@@ -42,48 +42,48 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KGNR/observations/2025-09-27T22:56:00+00:00",
+    "id": "https://api.weather.gov/stations/KBOS/observations/2025-09-27T23:25:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -69.55,
-            45.46
+            -71.01,
+            42.36
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KGNR/observations/2025-09-27T22:56:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBOS/observations/2025-09-27T23:25:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 427
+            "value": 70
         },
-        "station": "https://api.weather.gov/stations/KGNR",
-        "stationId": "KGNR",
-        "stationName": "Greenville",
-        "timestamp": "2025-09-27T22:56:00+00:00",
-        "rawMessage": "KGNR 272256Z AUTO 00000KT 14/03 A2994 RMK AO1 SLP145 T01390033",
-        "textDescription": "",
-        "icon": null,
+        "station": "https://api.weather.gov/stations/KBOS",
+        "stationId": "KBOS",
+        "stationName": "Boston, Logan International Airport",
+        "timestamp": "2025-09-27T23:25:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 13.9,
+            "value": 19,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.3,
+            "value": 16,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 0,
+            "value": 120,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 0,
+            "value": 9.252,
             "qualityControl": "V"
         },
         "windGust": {
@@ -93,18 +93,18 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 101523.93,
+            "qualityControl": "V"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101450,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 16093.44,
+            "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
             "unitCode": "wmoUnit:degC",
@@ -114,24 +114,14 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 48.803177776309,
+            "value": 82.752266062258,
             "qualityControl": "V"
         },
         "windChill": {
@@ -144,6 +134,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 944.88
+                },
+                "amount": "FEW"
+            }
+        ]
     }
 }
