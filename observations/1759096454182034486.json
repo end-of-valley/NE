@@ -42,49 +42,49 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBDL/observations/2025-09-28T21:20:00+00:00",
+    "id": "https://api.weather.gov/stations/KBGR/observations/2025-09-28T21:25:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.68,
-            41.93
+            -68.83,
+            44.8
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBDL/observations/2025-09-28T21:20:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBGR/observations/2025-09-28T21:25:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 60
+            "value": 59
         },
-        "station": "https://api.weather.gov/stations/KBDL",
-        "stationId": "KBDL",
-        "stationName": "Windsor Locks, Bradley International Airport",
-        "timestamp": "2025-09-28T21:20:00+00:00",
+        "station": "https://api.weather.gov/stations/KBGR",
+        "stationId": "KBGR",
+        "stationName": "Bangor, Bangor International Airport",
+        "timestamp": "2025-09-28T21:25:00+00:00",
         "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 29,
+            "value": 26,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 14,
+            "value": 11,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 270,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.96,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
@@ -93,7 +93,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101625.52,
+            "value": 101286.88,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -121,7 +121,7 @@
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 39.896068281859,
+            "value": 39.058443699936,
             "qualityControl": "V"
         },
         "windChill": {
@@ -131,16 +131,23 @@
         },
         "heatIndex": {
             "unitCode": "wmoUnit:degC",
-            "value": 28.597040427734445,
+            "value": 25.675414918831667,
             "qualityControl": "V"
         },
         "cloudLayers": [
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 3810
+                    "value": 1828.8
                 },
-                "amount": "CLR"
+                "amount": "FEW"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2743.2
+                },
+                "amount": "SCT"
             }
         ]
     }
