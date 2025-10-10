@@ -42,29 +42,29 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2025-10-10T22:15:00+00:00",
+    "id": "https://api.weather.gov/stations/K8B0/observations/2025-10-10T22:29:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.7,
-            44.96
+            -70.66,
+            44.99
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-10-10T22:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/K8B0/observations/2025-10-10T22:29:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 554
+            "value": 552
         },
         "station": "https://api.weather.gov/stations/K8B0",
         "stationId": "K8B0",
         "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2025-10-10T22:15:00+00:00",
+        "timestamp": "2025-10-10T22:29:00+00:00",
         "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
@@ -78,22 +78,22 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 220,
+            "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 5.4,
+            "value": 9.252,
             "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": null,
-            "qualityControl": "Z"
+            "value": 18.504,
+            "qualityControl": "S"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102470,
+            "value": 102472.12,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -103,7 +103,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -136,7 +136,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 8.508382799110555,
+            "value": 7.589624668772778,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -144,6 +144,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": null
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }
