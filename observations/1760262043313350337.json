@@ -1,24 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Error</title>
-<style>
-    body {
-        width: 35em;
-        margin: 0 auto;
-        font-family: Tahoma, Verdana, Arial, sans-serif;
-    }
-</style>
-</head>
-<body>
-<h1>An error occurred.</h1>
-<p>Sorry, the page you are looking for is currently unavailable.<br/>
-Please try again later.</p>
-<p>If you are the system administrator of this resource then you should check
-the error log for details.</p>
-<p><em>Faithfully yours, nginx.</em></p>
-</body>
-</html>
 {
     "@context": [
         "https://geojson.org/geojson-ld/geojson-context.jsonld",
@@ -63,48 +42,48 @@ the error log for details.</p>
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KBAF/observations/2025-10-12T09:20:00+00:00",
+    "id": "https://api.weather.gov/stations/KLCI/observations/2025-10-12T09:25:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.72,
-            42.15
+            -71.42,
+            43.57
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KBAF/observations/2025-10-12T09:20:00+00:00",
+        "@id": "https://api.weather.gov/stations/KLCI/observations/2025-10-12T09:25:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 83
+            "value": 166
         },
-        "station": "https://api.weather.gov/stations/KBAF",
-        "stationId": "KBAF",
-        "stationName": "Westfield, Barnes Municipal Airport",
-        "timestamp": "2025-10-12T09:20:00+00:00",
+        "station": "https://api.weather.gov/stations/KLCI",
+        "stationId": "KLCI",
+        "stationName": "Laconia, Laconia Municipal Airport",
+        "timestamp": "2025-10-12T09:25:00+00:00",
         "rawMessage": "",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/ovc?size=medium",
+        "textDescription": "Partly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 12,
+            "value": 5,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 9,
+            "value": 4,
             "qualityControl": "V"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 10,
+            "value": 0,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.96,
+            "value": 0,
             "qualityControl": "V"
         },
         "windGust": {
@@ -114,7 +93,7 @@ the error log for details.</p>
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 102235.08,
+            "value": 102472.12,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -124,7 +103,7 @@ the error log for details.</p>
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16093.44,
+            "value": 11265.41,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -142,7 +121,7 @@ the error log for details.</p>
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 81.879846925107,
+            "value": 93.248095448059,
             "qualityControl": "V"
         },
         "windChill": {
@@ -159,9 +138,9 @@ the error log for details.</p>
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 701.04
+                    "value": 30.48
                 },
-                "amount": "OVC"
+                "amount": "SCT"
             }
         ]
     }
