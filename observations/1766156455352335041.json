@@ -42,38 +42,45 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KCDA/observations/2025-12-19T14:15:00+00:00",
+    "id": "https://api.weather.gov/stations/KMPV/observations/2025-12-19T14:40:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -72.01,
-            44.57
+            -72.57,
+            44.2
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KCDA/observations/2025-12-19T14:15:00+00:00",
+        "@id": "https://api.weather.gov/stations/KMPV/observations/2025-12-19T14:40:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 362
+            "value": 355
         },
-        "station": "https://api.weather.gov/stations/KCDA",
-        "stationId": "KCDA",
-        "stationName": "Caledonia County Airport",
-        "timestamp": "2025-12-19T14:15:00+00:00",
-        "rawMessage": "KCDA 191415Z AUTO 13016G22KT 10SM OVC020 09/07 A2947 RMK AO2 T00910074",
-        "textDescription": "Cloudy",
-        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
-        "presentWeather": [],
+        "station": "https://api.weather.gov/stations/KMPV",
+        "stationId": "KMPV",
+        "stationName": "Barre / Montpelier, Knapp State Airport",
+        "timestamp": "2025-12-19T14:40:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Light Rain",
+        "icon": "https://api.weather.gov/icons/land/day/rain?size=medium",
+        "presentWeather": [
+            {
+                "intensity": "light",
+                "modifier": null,
+                "weather": "rain",
+                "rawString": "-RA"
+            }
+        ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 9.1,
+            "value": 11,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 7.4,
+            "value": 8,
             "qualityControl": "V"
         },
         "windDirection": {
@@ -88,13 +95,13 @@
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 40.68,
+            "value": 50.004,
             "qualityControl": "S"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 99800,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "seaLevelPressure": {
             "unitCode": "wmoUnit:Pa",
@@ -103,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 16090,
+            "value": 16093.44,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -114,24 +121,14 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 89.107959746819,
+            "value": 81.750052187031,
             "qualityControl": "V"
         },
         "windChill": {
@@ -148,7 +145,21 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 610
+                    "value": 518.16
+                },
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1310.64
+                },
+                "amount": "BKN"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 2590.8
                 },
                 "amount": "OVC"
             }
