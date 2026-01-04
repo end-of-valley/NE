@@ -42,39 +42,39 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2026-01-04T19:14:00+00:00",
+    "id": "https://api.weather.gov/stations/KBOS/observations/2026-01-04T19:15:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.66,
-            44.99
+            -71.01,
+            42.36
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2026-01-04T19:14:00+00:00",
+        "@id": "https://api.weather.gov/stations/KBOS/observations/2026-01-04T19:15:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 552
+            "value": 70
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "stationId": "K8B0",
-        "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2026-01-04T19:14:00+00:00",
+        "station": "https://api.weather.gov/stations/KBOS",
+        "stationId": "KBOS",
+        "stationName": "Boston, Logan International Airport",
+        "timestamp": "2026-01-04T19:15:00+00:00",
         "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "textDescription": "Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/ovc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": -13,
+            "value": -1,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": -19,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
@@ -83,17 +83,17 @@
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 12.96,
+            "value": 14.832,
             "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 22.212,
-            "qualityControl": "S"
+            "value": null,
+            "qualityControl": "Z"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 101083.7,
+            "value": 101591.66,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -114,29 +114,19 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 60.732674670378,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": -19.831484350966335,
+            "value": -5.597486056636111,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -148,9 +138,16 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": null
+                    "value": 1066.8
                 },
-                "amount": "CLR"
+                "amount": "SCT"
+            },
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 1402.08
+                },
+                "amount": "OVC"
             }
         ]
     }
