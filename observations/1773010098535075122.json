@@ -42,33 +42,33 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/K8B0/observations/2026-03-08T22:19:00+00:00",
+    "id": "https://api.weather.gov/stations/KSFZ/observations/2026-03-08T22:30:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.66,
-            44.99
+            -71.5,
+            41.92
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/K8B0/observations/2026-03-08T22:19:00+00:00",
+        "@id": "https://api.weather.gov/stations/KSFZ/observations/2026-03-08T22:30:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 552
+            "value": 134
         },
-        "station": "https://api.weather.gov/stations/K8B0",
-        "stationId": "K8B0",
-        "stationName": "Steven A Bean Municipal Airport",
-        "timestamp": "2026-03-08T22:19:00+00:00",
+        "station": "https://api.weather.gov/stations/KSFZ",
+        "stationId": "KSFZ",
+        "stationName": "Pawtucket, North Central State Airport",
+        "timestamp": "2026-03-08T22:30:00+00:00",
         "rawMessage": "",
-        "textDescription": "",
-        "icon": null,
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 6,
+            "value": 11,
             "qualityControl": "V"
         },
         "dewpoint": {
@@ -78,22 +78,22 @@
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 280,
+            "value": 260,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 14.832,
+            "value": 9.252,
             "qualityControl": "V"
         },
         "windGust": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 24.084,
-            "qualityControl": "S"
+            "value": null,
+            "qualityControl": "Z"
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100406.42,
+            "value": 100948.24,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -114,17 +114,7 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
-        "precipitationLastHour": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
         "precipitationLast3Hours": {
-            "unitCode": "wmoUnit:mm",
-            "value": null,
-            "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
@@ -136,7 +126,7 @@
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 3.0223691785516666,
+            "value": null,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -144,6 +134,14 @@
             "value": null,
             "qualityControl": "V"
         },
-        "cloudLayers": []
+        "cloudLayers": [
+            {
+                "base": {
+                    "unitCode": "wmoUnit:m",
+                    "value": 3810
+                },
+                "amount": "CLR"
+            }
+        ]
     }
 }

@@ -42,27 +42,27 @@
             }
         }
     ],
-    "id": "https://api.weather.gov/stations/KACK/observations/2026-03-08T22:20:00+00:00",
+    "id": "https://api.weather.gov/stations/KFMH/observations/2026-03-08T21:56:00+00:00",
     "type": "Feature",
     "geometry": {
         "type": "Point",
         "coordinates": [
-            -70.07,
-            41.25
+            -70.52,
+            41.65
         ]
     },
     "properties": {
-        "@id": "https://api.weather.gov/stations/KACK/observations/2026-03-08T22:20:00+00:00",
+        "@id": "https://api.weather.gov/stations/KFMH/observations/2026-03-08T21:56:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
             "unitCode": "wmoUnit:m",
-            "value": 15
+            "value": 40
         },
-        "station": "https://api.weather.gov/stations/KACK",
-        "stationId": "KACK",
-        "stationName": "Nantucket, Nantucket Memorial Airport",
-        "timestamp": "2026-03-08T22:20:00+00:00",
-        "rawMessage": "",
+        "station": "https://api.weather.gov/stations/KFMH",
+        "stationId": "KFMH",
+        "stationName": "Otis Air National Guard Base",
+        "timestamp": "2026-03-08T21:56:00+00:00",
+        "rawMessage": "KFMH 082156Z 23006KT 1/4SM FG OVC002 07/07 A2980",
         "textDescription": "Fog",
         "icon": "https://api.weather.gov/icons/land/day/fog?size=medium",
         "presentWeather": [
@@ -75,22 +75,22 @@
         ],
         "temperature": {
             "unitCode": "wmoUnit:degC",
-            "value": 6,
+            "value": 7,
             "qualityControl": "V"
         },
         "dewpoint": {
             "unitCode": "wmoUnit:degC",
-            "value": 6,
-            "qualityControl": "V"
+            "value": null,
+            "qualityControl": "Z"
         },
         "windDirection": {
             "unitCode": "wmoUnit:degree_(angle)",
-            "value": 240,
+            "value": 230,
             "qualityControl": "V"
         },
         "windSpeed": {
             "unitCode": "wmoUnit:km_h-1",
-            "value": 20.376,
+            "value": 11.16,
             "qualityControl": "V"
         },
         "windGust": {
@@ -100,7 +100,7 @@
         },
         "barometricPressure": {
             "unitCode": "wmoUnit:Pa",
-            "value": 100982.11,
+            "value": 100920,
             "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -110,7 +110,7 @@
         },
         "visibility": {
             "unitCode": "wmoUnit:m",
-            "value": 209.21,
+            "value": 400,
             "qualityControl": "C"
         },
         "maxTemperatureLast24Hours": {
@@ -121,19 +121,29 @@
             "unitCode": "wmoUnit:degC",
             "value": null
         },
+        "precipitationLastHour": {
+            "unitCode": "wmoUnit:mm",
+            "value": null,
+            "qualityControl": "Z"
+        },
         "precipitationLast3Hours": {
+            "unitCode": "wmoUnit:mm",
+            "value": null,
+            "qualityControl": "Z"
+        },
+        "precipitationLast6Hours": {
             "unitCode": "wmoUnit:mm",
             "value": null,
             "qualityControl": "Z"
         },
         "relativeHumidity": {
             "unitCode": "wmoUnit:percent",
-            "value": 100,
+            "value": null,
             "qualityControl": "V"
         },
         "windChill": {
             "unitCode": "wmoUnit:degC",
-            "value": 2.301317453273333,
+            "value": 4.842112441986111,
             "qualityControl": "V"
         },
         "heatIndex": {
@@ -145,9 +155,9 @@
             {
                 "base": {
                     "unitCode": "wmoUnit:m",
-                    "value": 60.96
+                    "value": 60
                 },
-                "amount": "VV"
+                "amount": "OVC"
             }
         ]
     }
